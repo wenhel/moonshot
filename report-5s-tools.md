@@ -8,18 +8,8 @@
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg000_frame000000.jpg" height="120"> <img src="keyframes/seg000_frame000299.jpg" height="120"> <img src="keyframes/seg000_frame000598.jpg" height="120"></div>
 
-**Visual:** Here's the description and tools based on the provided keyframes and narration:
-
-1.  **Description**: The video segment introduces a quadcopter build, specifically the TBS Source One 6S freestyle FPV quad. The first two images show the assembled quadcopter from different angles, highlighting its carbon fiber frame, blue propellers, and camera. The third image displays various components laid out on a grid mat, including carbon fiber frame parts, motors, and other electronic components, as the presenter holds a section of the frame.
-
-2.  **Tools**:
-    *   [TOOL: quadcopter]
-    *   [TOOL: carbon fiber frame parts]
-    *   [TOOL: motors]
-    *   [TOOL: propellers]
-    *   [TOOL: camera]
-    *   [TOOL: electronic components]
-    *   [TOOL: grid mat]
+**Visual:** 1. **Description**: The video shows a person assembling a quadcopter. The first image displays the partially assembled quadcopter with blue propellers and a blue camera, held by two hands. The second image shows the quadcopter from a different angle, revealing its internal components and wiring. The third image presents various parts of the quadcopter laid out on a black grid mat, with the person holding a carbon fiber frame piece. The narrator states that the video will demonstrate how to build this quadcopter, identifying it as the "TBS source one" and a "6s freestyle FPV quad."
+2. **Tools**: [TOOL: none]
 
 <details><summary>Transcript</summary>
 
@@ -32,18 +22,9 @@ in this video I'm gonna show you how to build this quadcopter this is the TBS so
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg001_frame000604.jpg" height="120"> <img src="keyframes/seg001_frame000903.jpg" height="120"> <img src="keyframes/seg001_frame001202.jpg" height="120"> <img src="keyframes/seg001_frame001501.jpg" height="120"> <img src="keyframes/seg001_frame001800.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and the tools/components shown:
+**Visual:** **Description**: The person is showcasing the individual components of an FPV quadcopter before assembly. They are holding up and presenting various parts, including the TBS Source One frame, Emax Eco motors, Foxeer Aero Mini Pro camera, Holybro Kakute AIO V2 flight controller, Tekko32 4-in-1 ESC, TBS Unify Pro HV, and FrSky XM+ receiver. The parts are laid out on a black grid mat.
 
-**Description**: The video segment shows a person unboxing and presenting the components for building an FPV quadcopter. The person holds up various parts, including the carbon fiber frame pieces, motors, camera, flight controller, ESC, video transmitter, and receiver, while narrating their names and specifications. The components are laid out on a black grid mat.
-
-**Tools**:
-*   [TOOL: TBS Source One frame]
-*   [TOOL: Emax Eco 2207 1700kv motors]
-*   [TOOL: Foxeer Aero Mini Pro camera]
-*   [TOOL: Holybro Kakute AIO V2 flight controller]
-*   [TOOL: Tekko32 4-in-1 ESC]
-*   [TOOL: TBS Unify Pro HV video transmitter]
-*   [TOOL: FrSky XM+ receiver]
+**Tools**: [TOOL: none]
 
 <details><summary>Transcript</summary>
 
@@ -56,19 +37,8 @@ fpv quad now let's have a look at the parts first we've got the TBS source one f
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg002_frame001909.jpg" height="120"> <img src="keyframes/seg002_frame002208.jpg" height="120"> <img src="keyframes/seg002_frame002507.jpg" height="120"> <img src="keyframes/seg002_frame002806.jpg" height="120"> <img src="keyframes/seg002_frame003105.jpg" height="120"></div>
 
-**Visual:** Here's the analysis of the provided keyframes and narration:
-
-1.  **Description**: The video segment shows a person assembling the frame of a drone, specifically the TBS Source One v3. The person is attaching the carbon fiber arms to the base plate, highlighting that the arms go *under* the base plate in this version to allow more space for the electronics stack. Various drone components like motors, a flight controller, and a camera are visible in the background, laid out on a cutting mat.
-
-2.  **Tools**:
-    *   [TOOL: TBS Source One v3 frame (carbon fiber parts)]
-    *   [TOOL: TBS unified Pro HV (ESC)]
-    *   [TOOL: FrSky XM+ receiver]
-    *   [TOOL: Motors]
-    *   [TOOL: Flight controller]
-    *   [TOOL: Camera]
-    *   [TOOL: Screwdriver] (visible in the background of later frames)
-    *   [TOOL: Cutting mat]
+**Visual:** 1. **Description**: The person is assembling the frame of a drone. They are shown attaching the arms to the base plate, which is a key step in building the drone's structure. The narration highlights a design difference in the v3 frame where the arms go under the base plate, providing more space for the stack.
+2. **Tools**: [TOOL: none]
 
 <details><summary>Transcript</summary>
 
@@ -81,15 +51,8 @@ ESC the TBS unified Pro HV and the fr Sky xm+ receiver now let's put this thing 
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg003_frame003130.jpg" height="120"> <img src="keyframes/seg003_frame003429.jpg" height="120"> <img src="keyframes/seg003_frame003728.jpg" height="120"> <img src="keyframes/seg003_frame004027.jpg" height="120"> <img src="keyframes/seg003_frame004326.jpg" height="120"> <img src="keyframes/seg003_frame004625.jpg" height="120"> <img src="keyframes/seg003_frame004924.jpg" height="120"> <img src="keyframes/seg003_frame005223.jpg" height="120"> <img src="keyframes/seg003_frame005522.jpg" height="120"> <img src="keyframes/seg003_frame005821.jpg" height="120"> <img src="keyframes/seg003_frame006120.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and the tools involved:
-
-**Description**: The video shows a person assembling a drone frame. They are attaching carbon fiber arms to the main body of the drone using screws. Later, they prepare motor wires by sleeving them with a purple paracord-like material, which they refer to as "para max," to protect them and improve aesthetics.
-
-**Tools**:
-*   [TOOL: screws]
-*   [TOOL: para max]
-*   [TOOL: tweezers]
-*   [TOOL: electrical tape] (mentioned)
+**Visual:** 1. **Description**: The person is assembling a drone frame, attaching the arms to the main body using screws. They then prepare the motor wires by sleeving them with a purple paracord-like material, which involves cutting the material, melting the ends, and threading the motor wires through it.
+2. **Tools**: [TOOL: screwdriver], [TOOL: tweezers], [TOOL: lighter]
 
 <details><summary>Transcript</summary>
 
@@ -102,16 +65,11 @@ upward so you'll see those from the top and you use the longer screws in the mid
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg004_frame006193.jpg" height="120"> <img src="keyframes/seg004_frame006492.jpg" height="120"> <img src="keyframes/seg004_frame006791.jpg" height="120"> <img src="keyframes/seg004_frame007090.jpg" height="120"> <img src="keyframes/seg004_frame007389.jpg" height="120"> <img src="keyframes/seg004_frame007688.jpg" height="120"> <img src="keyframes/seg004_frame007987.jpg" height="120"> <img src="keyframes/seg004_frame008286.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and a list of tools:
+**Visual:** **Description:** The person is assembling a drone by attaching motors to the carbon fiber frame using screws. They then separate the flight controller from the 4-in-1 ESC and mount the ESC to the drone frame, securing it with screws.
 
-**Description**:
-The video segment shows a person assembling a drone. They begin by attaching motors to the drone's arms using screws, then proceed to separate the flight controller from the 4-in-1 ESC. Finally, they mount the 4-in-1 ESC onto the drone frame, ensuring it's securely fastened to prevent vibrations.
-
-**Tools**:
-* [TOOL: screws]
-* [TOOL: blue Loctite]
-* [TOOL: screwdriver]
-* [TOOL: tweezers]
+**Tools:**
+[TOOL: screwdriver]
+[TOOL: pliers]
 
 <details><summary>Transcript</summary>
 
@@ -124,23 +82,19 @@ minutes it takes to do it so next we want to put the motors on the arms and for 
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg005_frame008290.jpg" height="120"> <img src="keyframes/seg005_frame008589.jpg" height="120"> <img src="keyframes/seg005_frame008888.jpg" height="120"> <img src="keyframes/seg005_frame009187.jpg" height="120"> <img src="keyframes/seg005_frame009486.jpg" height="120"> <img src="keyframes/seg005_frame009785.jpg" height="120"> <img src="keyframes/seg005_frame010084.jpg" height="120"> <img src="keyframes/seg005_frame010383.jpg" height="120"> <img src="keyframes/seg005_frame010682.jpg" height="120"> <img src="keyframes/seg005_frame010981.jpg" height="120"> <img src="keyframes/seg005_frame011280.jpg" height="120"> <img src="keyframes/seg005_frame011579.jpg" height="120"> <img src="keyframes/seg005_frame011878.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and a list of tools:
+**Visual:** Here's a description of the video segment and a list of the tools and consumable supplies used:
 
-**Description**: This segment shows the process of assembling and soldering components onto a drone frame. The person first secures a component to the carbon fiber frame using a screwdriver, then applies liquid soldering flux to pads on a circuit board. Following this, they solder wires from the drone's motors to the circuit board, and finally, they solder power leads to an XT60 connector, using blue tack to hold the connector in place.
+**Description**: The person is assembling a drone, specifically focusing on soldering the electronic speed controller (ESC) to the frame and connecting the motor wires. They use a soldering iron and flux to tin the pads on the ESC, then solder the motor wires to these pads. Finally, they prepare and solder the power lead to an XT60 connector.
 
 **Tools**:
-[TOOL: electric screwdriver]
-[TOOL: carbon fiber drone frame]
-[TOOL: nylon standoffs]
-[TOOL: liquid soldering flux]
-[TOOL: soldering iron]
-[TOOL: solder]
-[TOOL: motors]
-[TOOL: wires]
-[TOOL: XT60 connector]
-[TOOL: blue tack]
-[TOOL: 16 gauge wire]
-[TOOL: tweezers]
+* [TOOL: Screwdriver]
+* [TOOL: Soldering iron]
+* [TOOL: Tweezers]
+
+**Consumable Supplies**:
+* [CONSUMABLE: Liquid soldering flux]
+* [CONSUMABLE: Solder]
+* [CONSUMABLE: Blue tack]
 
 <details><summary>Transcript</summary>
 
@@ -153,20 +107,15 @@ that the stack doesn't have any wiggle room we don't want any vibrations next re
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg006_frame011997.jpg" height="120"> <img src="keyframes/seg006_frame012296.jpg" height="120"> <img src="keyframes/seg006_frame012595.jpg" height="120"> <img src="keyframes/seg006_frame012894.jpg" height="120"> <img src="keyframes/seg006_frame013193.jpg" height="120"></div>
 
-**Visual:** Here's a description and list of tools based on the provided keyframes and narration:
+**Visual:** Here's a description of the video segment and the tools used:
 
-**Description**:
-The user is preparing to solder a battery lead to an electronic speed controller (ESC) on a drone frame. They first apply heat shrink tubing to the battery lead, using a lighter to shrink it into place. Then, they strip the ends of the battery lead wires and tin the solder pads on the ESC before soldering the battery lead to the ESC.
+**Description**: The person is preparing a wire by applying heat shrink tubing and then stripping the ends. They then proceed to solder the prepared wire, which appears to be a battery lead, to an electronic speed controller (ESC) that is mounted on a drone frame. The soldering process involves heating the solder pads and applying solder before attaching the wire.
 
 **Tools**:
-[TOOL: heat shrink tubing]
-[TOOL: lighter]
-[TOOL: wire strippers]
-[TOOL: soldering iron]
-[TOOL: solder]
-[TOOL: drone frame]
-[TOOL: electronic speed controller (ESC)]
-[TOOL: battery lead]
+[TOOL: Lighter]
+[TOOL: Wire strippers]
+[TOOL: Soldering iron]
+[TOOL: Solder]
 
 <details><summary>Transcript</summary>
 
@@ -179,14 +128,11 @@ solder but just enough so that when you push the wire in it doesn't overflow aft
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg007_frame013217.jpg" height="120"> <img src="keyframes/seg007_frame013516.jpg" height="120"> <img src="keyframes/seg007_frame013815.jpg" height="120"> <img src="keyframes/seg007_frame014114.jpg" height="120"> <img src="keyframes/seg007_frame014413.jpg" height="120"> <img src="keyframes/seg007_frame014712.jpg" height="120"> <img src="keyframes/seg007_frame015011.jpg" height="120"></div>
 
-**Visual:** 1. **Description**: A person is soldering wires onto a circuit board, which appears to be part of a drone. They are attaching a battery lead and then a capacitor, ensuring correct polarity. The drone frame is visible, along with one of its motors.
+**Visual:** 1. **Description**: A person is soldering a battery lead to a drone's power distribution board, ensuring one wire is slightly shorter for proper routing. They then prepare to solder a capacitor, trimming its leads and using blue tack to hold it in place before soldering it to the board, making sure to observe correct polarity.
 2. **Tools**:
-    * [TOOL: soldering iron]
-    * [TOOL: solder]
-    * [TOOL: battery lead]
-    * [TOOL: capacitor]
-    * [TOOL: blue tack] (mentioned as "blue tech")
-    * [TOOL: wire]
+    * [TOOL: Soldering iron]
+    * [CONSUMABLE SUPPLY: Solder]
+    * [CONSUMABLE SUPPLY: Blue tack]
 
 <details><summary>Transcript</summary>
 
@@ -199,17 +145,14 @@ or two and these have these little kind of grooves here for the wire but I found
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg008_frame015188.jpg" height="120"> <img src="keyframes/seg008_frame015487.jpg" height="120"> <img src="keyframes/seg008_frame015786.jpg" height="120"> <img src="keyframes/seg008_frame016085.jpg" height="120"> <img src="keyframes/seg008_frame016384.jpg" height="120"> <img src="keyframes/seg008_frame016683.jpg" height="120"> <img src="keyframes/seg008_frame016982.jpg" height="120"> <img src="keyframes/seg008_frame017281.jpg" height="120"> <img src="keyframes/seg008_frame017580.jpg" height="120"> <img src="keyframes/seg008_frame017879.jpg" height="120"> <img src="keyframes/seg008_frame018178.jpg" height="120"> <img src="keyframes/seg008_frame018477.jpg" height="120"> <img src="keyframes/seg008_frame018776.jpg" height="120"> <img src="keyframes/seg008_frame019075.jpg" height="120"> <img src="keyframes/seg008_frame019374.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and a list of tools:
-
-**Description**: The video segment shows the process of soldering a capacitor to an electronic speed controller (ESC) on a drone frame, followed by the installation and soldering of a receiver. The person then binds the receiver to a remote control, using tweezers to hold down the bind button while connecting the battery.
-
-**Tools**:
-* [TOOL: Soldering iron]
-* [TOOL: Solder wire]
-* [TOOL: Tweezers]
-* [TOOL: Wire cutters]
-* [TOOL: Remote control]
-* [TOOL: Clamp]
+**Visual:** 1. **Description**: The person is assembling a drone, specifically soldering a capacitor to the ESC (Electronic Speed Controller) and then preparing and soldering a receiver to the flight controller. They are also binding the receiver to a remote control, which is visible on the left side of the frame.
+2. **Tools**:
+[TOOL: Soldering iron]
+[TOOL: Solder]
+[TOOL: Blue tack]
+[TOOL: Wire cutters]
+[TOOL: Tweezers]
+[TOOL: Clamp]
 
 <details><summary>Transcript</summary>
 
@@ -222,23 +165,10 @@ blue tech that hold it in place that way you can just add a little slaughter to 
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg009_frame019537.jpg" height="120"> <img src="keyframes/seg009_frame019836.jpg" height="120"> <img src="keyframes/seg009_frame020135.jpg" height="120"> <img src="keyframes/seg009_frame020434.jpg" height="120"> <img src="keyframes/seg009_frame020733.jpg" height="120"> <img src="keyframes/seg009_frame021032.jpg" height="120"> <img src="keyframes/seg009_frame021331.jpg" height="120"></div>
 
-**Visual:** Here's a description and list of tools from the video segment:
-
-1. **Description**: The video shows a person working on assembling a drone. They are connecting and securing the receiver to the drone's frame, using heat shrink tubing to insulate it. A remote control is visible on the left, displaying text related to binding and signal status. The person then tucks the receiver between the flight controller and the ESC, demonstrating how to organize the drone's internal components.
-
+**Visual:** 1. **Description**: The person is testing the connection between the drone's receiver and the remote control, which displays "FrSky" and various settings. After confirming the connection, they are preparing to secure the receiver by applying heat shrink tubing to it.
 2. **Tools**:
-    * [TOOL: remote control]
-    * [TOOL: tweezers]
-    * [TOOL: clamp]
-    * [TOOL: heat shrink tubing]
-    * [TOOL: drone frame]
-    * [TOOL: receiver]
-    * [TOOL: flight controller]
-    * [TOOL: ESC (Electronic Speed Controller)]
-    * [TOOL: motors]
-    * [TOOL: screwdrivers]
-    * [TOOL: screws]
-    * [TOOL: cutting mat]
+[TOOL: tweezers]
+[TOOL: heat shrink tubing]
 
 <details><summary>Transcript</summary>
 
@@ -251,8 +181,13 @@ tweezers in a clamp to hold it down for me it works really well and I can usuall
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg010_frame021389.jpg" height="120"> <img src="keyframes/seg010_frame021688.jpg" height="120"> <img src="keyframes/seg010_frame021987.jpg" height="120"> <img src="keyframes/seg010_frame022286.jpg" height="120"> <img src="keyframes/seg010_frame022585.jpg" height="120"> <img src="keyframes/seg010_frame022884.jpg" height="120"> <img src="keyframes/seg010_frame023183.jpg" height="120"> <img src="keyframes/seg010_frame023482.jpg" height="120"> <img src="keyframes/seg010_frame023781.jpg" height="120"> <img src="keyframes/seg010_frame024080.jpg" height="120"> <img src="keyframes/seg010_frame024379.jpg" height="120"> <img src="keyframes/seg010_frame024678.jpg" height="120"> <img src="keyframes/seg010_frame024977.jpg" height="120"></div>
 
-**Visual:** 1. **Description**: A person is assembling a drone, focusing on mounting the receiver antennas, installing the camera, and connecting its wires. They are shown attaching the receiver antennas to the front arms of the drone frame using zip ties and heat shrink tubing. Then, they mount a mini-sized camera into the frame using a bracket and screws, and proceed to solder the camera's power and video wires to the flight controller, while removing an unnecessary OSD wire.
-2. **Tools**: [TOOL: zip ties], [TOOL: heat shrink tubing], [TOOL: screwdriver], [TOOL: soldering iron], [TOOL: tweezers]
+**Visual:** 1. **Description**: The person is assembling a drone, specifically mounting the receiver antennas, camera, and connecting the camera wires to the flight controller. They are carefully positioning components and soldering connections.
+2. **Tools**:
+[TOOL: zip ties]
+[TOOL: heat shrink tubing]
+[TOOL: screwdriver]
+[TOOL: soldering iron]
+[TOOL: tweezers]
 
 <details><summary>Transcript</summary>
 
@@ -265,15 +200,10 @@ I just kind of mounted it right in front of the two boards now ideally you want 
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg011_frame025080.jpg" height="120"> <img src="keyframes/seg011_frame025379.jpg" height="120"> <img src="keyframes/seg011_frame025678.jpg" height="120"> <img src="keyframes/seg011_frame025977.jpg" height="120"> <img src="keyframes/seg011_frame026276.jpg" height="120"> <img src="keyframes/seg011_frame026575.jpg" height="120"> <img src="keyframes/seg011_frame026874.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and a list of tools:
-
-**Description**: The video shows the process of soldering wires for a camera and a VTX (video transmitter) onto a drone's flight controller. The first few frames show a person using tweezers to hold wires in place while soldering them to the flight controller, specifically for the camera. Later, the focus shifts to the VTX, where unnecessary wires are removed from its connector before it is prepared for connection to the flight controller. The VTX itself is labeled "UNIFY PRO 5G8 HV RACE EDITION".
-
-**Tools**:
-*   [TOOL: Tweezers]
-*   [TOOL: Soldering iron]
-*   [TOOL: Solder]
-*   [TOOL: Screwdriver]
+**Visual:** 1. **Description**: The person is soldering wires to a circuit board, likely for a drone. They are seen using tweezers to hold wires in place while soldering, and later, they are shown preparing wires by removing unnecessary ones from a connector, possibly for a video transmitter (VTX). The VTX is identified as a "UNIFY PRO 5G8 HV".
+2. **Tools**:
+[TOOL: tweezers]
+[TOOL: soldering iron]
 
 <details><summary>Transcript</summary>
 
@@ -286,18 +216,14 @@ three wires we've got five volts video and ground but these kind of pads it work
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg012_frame027085.jpg" height="120"> <img src="keyframes/seg012_frame027384.jpg" height="120"> <img src="keyframes/seg012_frame027683.jpg" height="120"> <img src="keyframes/seg012_frame027982.jpg" height="120"> <img src="keyframes/seg012_frame028281.jpg" height="120"> <img src="keyframes/seg012_frame028580.jpg" height="120"> <img src="keyframes/seg012_frame028879.jpg" height="120"> <img src="keyframes/seg012_frame029178.jpg" height="120"> <img src="keyframes/seg012_frame029477.jpg" height="120"> <img src="keyframes/seg012_frame029776.jpg" height="120"> <img src="keyframes/seg012_frame030075.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and a list of tools:
-
-**Description**: The video shows a person soldering wires to a flight controller board, specifically connecting a VTX (video transmitter) to the B+ pad for battery voltage and a smart audio wire to the TX6 pad for controlling video settings. After soldering, the VTX is secured to the drone frame using double-sided tape, and the assembly continues with attaching standoffs and securing the battery lead with a zip tie.
-
-**Tools**:
-* [TOOL: Soldering iron]
-* [TOOL: Solder]
-* [TOOL: Tweezers]
-* [TOOL: Double-sided tape]
-* [TOOL: Screwdriver]
-* [TOOL: Zip tie]
-* [TOOL: Wire cutters]
+**Visual:** 1. **Description**: The person is actively soldering wires to a flight controller mounted on a drone frame. They are connecting various components like a camera and a video transmitter (VTX) to the flight controller. The process involves careful soldering, securing components with double-sided tape, and then assembling the drone frame with standoffs and securing the battery lead.
+2. **Tools**:
+    * [TOOL: Soldering iron]
+    * [TOOL: Tweezers]
+    * [TOOL: Double-sided tape]
+    * [TOOL: Screwdriver]
+    * [TOOL: Zip tie]
+    * [TOOL: Pliers]
 
 <details><summary>Transcript</summary>
 
@@ -310,15 +236,11 @@ the V T X by the B plus pad and this is basically just the battery voltage it's 
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg013_frame030132.jpg" height="120"> <img src="keyframes/seg013_frame030431.jpg" height="120"> <img src="keyframes/seg013_frame030730.jpg" height="120"> <img src="keyframes/seg013_frame031029.jpg" height="120"> <img src="keyframes/seg013_frame031328.jpg" height="120"> <img src="keyframes/seg013_frame031627.jpg" height="120"> <img src="keyframes/seg013_frame031926.jpg" height="120"> <img src="keyframes/seg013_frame032225.jpg" height="120"></div>
 
-**Visual:** Here's the description and tool list for the video segment:
-
-**Description**: The video shows the assembly of a drone. The person is attaching the top plate to the drone frame, securing it with screws and blue countersunk washers. They then proceed to mount the antenna, tucking the pigtail and securing it with a zip tie, and finally begin to configure the camera using a button pad.
-
-**Tools**:
+**Visual:** 1. **Description**: The person is assembling a drone frame. They are attaching the top plate to the drone, securing it with screws and washers. They then attach the antenna to the top plate and secure it with a zip tie.
+2. **Tools**: 
 [TOOL: pliers]
 [TOOL: screwdriver]
 [TOOL: zip tie]
-[TOOL: button pad]
 
 <details><summary>Transcript</summary>
 
@@ -331,16 +253,11 @@ sometimes your battery might get ejected and you don't want it to tug at your st
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg014_frame032310.jpg" height="120"> <img src="keyframes/seg014_frame032609.jpg" height="120"> <img src="keyframes/seg014_frame032908.jpg" height="120"> <img src="keyframes/seg014_frame033207.jpg" height="120"> <img src="keyframes/seg014_frame033506.jpg" height="120"> <img src="keyframes/seg014_frame033805.jpg" height="120"> <img src="keyframes/seg014_frame034104.jpg" height="120"> <img src="keyframes/seg014_frame034403.jpg" height="120"> <img src="keyframes/seg014_frame034702.jpg" height="120"> <img src="keyframes/seg014_frame035001.jpg" height="120"> <img src="keyframes/seg014_frame035300.jpg" height="120"> <img src="keyframes/seg014_frame035599.jpg" height="120"> <img src="keyframes/seg014_frame035898.jpg" height="120"> <img src="keyframes/seg014_frame036197.jpg" height="120"> <img src="keyframes/seg014_frame036496.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and a list of tools:
-
-**Description**: The video shows a person configuring an FPV camera for a drone. They connect the camera to a portable display to access its settings, disabling the on-screen display (OSD) elements like voltage and name. After configuring the camera, the person secures the drone's motor wires with zip ties and attaches a sticky pad for a camera mount, specifically mentioning a GoPro Hero 7.
-
-**Tools**:
-*   [TOOL: Portable display]
-*   [TOOL: Battery straps]
-*   [TOOL: Zip ties]
-*   [TOOL: Pliers] (used for cutting zip ties)
-*   [TOOL: Sticky pad]
+**Visual:** 1. **Description**: The person is configuring an FPV camera using a small display and a button pad, adjusting settings like disabling the OSD. After configuring the camera, they proceed to secure the motor wires to the drone frame with zip ties and attach a sticky pad for a camera mount.
+2. **Tools**:
+[TOOL: portable display]
+[TOOL: zip ties]
+[TOOL: pliers]
 
 <details><summary>Transcript</summary>
 
@@ -353,16 +270,10 @@ configure the camera so the camera comes with this little button pad and this is
 
 <div style="overflow-x:auto;white-space:nowrap;padding:4px 0"><img src="keyframes/seg015_frame036721.jpg" height="120"> <img src="keyframes/seg015_frame037020.jpg" height="120"> <img src="keyframes/seg015_frame037319.jpg" height="120"> <img src="keyframes/seg015_frame037618.jpg" height="120"> <img src="keyframes/seg015_frame037917.jpg" height="120"> <img src="keyframes/seg015_frame038216.jpg" height="120"> <img src="keyframes/seg015_frame038515.jpg" height="120"> <img src="keyframes/seg015_frame038814.jpg" height="120"> <img src="keyframes/seg015_frame039113.jpg" height="120"> <img src="keyframes/seg015_frame039412.jpg" height="120"></div>
 
-**Visual:** Here's a description of the video segment and the tools involved:
-
-**Description**: The video shows the final assembly and preparation of a drone. The person is securing a GoPro camera to the drone using zip ties, then attaching the battery. Finally, the drone is placed on a scale to measure its weight, which is shown as 750 grams.
-
-**Tools**:
-[TOOL: zip ties]
-[TOOL: computer]
-[TOOL: scale]
-[TOOL: GoPro Hero 7 black]
-[TOOL: 6s battery]
+**Visual:** 1. **Description**: The person is finishing the assembly of a drone by securing the GoPro camera to the drone's frame using zip ties. After assembly, they place the drone on a digital scale to measure its weight, which reads 750 grams. Finally, the drone is shown in flight, capturing footage of a grassy outdoor area.
+2. **Tools**: 
+[TOOL: pliers]
+[TOOL: digital scale]
 
 <details><summary>Transcript</summary>
 
