@@ -12,8 +12,9 @@ dist/
 build/
 *.egg
 
-# Output
-output/
+# Output (allow specific example outputs)
+output/*
+!output/v1_fixed/
 
 # IDE
 .vscode/
