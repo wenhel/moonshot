@@ -1,4 +1,4 @@
-# Moonshot Video Report Pipeline
+# VLM Video Segment Labeler
 
 Video keyframe extraction + VLM labeling -> structured markdown report.
 
@@ -9,12 +9,7 @@ conda env create -f environment.yml
 conda activate moonshot
 ```
 
-API key is auto-loaded from `moonshot/code/.env` (`OPENROUTER_API_KEY=...`).
-
-All commands run from `moonshot/code/`:
-```bash
-cd moonshot/code
-```
+API key is auto-loaded from `.env` (`OPENROUTER_API_KEY=...`). Copy `.env.example` and fill in your key.
 
 ## Usage
 
@@ -50,6 +45,10 @@ python -m task.video_report_pipeline --steps label --out OUTPUT_DIR
 python -m task.video_report_pipeline --steps label --out OUTPUT_DIR \
     --labeler assembly_tools --report-name report_tools.md
 
+# Spatial-aware labeling with grid locations
+python -m task.video_report_pipeline --steps label --out OUTPUT_DIR \
+    --labeler assembly_structured-with-instruction --report-name report_located.md
+
 # Generic description
 python -m task.video_report_pipeline --steps label --out OUTPUT_DIR \
     --labeler generic_describe --report-name report_generic.md
@@ -82,31 +81,32 @@ python -m task.video_report_pipeline VIDEO --max-sec 120 --out OUTPUT_DIR
 ## Project Structure
 
 ```
-moonshot/code/
+vlm-video-seg-labeler/
 ├── config/
-│   ├── defaults/pipeline.yaml          # Default extractor/labeler params + extractor presets
+│   ├── defaults/pipeline.yaml                         # Default extractor/labeler params + extractor presets
 │   ├── labeler/
-│   │   ├── assembly_structured.yaml                  # Description + Tools + Parts
-│   │   ├── assembly_structured-with-instruction.yaml  # + spatial grid location
+│   │   ├── assembly_structured.yaml                   # Description + Tools + Parts
+│   │   ├── assembly_structured-with-instruction.yaml   # + spatial grid location
 │   │   ├── assembly_tools.yaml                        # Description + Tools
 │   │   ├── generic_describe.yaml                      # Generic description
 │   │   └── instruction.md                             # Labeling instruction guide
 │   └── model/
-│       └── openrouter.yaml             # OpenRouter API config (copied from project)
-├── core/                               # Layer 1-2 (copied from stance/)
-│   ├── interfaces.py                   # LabelerInterface, LabelerInput/Output
-│   └── openrouter_labeler.py           # OpenRouterLabeler — HTTP/retry/JSON
-├── processors/                         # Copied from stance/processors + src/data
-│   ├── keyframe_extractor.py           # KeyFrameExtractor
-│   └── scene_detector.py              # SceneDetector
-├── task/                               # Business logic
-│   ├── assembly_video_labeler.py       # Layer 3: AssemblyVideoLabeler
-│   ├── video_report_pipeline.py        # CLI + orchestrator
-│   ├── report_writer.py                # Markdown/JSON report generation
-│   ├── segment_video_original.py       # Original reference code
-│   └── srt2segment_original.py         # Original reference code
+│       └── openrouter.yaml                            # OpenRouter API config
+├── core/                                              # Layer 1-2 labeler infrastructure
+│   ├── interfaces.py                                  # LabelerInterface, LabelerInput/Output
+│   └── openrouter_labeler.py                          # OpenRouterLabeler — HTTP/retry/JSON
+├── processors/                                        # Video processing
+│   ├── keyframe_extractor.py                          # KeyFrameExtractor
+│   └── scene_detector.py                              # SceneDetector
+├── task/                                              # Business logic
+│   ├── assembly_video_labeler.py                      # Layer 3: AssemblyVideoLabeler
+│   ├── video_report_pipeline.py                       # CLI + orchestrator
+│   ├── report_writer.py                               # Markdown/JSON report generation
+│   ├── segment_video_original.py                      # Original reference code
+│   └── srt2segment_original.py                        # Original reference code
+├── .env.example
 ├── environment.yml
-└── plan.md
+└── README.md
 ```
 
 ## Four Labelers
@@ -123,7 +123,7 @@ moonshot/code/
 | Name | Mode | Use case |
 |---|---|---|
 | `fixed-keyframe` | fixed | General purpose (default: 30s segments, 5s keyframe interval) |
-| `scene_fixedcam` | scene_detect | Fixed camera footage (1s compare interval, threshold=10) |
+| `scene_fixedcam` | scene_detect | Fixed camera footage (1s compare interval, threshold=10, min 5 kf/seg) |
 | `scene_defined` | scene_detect | Videos with hard cuts (consecutive frame compare, threshold=25) |
 
 ## Output Structure
