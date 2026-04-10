@@ -1,6 +1,9 @@
 # Env
 .env
 
+# Internal docs
+plan.md
+
 # Python
 __pycache__/
 *.py[cod]
