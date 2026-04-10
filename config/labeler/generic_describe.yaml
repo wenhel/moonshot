@@ -1,0 +1,30 @@
+# @package labeler
+# Assembly Video Labeler - Generic description variant
+# Outputs: Description only
+
+labeler_info:
+  name: "generic_describe"
+  class_name: "AssemblyVideoLabeler"
+  base_class: "OpenRouterLabeler"
+  description: "Generic video segment description - no domain assumptions"
+
+model_config_ref: "model/openrouter.yaml"
+
+task_config:
+  task_type: "video_description"
+  instruction_type: "generic_describe"
+  input_requirements:
+    requires_text: false
+    supports_images: true
+    max_images: 10
+  output_format: "free_text"
+
+generation_config:
+  temperature: 0.3
+  max_tokens: 300
+
+instructions:
+  generic_describe:
+    template: |
+      These are keyframes from a video segment ({time_range}).{transcript_hint}
+      Describe what is happening in 2-3 sentences. Focus on the main action and any visible text or objects.

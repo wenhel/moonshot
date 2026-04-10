@@ -1,0 +1,62 @@
+# @package labeler
+# Assembly Video Labeler - Structured variant with spatial location instruction
+# Outputs: Description + Tools (with location) + Parts (with location)
+
+labeler_info:
+  name: "assembly_structured-with-instruction"
+  class_name: "AssemblyVideoLabeler"
+  base_class: "OpenRouterLabeler"
+  description: "Assembly video structured labeling with spatial grid location for tools and parts"
+
+model_config_ref: "model/openrouter.yaml"
+
+task_config:
+  task_type: "assembly_video_structured_located"
+  instruction_type: "assembly_structured_with_instruction"
+  input_requirements:
+    requires_text: false
+    supports_images: true
+    max_images: 10
+  output_format: "free_text"
+
+generation_config:
+  temperature: 0.2
+  max_tokens: 800
+
+instructions:
+  assembly_structured_with_instruction:
+    template: |
+      These are keyframes from a hardware assembly video segment ({time_range}).{transcript_hint}
+
+      Use the following spatial grid to describe WHERE items appear in each keyframe.
+      Divide the image (1920x1080) into a 3x3 grid:
+
+      ```
+       top-left    | top-center    | top-right
+       mid-left    | mid-center    | mid-right
+       bottom-left | bottom-center | bottom-right
+      ```
+
+      For this specific video, the typical layout is:
+      - top-left: carbon fiber frame pieces (arms, plates, braces)
+      - top-right: whiteboard showing screw types (M3x16mm socket head, M3x22mm pan head, M3x6mm pan head, M3x16mm pan head)
+      - mid-left: purple standoffs, small screws
+      - bottom-center: hex screwdrivers (gold 2.5mm, black 2.0mm, blue 1.5mm, silver)
+      - mid-center to mid-right: main assembly work area
+
+      Analyze the keyframes and provide THREE clearly separated sections:
+
+      **Description**: In 2-3 sentences describe the assembly action being performed. Be specific about what step is happening and WHERE in the frame the action occurs (e.g. "screwing motor onto arm in mid-center area").
+
+      **Tools**: List every tool and consumable supply the person is ACTIVELY USING in this segment. Include the grid location where each tool is seen.
+      Format: [TOOL: name @ location]. If none visible, write [TOOL: none].
+      Examples:
+        [TOOL: hex screwdriver 2.0mm @ mid-center]
+        [SUPPLY: blue Loctite @ mid-right]
+
+      **Parts**: List every component or part being assembled, handled, or referenced in this segment. Include the grid location.
+      Format: [PART: name @ location]. If none visible, write [PART: none].
+      Examples:
+        [PART: carbon fiber frame arm x2 @ top-left]
+        [PART: M3 x 16mm socket head screw @ mid-center]
+        [PART: purple standoff @ mid-left]

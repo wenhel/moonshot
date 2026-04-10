@@ -1,0 +1,42 @@
+# @package model
+# OpenRouter 模型配置
+
+model_info:
+  name: "OpenRouter"
+  provider: "openrouter"
+  default_model: "google/gemini-2.5-flash"  # Temporarily back to Gemini (GPT-4o image issue)
+  # Tried: "openai/gpt-4o" - image upload issues
+  api_endpoint: "https://openrouter.ai/api/v1"
+  supports_images: true
+  supports_multimodal: true
+  supports_json_schema: true
+
+# API 配置
+api_config:
+  api_key_env: "OPENROUTER_API_KEY"
+  timeout: 30
+  max_retries: 2
+  rate_limits:
+    requests_per_minute: 300
+    requests_per_day: 20000
+  headers:
+    "User-Agent": "stance-detection-system/3.0"
+
+# 图片处理能力（按数据URL上传）
+image_capabilities:
+  supported_formats: ["jpg", "jpeg", "png", "gif", "webp"]
+  max_images_per_request: 10
+  # Message order: "image_first" (default for most models) or "text_first" (required for GPT-4o)
+  message_order: "image_first"
+
+# 生成配置（默认值，可被调用时覆盖）
+generation_config:
+  temperature: 0
+  top_p: 1
+  max_output_tokens: 8192
+
+# API 特性
+api_features:
+  json_schema: true
+  structured_output: true
+  multimodal_messages: true

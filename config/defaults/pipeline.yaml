@@ -1,0 +1,48 @@
+# Default pipeline configuration
+# Base values for all pipelines.
+# Priority chain: defaults -> labeler/model config -> CLI flags
+
+# ---------------------------------------------------------------------------
+# Extractor defaults
+# ---------------------------------------------------------------------------
+extractor:
+  interval_sec: 30.0
+  keyframe_interval_sec: 5.0
+  max_frames_per_segment: 10
+  frames_per_segment: 2
+  min_keyframes: 5                        # floor: at least N keyframes per segment
+  min_segment_sec: 5.0                    # merge scene segments shorter than this
+  compare_interval_sec: 0.0
+  threshold: 25.0
+  min_scene_sec: 2.0
+
+# ---------------------------------------------------------------------------
+# Extractor presets
+# ---------------------------------------------------------------------------
+extractors:
+  - name: fixed-keyframe
+    mode: fixed
+    # inherits all extractor defaults
+
+  - name: scene_defined
+    mode: scene_detect
+    keyframe_interval_sec: 1.0            # 1 frame/sec
+    min_keyframes: 5
+    # inherits extractor defaults (threshold=25, min_scene_sec=2)
+
+  - name: scene_fixedcam
+    mode: scene_detect
+    threshold: 10.0
+    min_scene_sec: 5.0
+    compare_interval_sec: 1.0
+    keyframe_interval_sec: 1.0            # 1 frame/sec (5s seg -> 5 frames)
+    min_keyframes: 5
+    max_frames_per_segment: 10
+
+# ---------------------------------------------------------------------------
+# Labeler defaults (overridden by config/labeler/*.yaml)
+# ---------------------------------------------------------------------------
+labeler:
+  model: google/gemini-2.5-flash
+  max_tokens: 500
+  temperature: 0.3

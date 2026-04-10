@@ -1,0 +1,13 @@
+name: moonshot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pip:
+      - opencv-python>=4.8
+      - pyyaml>=6.0
+      - requests>=2.28
+      - python-dotenv>=1.0

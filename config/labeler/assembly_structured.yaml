@@ -1,0 +1,42 @@
+# @package labeler
+# Assembly Video Labeler - Structured variant
+# Outputs: Description + Tools + Parts (three sections)
+
+labeler_info:
+  name: "assembly_structured"
+  class_name: "AssemblyVideoLabeler"
+  base_class: "OpenRouterLabeler"
+  description: "Assembly video structured labeling - description, tools, and parts identification"
+
+model_config_ref: "model/openrouter.yaml"
+
+task_config:
+  task_type: "assembly_video_structured"
+  instruction_type: "assembly_structured"
+  input_requirements:
+    requires_text: false
+    supports_images: true
+    max_images: 10
+  output_format: "free_text"
+
+generation_config:
+  temperature: 0.2
+  max_tokens: 600
+
+instructions:
+  assembly_structured:
+    template: |
+      These are keyframes from a hardware assembly video segment ({time_range}).{transcript_hint}
+
+      Analyze the keyframes and provide THREE clearly separated sections:
+
+      **Description**: In 2-3 sentences describe the assembly action being performed. Be specific about what step is happening (e.g. "screwing motor onto arm", "soldering wires to ESC pads").
+
+      **Tools**: List every tool and consumable supply the person is ACTIVELY USING in this segment.
+      - Tools: things you hold and operate with (screwdriver, hex driver, soldering iron, pliers, tweezers, wire strippers, lighter, multimeter, crimper).
+      - Consumables: materials consumed during assembly (solder, flux, blue Loctite, electrical tape, heat shrink tubing, zip ties, blue tack, double-sided tape, paracord sleeve).
+      Format: [TOOL: name] for tools, [SUPPLY: name] for consumables. If none visible, write [TOOL: none].
+
+      **Parts**: List every component or part being assembled, handled, or referenced in this segment.
+      Examples: frame arm, base plate, motor, ESC, flight controller, camera, receiver, propeller, screw (M3x10mm), standoff, capacitor, XT60 connector, wire.
+      Format: [PART: name]. If none visible, write [PART: none].

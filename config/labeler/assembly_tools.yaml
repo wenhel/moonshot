@@ -1,0 +1,33 @@
+# @package labeler
+# Assembly Video Labeler - Tools variant
+# Outputs: Description + Tools
+
+labeler_info:
+  name: "assembly_tools"
+  class_name: "AssemblyVideoLabeler"
+  base_class: "OpenRouterLabeler"
+  description: "Assembly video segment labeling - description and tool identification"
+
+model_config_ref: "model/openrouter.yaml"
+
+task_config:
+  task_type: "assembly_video_description"
+  instruction_type: "assembly_tools"
+  input_requirements:
+    requires_text: false
+    supports_images: true
+    max_images: 10
+  output_format: "free_text"
+
+generation_config:
+  temperature: 0.3
+  max_tokens: 500
+
+instructions:
+  assembly_tools:
+    template: |
+      These are keyframes from a hardware assembly video segment ({time_range}).{transcript_hint}
+      Provide TWO sections:
+      1. **Description**: Describe what is happening in 2-3 sentences. Focus on the main action, components being assembled, and any text visible on screen.
+      2. **Tools**: List ONLY the tools and consumable supplies the person is USING to perform the work. Tools are things you hold and operate with (soldering iron, screwdriver, pliers, tweezers, lighter, multimeter). Consumable supplies are materials that assist assembly (solder, flux, blue Loctite, electrical tape, heat shrink tubing, zip ties, blue tack, double-sided tape). Do NOT list parts/components being assembled (motors, ESC, frame, flight controller, camera, receiver, wires, screws, capacitor, connector). Those are PARTS, not tools.
+      Format each as [TOOL: name]. If no tools are visible or mentioned, write [TOOL: none].
