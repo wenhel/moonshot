@@ -1,0 +1,571 @@
+{
+  "video_info": {
+    "fps": 25.0,
+    "frame_count": 23246,
+    "duration": 929.84,
+    "width": 1920,
+    "height": 1080,
+    "resolution": "1920x1080"
+  },
+  "segment_count": 31,
+  "segments": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 30.0,
+      "start_frame": 0,
+      "end_frame": 750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg000_frame000000.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000125.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000250.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000375.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000500.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is preparing for assembly by gathering the necessary parts. They pick up two [PART: purple standoffs @ mid-left -> mid-left] and hold them together, seemingly inspecting them or preparing to use them.\n\n**Tools**: [TOOL: none]\n\n**Parts**: [PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 1,
+      "start_sec": 30.0,
+      "end_sec": 60.0,
+      "start_frame": 750,
+      "end_frame": 1500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg001_frame000750.jpg",
+        "output/v1_fixed/keyframes/seg001_frame000875.jpg",
+        "output/v1_fixed/keyframes/seg001_frame001000.jpg",
+        "output/v1_fixed/keyframes/seg001_frame001125.jpg",
+        "output/v1_fixed/keyframes/seg001_frame001250.jpg",
+        "output/v1_fixed/keyframes/seg001_frame001375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is sorting small purple standoffs and screws. They pick up a small purple standoff from the mid-left area, move it to the mid-center, and then pick up another small purple standoff and place it next to the first one.\n**Tools**: [TOOL: none]\n**Parts**: [PART: purple standoff @ mid-left], [PART: small screws @ mid-left]"
+    },
+    {
+      "index": 2,
+      "start_sec": 60.0,
+      "end_sec": 90.0,
+      "start_frame": 1500,
+      "end_frame": 2250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg002_frame001500.jpg",
+        "output/v1_fixed/keyframes/seg002_frame001625.jpg",
+        "output/v1_fixed/keyframes/seg002_frame001750.jpg",
+        "output/v1_fixed/keyframes/seg002_frame001875.jpg",
+        "output/v1_fixed/keyframes/seg002_frame002000.jpg",
+        "output/v1_fixed/keyframes/seg002_frame002125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person picks up [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-center] and then puts it back in its original position. They then pick up [TOOL: hex screwdriver 2.0mm @ bottom-center -> mid-center] and put it back.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n[TOOL: hex screwdriver 2.0mm @ bottom-center]\n\n**Parts**:\n[PART: none]"
+    },
+    {
+      "index": 3,
+      "start_sec": 90.0,
+      "end_sec": 120.0,
+      "start_frame": 2250,
+      "end_frame": 3000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg003_frame002250.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002375.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002500.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002625.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002750.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person picks up [TOOL: hex screwdriver 2.0mm @ bottom-center -> mid-center] and uses it to clear out the threads of a [PART: purple standoff @ mid-left -> mid-center]. After clearing the threads, the person places the [TOOL: hex screwdriver 2.0mm @ bottom-center -> bottom-center] back in its original position.\n\n**Tools**:\n[TOOL: hex screwdriver 2.0mm @ bottom-center]\n\n**Parts**:\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 4,
+      "start_sec": 120.0,
+      "end_sec": 150.0,
+      "start_frame": 3000,
+      "end_frame": 3750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg004_frame003000.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003125.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003250.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003375.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003500.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person picks up [PART: purple standoff @ mid-left -> mid-center] and then picks up [TOOL: hex screwdriver 2.0mm @ bottom-center -> mid-center]. They use the screwdriver to insert a screw into the standoff. The person then places the standoff back down and picks up a different [TOOL: hex screwdriver 2.0mm @ bottom-center -> mid-center].\n\n**Tools**:\n[TOOL: hex screwdriver 2.0mm @ bottom-center]\n\n**Parts**:\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 5,
+      "start_sec": 150.0,
+      "end_sec": 180.0,
+      "start_frame": 3750,
+      "end_frame": 4500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg005_frame003750.jpg",
+        "output/v1_fixed/keyframes/seg005_frame003875.jpg",
+        "output/v1_fixed/keyframes/seg005_frame004000.jpg",
+        "output/v1_fixed/keyframes/seg005_frame004125.jpg",
+        "output/v1_fixed/keyframes/seg005_frame004250.jpg",
+        "output/v1_fixed/keyframes/seg005_frame004375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The video segment begins with a shot of the entire workspace, showcasing all the parts and tools laid out. The person's hands enter the bottom-left of the frame, indicating the start of the assembly process.\n\n**Tools**: [TOOL: none]\n\n**Parts**: [PART: carbon fiber frame pieces @ top-left], [PART: purple standoffs @ mid-left], [PART: small screws @ mid-left], [PART: M3 x 16mm socket head screw @ top-right], [PART: M3 x 22mm pan head screw @ top-right], [PART: M3 x 6mm pan head screw @ top-right], [PART: M3 x 16mm pan head screw @ top-right]"
+    },
+    {
+      "index": 6,
+      "start_sec": 180.0,
+      "end_sec": 210.0,
+      "start_frame": 4500,
+      "end_frame": 5250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg006_frame004500.jpg",
+        "output/v1_fixed/keyframes/seg006_frame004625.jpg",
+        "output/v1_fixed/keyframes/seg006_frame004750.jpg",
+        "output/v1_fixed/keyframes/seg006_frame004875.jpg",
+        "output/v1_fixed/keyframes/seg006_frame005000.jpg",
+        "output/v1_fixed/keyframes/seg006_frame005125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person points to and then picks up a carbon fiber frame arm from the top-left of the table. They then move the arm to the mid-left area of the table, preparing to begin assembly.\n\n**Tools**: [TOOL: none]\n\n**Parts**: [PART: carbon fiber frame arm @ top-left]"
+    },
+    {
+      "index": 7,
+      "start_sec": 210.0,
+      "end_sec": 240.0,
+      "start_frame": 5250,
+      "end_frame": 6000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg007_frame005250.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005375.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005500.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005625.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005750.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person begins by picking up [PART: M3 x 22mm pan head screw @ top-right -> mid-center] from the whiteboard. They then pick up [PART: purple standoff @ mid-left -> mid-center] and [PART: carbon fiber frame piece @ top-left -> mid-center] and start to assemble them.\n\n**Tools**: [TOOL: none]\n\n**Parts**:\n[PART: M3 x 22mm pan head screw @ top-right]\n[PART: purple standoff @ mid-left]\n[PART: carbon fiber frame piece @ top-left]"
+    },
+    {
+      "index": 8,
+      "start_sec": 240.0,
+      "end_sec": 270.0,
+      "start_frame": 6000,
+      "end_frame": 6750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg008_frame006000.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006125.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006250.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006375.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006500.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the main frame of the drone. They pick up a carbon fiber frame piece and a purple standoff, then attach the standoff to the frame piece. They then pick up another carbon fiber frame piece and attach it to the other side of the standoff, securing the pieces together.\n\n**Tools**: [TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame pieces @ top-left]\n[PART: purple standoffs @ mid-left]"
+    },
+    {
+      "index": 9,
+      "start_sec": 270.0,
+      "end_sec": 300.0,
+      "start_frame": 6750,
+      "end_frame": 7500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg009_frame006750.jpg",
+        "output/v1_fixed/keyframes/seg009_frame006875.jpg",
+        "output/v1_fixed/keyframes/seg009_frame007000.jpg",
+        "output/v1_fixed/keyframes/seg009_frame007125.jpg",
+        "output/v1_fixed/keyframes/seg009_frame007250.jpg",
+        "output/v1_fixed/keyframes/seg009_frame007375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling a carbon fiber frame piece by attaching two purple standoffs. They then reference the whiteboard to identify the correct screws for the next step.\n[PART: carbon fiber frame piece @ top-left -> mid-left]\n[PART: purple standoff @ mid-left -> mid-left]\n\n**Tools**:\n[TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame piece @ top-left]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 10,
+      "start_sec": 300.0,
+      "end_sec": 330.0,
+      "start_frame": 7500,
+      "end_frame": 8250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg010_frame007500.jpg",
+        "output/v1_fixed/keyframes/seg010_frame007625.jpg",
+        "output/v1_fixed/keyframes/seg010_frame007750.jpg",
+        "output/v1_fixed/keyframes/seg010_frame007875.jpg",
+        "output/v1_fixed/keyframes/seg010_frame008000.jpg",
+        "output/v1_fixed/keyframes/seg010_frame008125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is preparing to assemble the drone frame. They pick up a carbon fiber frame piece from the top-left and then pick up a blue 1.5mm hex screwdriver from the bottom-center, but then put it back. They then pick up a purple standoff from the mid-left and attach it to the carbon fiber frame piece.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame piece @ top-left]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 11,
+      "start_sec": 330.0,
+      "end_sec": 360.0,
+      "start_frame": 8250,
+      "end_frame": 9000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg011_frame008250.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008375.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008500.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008625.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008750.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the carbon fiber frame. They use [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-center] to attach [PART: purple standoff @ mid-left -> mid-center] to a [PART: carbon fiber frame piece @ top-left -> mid-center]. After attaching the standoffs, they pick up [PART: M3 x 22mm pan head screw @ top-right -> mid-center] to attach another carbon fiber piece.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame piece @ top-left]\n[PART: purple standoff @ mid-left]\n[PART: M3 x 22mm pan head screw @ top-right]"
+    },
+    {
+      "index": 12,
+      "start_sec": 360.0,
+      "end_sec": 390.0,
+      "start_frame": 9000,
+      "end_frame": 9750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg012_frame009000.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009125.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009250.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009375.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009500.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the carbon fiber frame. They pick up [PART: carbon fiber frame brace @ top-left -> mid-left] and [PART: purple standoff @ mid-left -> mid-left] and attach them together using [PART: M3 x 6mm pan head screw @ mid-left -> mid-left]. They use [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-left] to tighten the screw. After assembling the first brace, they pick up [PART: M3 x 22mm pan head screw @ top-right -> top-right] from the whiteboard.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame brace @ top-left]\n[PART: purple standoff @ mid-left]\n[PART: M3 x 6mm pan head screw @ mid-left]\n[PART: M3 x 22mm pan head screw @ top-right]"
+    },
+    {
+      "index": 13,
+      "start_sec": 390.0,
+      "end_sec": 420.0,
+      "start_frame": 9750,
+      "end_frame": 10500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg013_frame009750.jpg",
+        "output/v1_fixed/keyframes/seg013_frame009875.jpg",
+        "output/v1_fixed/keyframes/seg013_frame010000.jpg",
+        "output/v1_fixed/keyframes/seg013_frame010125.jpg",
+        "output/v1_fixed/keyframes/seg013_frame010250.jpg",
+        "output/v1_fixed/keyframes/seg013_frame010375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person picks up [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-center] and uses it to tighten [PART: M3 x 6mm pan head screw @ top-right -> mid-center] into the carbon fiber frame. They then pick up another [PART: M3 x 6mm pan head screw @ top-right -> mid-center] and tighten it into the frame.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame plate @ top-left]\n[PART: M3 x 6mm pan head screw @ top-right]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 14,
+      "start_sec": 420.0,
+      "end_sec": 450.0,
+      "start_frame": 10500,
+      "end_frame": 11250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg014_frame010500.jpg",
+        "output/v1_fixed/keyframes/seg014_frame010625.jpg",
+        "output/v1_fixed/keyframes/seg014_frame010750.jpg",
+        "output/v1_fixed/keyframes/seg014_frame010875.jpg",
+        "output/v1_fixed/keyframes/seg014_frame011000.jpg",
+        "output/v1_fixed/keyframes/seg014_frame011125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person picks up [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-center] and uses it to tighten [PART: M3 x 6mm pan head screw @ top-right -> mid-center] into the carbon fiber frame. They are attaching the bottom plate to the main frame.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame plate @ top-left]\n[PART: M3 x 6mm pan head screw @ top-right]"
+    },
+    {
+      "index": 15,
+      "start_sec": 450.0,
+      "end_sec": 480.0,
+      "start_frame": 11250,
+      "end_frame": 12000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg015_frame011250.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011375.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011500.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011625.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011750.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is using a hex screwdriver to tighten a screw into the carbon fiber frame assembly. They then place the screwdriver back on the table.\n\n**Tools**:\n  [TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n  [PART: carbon fiber frame arm @ top-left]\n  [PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 16,
+      "start_sec": 480.0,
+      "end_sec": 510.0,
+      "start_frame": 12000,
+      "end_frame": 12750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg016_frame012000.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012125.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012250.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012375.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012500.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is preparing for the next assembly step. They pick up [PART: carbon fiber frame arm @ top-left -> mid-center] and place it in the mid-center work area. They then pick up another [PART: carbon fiber frame arm @ top-left -> mid-center] and place it next to the first one.\n\n**Tools**: [TOOL: none]\n\n**Parts**: [PART: carbon fiber frame arm @ top-left]"
+    },
+    {
+      "index": 17,
+      "start_sec": 510.0,
+      "end_sec": 540.0,
+      "start_frame": 12750,
+      "end_frame": 13500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg017_frame012750.jpg",
+        "output/v1_fixed/keyframes/seg017_frame012875.jpg",
+        "output/v1_fixed/keyframes/seg017_frame013000.jpg",
+        "output/v1_fixed/keyframes/seg017_frame013125.jpg",
+        "output/v1_fixed/keyframes/seg017_frame013250.jpg",
+        "output/v1_fixed/keyframes/seg017_frame013375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is attaching the carbon fiber arms to the main frame. They pick up [PART: carbon fiber frame arm @ top-left -> mid-left] and align it with the main frame. They then pick up another [PART: carbon fiber frame arm @ top-left -> mid-left] and attach it to the frame.\n\n**Tools**: [TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: carbon fiber frame plate @ top-left]"
+    },
+    {
+      "index": 18,
+      "start_sec": 540.0,
+      "end_sec": 570.0,
+      "start_frame": 13500,
+      "end_frame": 14250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg018_frame013500.jpg",
+        "output/v1_fixed/keyframes/seg018_frame013625.jpg",
+        "output/v1_fixed/keyframes/seg018_frame013750.jpg",
+        "output/v1_fixed/keyframes/seg018_frame013875.jpg",
+        "output/v1_fixed/keyframes/seg018_frame014000.jpg",
+        "output/v1_fixed/keyframes/seg018_frame014125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the drone frame. They pick up [TOOL: hex screwdriver 2.0mm @ bottom-center -> mid-left] and use it to attach [PART: purple standoff @ mid-left -> mid-center] to the frame.\n\n**Tools**:\n[TOOL: hex screwdriver 2.0mm @ bottom-center]\n\n**Parts**:\n[PART: purple standoff @ mid-left]\n[PART: carbon fiber frame arm @ top-left]"
+    },
+    {
+      "index": 19,
+      "start_sec": 570.0,
+      "end_sec": 600.0,
+      "start_frame": 14250,
+      "end_frame": 15000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg019_frame014250.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014375.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014500.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014625.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014750.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the carbon fiber frame. They pick up [PART: carbon fiber frame arm @ top-left -> mid-center] and attach it to the main frame piece. They then pick up [TOOL: hex screwdriver 2.5mm @ bottom-center -> mid-center] to tighten a screw.\n\n**Tools**:\n[TOOL: hex screwdriver 2.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: carbon fiber frame plate @ top-left]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 20,
+      "start_sec": 600.0,
+      "end_sec": 630.0,
+      "start_frame": 15000,
+      "end_frame": 15750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg020_frame015000.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015125.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015250.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015375.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015500.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the carbon fiber frame. They pick up [TOOL: hex screwdriver 2.0mm @ bottom-center -> bottom-left] and use it to tighten [PART: M3 x 16mm pan head screw @ top-right -> mid-center] into the carbon fiber frame. They then pick up [PART: carbon fiber frame arm @ top-left -> mid-center] and attach it to the main frame.\n\n**Tools**:\n[TOOL: hex screwdriver 2.0mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: M3 x 16mm pan head screw @ top-right]"
+    },
+    {
+      "index": 21,
+      "start_sec": 630.0,
+      "end_sec": 660.0,
+      "start_frame": 15750,
+      "end_frame": 16500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg021_frame015750.jpg",
+        "output/v1_fixed/keyframes/seg021_frame015875.jpg",
+        "output/v1_fixed/keyframes/seg021_frame016000.jpg",
+        "output/v1_fixed/keyframes/seg021_frame016125.jpg",
+        "output/v1_fixed/keyframes/seg021_frame016250.jpg",
+        "output/v1_fixed/keyframes/seg021_frame016375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the main frame of the drone. They pick up [TOOL: hex screwdriver 2.5mm @ bottom-center -> mid-center] and use it to tighten [PART: M3 x 16mm socket head screw @ top-right -> mid-center] into the frame. They then put the screwdriver back.\n\n**Tools**:\n[TOOL: hex screwdriver 2.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: M3 x 16mm socket head screw @ top-right]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 22,
+      "start_sec": 660.0,
+      "end_sec": 690.0,
+      "start_frame": 16500,
+      "end_frame": 17250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg022_frame016500.jpg",
+        "output/v1_fixed/keyframes/seg022_frame016625.jpg",
+        "output/v1_fixed/keyframes/seg022_frame016750.jpg",
+        "output/v1_fixed/keyframes/seg022_frame016875.jpg",
+        "output/v1_fixed/keyframes/seg022_frame017000.jpg",
+        "output/v1_fixed/keyframes/seg022_frame017125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person picks up [PART: carbon fiber frame brace @ top-left -> mid-center] and places it onto the main frame. They then pick up [PART: purple standoff @ mid-left -> mid-center] and insert it into the frame, securing the brace.\n\n**Tools**: [TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame brace @ top-left]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 23,
+      "start_sec": 690.0,
+      "end_sec": 720.0,
+      "start_frame": 17250,
+      "end_frame": 18000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg023_frame017250.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017375.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017500.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017625.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017750.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person picks up [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-left] and attempts to use it on the frame. They then put down the [TOOL: hex screwdriver 1.5mm @ bottom-center -> bottom-center] and pick up a different tool.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]"
+    },
+    {
+      "index": 24,
+      "start_sec": 720.0,
+      "end_sec": 750.0,
+      "start_frame": 18000,
+      "end_frame": 18750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg024_frame018000.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018125.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018250.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018375.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018500.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the drone frame. They pick up four carbon fiber frame arms and attach them to the main frame plate. They then pick up four purple standoffs and begin to attach them to the frame.\n\n**Tools**:\n[TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: carbon fiber frame plate @ top-left]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 25,
+      "start_sec": 750.0,
+      "end_sec": 780.0,
+      "start_frame": 18750,
+      "end_frame": 19500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg025_frame018750.jpg",
+        "output/v1_fixed/keyframes/seg025_frame018875.jpg",
+        "output/v1_fixed/keyframes/seg025_frame019000.jpg",
+        "output/v1_fixed/keyframes/seg025_frame019125.jpg",
+        "output/v1_fixed/keyframes/seg025_frame019250.jpg",
+        "output/v1_fixed/keyframes/seg025_frame019375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the drone frame. They pick up [PART: carbon fiber frame arm @ top-left -> mid-left] and attach it to the main frame. They then pick up [PART: M3 x 16mm pan head screw @ top-right -> mid-left] and use [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-left] to secure the arm to the frame.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: M3 x 16mm pan head screw @ top-right]"
+    },
+    {
+      "index": 26,
+      "start_sec": 780.0,
+      "end_sec": 810.0,
+      "start_frame": 19500,
+      "end_frame": 20250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg026_frame019500.jpg",
+        "output/v1_fixed/keyframes/seg026_frame019625.jpg",
+        "output/v1_fixed/keyframes/seg026_frame019750.jpg",
+        "output/v1_fixed/keyframes/seg026_frame019875.jpg",
+        "output/v1_fixed/keyframes/seg026_frame020000.jpg",
+        "output/v1_fixed/keyframes/seg026_frame020125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the carbon fiber frame. They first attach the four frame arms to the main frame piece. Then, they pick up [TOOL: hex screwdriver 2.0mm @ bottom-center -> mid-center] and use it to tighten the screws that secure the frame arms to the main frame.\n\n**Tools**:\n[TOOL: hex screwdriver 2.0mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: carbon fiber main frame piece @ top-left]\n[PART: small screws @ mid-left]"
+    },
+    {
+      "index": 27,
+      "start_sec": 810.0,
+      "end_sec": 840.0,
+      "start_frame": 20250,
+      "end_frame": 21000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg027_frame020250.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020375.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020500.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020625.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020750.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person picks up [PART: M3 x 6mm pan head screw @ top-right -> mid-center] and uses it to attach the top plate to the frame. The person then picks up [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-center] and uses it to tighten the screws.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame (assembled) @ mid-center]\n[PART: M3 x 6mm pan head screw @ top-right]"
+    },
+    {
+      "index": 28,
+      "start_sec": 840.0,
+      "end_sec": 870.0,
+      "start_frame": 21000,
+      "end_frame": 21750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg028_frame021000.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021125.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021250.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021375.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021500.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the carbon fiber frame. They pick up [TOOL: hex screwdriver 2.0mm @ bottom-center -> mid-center] and use it to tighten [PART: M3 x 16mm socket head screw @ top-right -> mid-center] into the frame. They then pick up [PART: carbon fiber frame brace @ top-left -> mid-center] and attach it to the frame.\n\n**Tools**:\n[TOOL: hex screwdriver 2.0mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: carbon fiber frame brace @ top-left]\n[PART: M3 x 16mm socket head screw @ top-right]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 29,
+      "start_sec": 870.0,
+      "end_sec": 900.0,
+      "start_frame": 21750,
+      "end_frame": 22500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg029_frame021750.jpg",
+        "output/v1_fixed/keyframes/seg029_frame021875.jpg",
+        "output/v1_fixed/keyframes/seg029_frame022000.jpg",
+        "output/v1_fixed/keyframes/seg029_frame022125.jpg",
+        "output/v1_fixed/keyframes/seg029_frame022250.jpg",
+        "output/v1_fixed/keyframes/seg029_frame022375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is disassembling the drone frame. They use [TOOL: hex screwdriver 1.5mm @ bottom-center -> mid-center] to unscrew [PART: M3 x 6mm pan head screw @ top-right -> mid-center] from the frame. After removing the screws, the top carbon fiber plate is removed from the frame.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame pieces @ top-left]\n[PART: M3 x 6mm pan head screw @ top-right]\n[PART: purple standoff @ mid-left]"
+    },
+    {
+      "index": 30,
+      "start_sec": 900.0,
+      "end_sec": 929.84,
+      "start_frame": 22500,
+      "end_frame": 23246,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg030_frame022500.jpg",
+        "output/v1_fixed/keyframes/seg030_frame022625.jpg",
+        "output/v1_fixed/keyframes/seg030_frame022750.jpg",
+        "output/v1_fixed/keyframes/seg030_frame022875.jpg",
+        "output/v1_fixed/keyframes/seg030_frame023000.jpg",
+        "output/v1_fixed/keyframes/seg030_frame023125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**:\nThe person is assembling the carbon fiber frame. They pick up [PART: carbon fiber frame arm @ top-left -> mid-center] and attach it to the main frame. After attaching the arm, they place the partially assembled frame back onto the work surface.\n\n**Tools**:\n[TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: carbon fiber frame plate @ top-left]"
+    }
+  ]
+}
