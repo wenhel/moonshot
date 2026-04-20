@@ -19,16 +19,16 @@
         {
           "step": 1,
           "start_pct": 0.0,
-          "end_pct": 33.6
+          "end_pct": 33.4
         },
         {
           "step": 2,
-          "start_pct": 33.6,
-          "end_pct": 65.9
+          "start_pct": 33.4,
+          "end_pct": 67.8
         },
         {
           "step": 3,
-          "start_pct": 65.9,
+          "start_pct": 67.8,
           "end_pct": 100.0
         }
       ]
@@ -44,16 +44,16 @@
         {
           "step": 4,
           "start_pct": 0.0,
-          "end_pct": 33.6
+          "end_pct": 32.7
         },
         {
           "step": 5,
-          "start_pct": 33.6,
-          "end_pct": 66.7
+          "start_pct": 32.7,
+          "end_pct": 67.5
         },
         {
           "step": 6,
-          "start_pct": 66.7,
+          "start_pct": 67.5,
           "end_pct": 100.0
         }
       ]
