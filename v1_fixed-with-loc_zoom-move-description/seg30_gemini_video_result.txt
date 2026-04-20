@@ -1,0 +1,24 @@
+**Description**:
+This video shows the initial steps of assembling or disassembling a drone frame. It begins with a pre-assembled silver drone frame on the workspace. A hand uses a blue hex driver to loosen a screw on this frame, which is then swapped out for a black drone frame. Finally, a single arm component of the black frame is brought into the workspace, and the blue hex driver is picked up, poised to begin work on it.
+
+**Frame-by-frame movements**:
+
+*   [MOVE] ~0s-0s | Silver drone frame | storage -> workspace | Already present in the workspace at the start of the clip.
+*   [MOVE] ~1s-2s | Blue screwdriver | tools -> right_hand | Right hand picks up the blue screwdriver.
+*   [MOVE] ~2s-3s | Blue screwdriver | right_hand -> workspace | Right hand brings the blue screwdriver to the silver drone frame.
+*   [ACTION] ~3s-7s | Blue screwdriver & Silver drone frame | workspace | Right hand uses the blue screwdriver to loosen a screw on the silver drone frame, turning it counter-clockwise.
+*   [MOVE] ~7s-8s | Blue screwdriver | right_hand -> tools | Right hand places the blue screwdriver back in the tools zone.
+*   [MOVE] ~8s-9s | Silver drone frame | workspace -> off_camera | Left hand picks up the silver drone frame and moves it out of view.
+*   [MOVE] ~9s-10s | Black drone frame | off_camera -> workspace | Left hand brings a black drone frame (already assembled) into the workspace.
+*   [IDLE] ~10s-21s | Black drone frame | workspace | The black drone frame rests in the workspace.
+*   [MOVE] ~21s-22s | Black drone frame | workspace -> off_camera | Left hand picks up the black drone frame and moves it out of view.
+*   [MOVE] ~24s-25s | Blue screwdriver | tools -> right_hand | Right hand picks up the blue screwdriver again.
+*   [MOVE] ~25s-27s | Black frame arm | parts -> workspace | Left hand brings a single black frame arm (a component) from the parts zone into the workspace.
+*   [ACTION] ~27s-29s | Blue screwdriver & Black frame arm | workspace | Both hands are positioned, ready to work on the black frame arm with the blue screwdriver.
+
+**Zone States**:
+
+*   **workspace**: Left hand holds a single black drone frame arm; right hand holds the blue screwdriver, poised above the arm. No complete drone frames are visible in the workspace.
+*   **tools**: Three screwdrivers remain on the surface (gold, black, silver). The blue screwdriver is held by the right hand.
+*   **parts**: The pile of black drone frame components (mostly frame arms) has one arm missing. The two pink emoji-like components and small screws are still present.
+*   **screws_board**: Unchanged, displaying screw types.

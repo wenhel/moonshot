@@ -1,0 +1,35 @@
+**Description**: The person assembles the drone frame by attaching the bottom plate to the arms using screws. They then remove the assembled frame from the workspace.
+**Frame-by-frame movements**:
+[MOVE] #22525-#22550 | blue screwdriver | tools -> workspace | The person picks up the blue screwdriver from the tools zone.
+[MOVE] #22550-#22575 | bottom plate | parts -> workspace | The person picks up the bottom plate from the parts zone and places it on the workspace.
+[MOVE] #22575-#22600 | right hand | workspace -> workspace | The person uses their right hand to hold the bottom plate in place.
+[MOVE] #22600-#22625 | blue screwdriver | workspace -> tools | The person places the blue screwdriver back into the tools zone.
+[MOVE] #22625-#22650 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #22650-#22675 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #22675-#22700 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #22700-#22725 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #22725-#22750 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #22750-#22775 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #22775-#22800 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #22800-#22825 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #22825-#22850 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #22850-#22875 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #22875-#22900 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #22900-#22925 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #22925-#22950 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #22950-#22975 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #22975-#23000 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #23000-#23025 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #23025-#23050 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #23050-#23075 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #23075-#23100 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #23100-#23125 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #23125-#23150 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #23150-#23175 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+[MOVE] #23175-#23200 | left hand | workspace -> workspace | The person uses their left hand to hold the bottom plate.
+[MOVE] #23200-#23225 | right hand | workspace -> workspace | The person uses their right hand to adjust the bottom plate.
+**Zone States**:
+- tools: blue screwdriver
+- parts: empty
+- screws_board: M3 x 16mm socket head, M3 x 22mm pan head, M3 x 6mm pan head, M3 x 16mm pan head
+- workspace: assembled drone frame
