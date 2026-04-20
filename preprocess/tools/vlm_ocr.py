@@ -32,16 +32,36 @@ DEFAULT_OCR_PROMPT = (
     "If no text is visible, output '(no text)'."
 )
 
-ASSEMBLY_OCR_PROMPT = (
-    "This is a page from an assembly instruction manual. "
-    "Extract the following in structured format:\n"
-    "1. **Step number** (if visible)\n"
-    "2. **Instruction text** (the written assembly instructions)\n"
-    "3. **Parts referenced** (part names mentioned in text or labeled in diagram)\n"
-    "4. **Screws/fasteners** (screw types and sizes mentioned)\n"
-    "5. **Diagram description** (brief description of what the diagram shows)\n"
-    "Output as plain text with clear section headers."
-)
+ASSEMBLY_OCR_PROMPT = """\
+This is a page from an assembly instruction manual.
+
+Extract the information and output in EXACTLY this markdown format (copy the headers exactly):
+
+---
+
+#### Step [N]
+
+**Instruction:** [The written assembly instruction text, copied verbatim from the image]
+
+**Parts:**
+- [part name 1]
+- [part name 2]
+
+**Screws:**
+- [screw type and size 1]
+- [screw type and size 2]
+
+**Diagram:** [One sentence describing what the diagram shows]
+
+---
+
+Rules:
+- Use the EXACT format above with the EXACT headers (#### Step, **Instruction:**, **Parts:**, **Screws:**, **Diagram:**)
+- Each field on its own line, lists use bullet points (- item)
+- If multiple steps are visible, repeat the block for each step
+- If a field has no content, write "None"
+- Do NOT add extra commentary or change the header names
+"""
 
 
 def vlm_ocr(
