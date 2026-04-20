@@ -46,23 +46,22 @@ Return ONLY a JSON array."""
 GUIDED_PROMPT = """Analyze this image of a hardware assembly workspace.
 
 Identify exactly these 4 functional zones:
-1. **workspace**: The area where hands/fingers are actively working or assembling. This should be a SPECIFIC region, NOT the entire image. If no hands are visible, identify the central area where assembly activity is happening or most recently happened.
+1. **workspace**: The area where hands/fingers are actively working or assembling. This must be a SPECIFIC sub-region, NOT the whole image. If no hands are visible, identify only the central area where assembly activity is happening.
 2. **tools**: The area where screwdrivers / hex drivers are laid out (their home/resting position).
 3. **parts**: The area where frame components, standoffs, and other structural parts are arranged (their storage position).
 4. **screws_board**: The whiteboard or instruction card showing screws organized by type/size.
 
 For each zone, return:
 - zone_name: one of "workspace", "tools", "parts", "screws_board"
-- bbox: [x1, y1, x2, y2] as normalized coordinates where 0.0 is top-left and 1.0 is bottom-right
+- bbox: [x1, y1, x2, y2] as **normalized floats between 0.0 and 1.0**, where (0.0, 0.0) is the top-left corner and (1.0, 1.0) is the bottom-right corner. Do NOT use pixel coordinates. For example, the center quarter of the image would be [0.25, 0.25, 0.75, 0.75].
 - objects: list of objects found in this zone
 - description: one-line description
 
 CRITICAL RULES:
-- Do NOT guess positions from prior knowledge. Look at the actual image.
+- ALL coordinates MUST be normalized floats between 0.0 and 1.0. NEVER use pixel values.
 - Zones may overlap slightly at edges but NO zone should fully contain another zone.
-- The workspace zone MUST NOT cover the entire image. It should only cover the active working area.
-- Each zone should roughly cover 15-40% of the image area, not more.
-- If a zone is not visible in this frame, still include it with bbox [0,0,0,0].
+- NO zone should cover more than 50% of the image. The workspace zone especially must be a focused sub-region.
+- If a zone is not visible in this frame, still include it with bbox [0.0, 0.0, 0.0, 0.0].
 {context}
 
 Return ONLY a JSON array with exactly 4 zones."""

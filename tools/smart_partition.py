@@ -183,6 +183,22 @@ class SmartPartitionTool(OpenRouterLabeler):
                 continue
             bbox_raw = item.get("bbox", [0, 0, 1, 1])
             bbox = tuple(float(v) for v in bbox_raw[:4])
+
+            # Auto-fix pixel coordinates: if any value > 1.0, assume pixels and normalize
+            if any(v > 1.0 for v in bbox):
+                # Assume 1920x1080 if we can't know the real size
+                max_x = max(bbox[0], bbox[2], 1920)
+                max_y = max(bbox[1], bbox[3], 1080)
+                w_guess = max(max_x, 1920)
+                h_guess = max(max_y, 1080)
+                bbox = (
+                    min(bbox[0] / w_guess, 1.0),
+                    min(bbox[1] / h_guess, 1.0),
+                    min(bbox[2] / w_guess, 1.0),
+                    min(bbox[3] / h_guess, 1.0),
+                )
+                print(f"[SmartPartitionTool] Auto-normalized pixel coords for zone '{item.get('zone_name')}'")
+
             zones.append(Zone(
                 name=item.get("zone_name", "unknown"),
                 bbox=bbox,

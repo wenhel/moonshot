@@ -61,6 +61,10 @@ Rules:
 - If multiple steps are visible, repeat the block for each step
 - If a field has no content, write "None"
 - Do NOT add extra commentary or change the header names
+- CRITICAL: Extract Parts and Screws from the INSTRUCTION TEXT, not from diagram labels.
+  The instruction text is the most reliable source. Read the instruction first,
+  then list every part name and every screw specification (e.g. M3x6mm) mentioned in it.
+  Do NOT guess or abbreviate screw sizes — copy them exactly from the instruction text.
 """
 
 
