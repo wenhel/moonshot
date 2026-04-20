@@ -1,0 +1,109 @@
+{
+  "layout": {
+    "name": "QAV-S 2 JOSHUA BARDWELL EDITION",
+    "total_pages": 4,
+    "parts_pages": [
+      {
+        "page": 2,
+        "desc": "parts needed for this assembly"
+      }
+    ],
+    "step_pages": [
+      {
+        "page": 3,
+        "steps": [
+          1,
+          2,
+          3
+        ],
+        "boundaries": [
+          {
+            "step": 1,
+            "start_pct": 0.0,
+            "end_pct": 33.6
+          },
+          {
+            "step": 2,
+            "start_pct": 33.6,
+            "end_pct": 65.9
+          },
+          {
+            "step": 3,
+            "start_pct": 65.9,
+            "end_pct": 100.0
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "steps": [
+          4,
+          5,
+          6
+        ],
+        "boundaries": [
+          {
+            "step": 4,
+            "start_pct": 0.0,
+            "end_pct": 33.6
+          },
+          {
+            "step": 5,
+            "start_pct": 33.6,
+            "end_pct": 66.7
+          },
+          {
+            "step": 6,
+            "start_pct": 66.7,
+            "end_pct": 100.0
+          }
+        ]
+      }
+    ]
+  },
+  "parts": [
+    {
+      "page": 2,
+      "desc": "parts needed for this assembly",
+      "ocr_text": "Here is a list of all parts shown in the image:\n\n*   TOP PLATE x1\n*   SPLIT PLATE FRONT x1\n*   SPLIT PLATE REAR x1\n*   5 INCH ARM x4\n*   BATTERY PAD x1\n*   FPV CAMERA MOUNT LEFT x1\n*   SPACER PLATE x1\n*   BATTERY STRAP x1\n*   FPV CAMERA MOUNT RIGHT x1\n*   X-LOCK ARM WEDGE x2\n*   X-LOCK FC ISOLATOR x1\n*   M2x4mm SCREWS x4\n*   M3x8mm SCREWS x16\n*   M3x16mm SCREWS x2\n*   M3x6mm SCREWS x4\n*   M3x8mm SCREWS x1\n*   M3x6mm SCREWS x13\n*   M3x16mm SCREWS x4\n*   M3x22mm SCREWS x4\n*   20mm STANDOFF x6\n*   GOPRO MOUNT x1"
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "page": 3,
+      "path": "output/manual_parsed_v2/steps/step_01.png",
+      "ocr_text": "Here's the structured information from the assembly instruction manual page:\n\n**Step number:** 1\n**Instruction text:** START THE ASSEMBLY BY USING THE SPUT REAR PLATE TO MOUNT THE X-LOCK FC ISOLATOR WITH THE M3x22MM AND THE M3x6MM SCREWS\n**Parts referenced:** SPUT REAR PLATE, X-LOCK FC ISOLATOR\n**Screws/fasteners:** M3x22mm SCREWS, M3x6mm SCREWS\n**Diagram description:** An exploded view showing various screws (M3x22mm and M3x6mm) and an FC Isolator being assembled onto a plate.\n\n**Step number:** 2\n**Instruction text:** SECURE THE THE X-LOCK A THE M3x16MM SCREWS TO L\n**Parts referenced:** X-LOCK\n**Screws/fasteners:** M3x16mm SCREWS\n**Diagram description:** (No clear diagram for step 2 is visible in the provided image, only the text for step 2 is partially visible.)"
+    },
+    {
+      "step": 2,
+      "page": 3,
+      "path": "output/manual_parsed_v2/steps/step_02.png",
+      "ocr_text": "Here's the structured information extracted from the image:\n\n**1. Step number**\n2\n\n**2. Instruction text**\nTighten arms by tightening arm wedges using M3x16mm screws to lock them in place.\n\n**3. Parts referenced**\n*   Arm wedge\n*   5 inch arm\n*   Split plate rear\n*   Split plate front (partially visible)\n\n**4. Screws/fasteners**\nM3x16mm screws\n\n**5. Diagram description**\nAn exploded view diagram showing the assembly of a drone frame. It illustrates how the \"5 inch arm\" connects to the main body, secured by an \"arm wedge\" and \"M3x16mm screws\". \"Split plate rear\" and \"Split plate front\" are also labeled, indicating other components of the frame."
+    },
+    {
+      "step": 3,
+      "page": 3,
+      "path": "output/manual_parsed_v2/steps/step_03.png",
+      "ocr_text": "Here's the structured information from the assembly instruction manual page:\n\n**Step number:**\n3\n\n**Instruction text:**\nADD THE SPLIT FRONT PLATE TO THE ASSEMBLY AND USE THE M3X6MM IN THE MIDDLE TO SECURE IT\n\n**Parts referenced:**\nSplit Front Plate\nAssembly\n\n**Screws/fasteners:**\nM3x6mm screw\n\n**Diagram description:**\nAn exploded view showing a screw being inserted through a top plate, through an underlying structure, and into a lower plate, indicating the attachment of a \"Split Front Plate\" to an assembly."
+    },
+    {
+      "step": 4,
+      "page": 4,
+      "path": "output/manual_parsed_v2/steps/step_04.png",
+      "ocr_text": "Here's the structured information extracted from the image:\n\n**Step Number:** 4\n\n**Instruction Text:**\nUSE THE M3x6mm BUTTON HEAD SCREW TO SECURE THE STANDOFFS AND THE FPV CAMERA MOUNTS TO THE SPLIT PLATES. USE THE M3x16mm THROUGH THE ARMS INTO THE STANDOFFS.\n\n**Parts Referenced:**\n*   FPV Camera Mounts\n*   Standoffs\n*   Split Plates\n*   Arms\n\n**Screws/Fasteners:**\n*   M3x6mm Button Head Screw\n*   M3x16mm Screws\n\n**Diagram Description:**\nThe diagram shows an exploded view of an FPV camera mounting assembly. It illustrates how FPV camera mounts, standoffs, and arms are connected using M3x16mm screws. The FPV camera mounts appear to be secured to split plates."
+    },
+    {
+      "step": 5,
+      "page": 4,
+      "path": "output/manual_parsed_v2/steps/step_05.png",
+      "ocr_text": "Here's the structured information extracted from the image:\n\n**1. Step number**\n* 5\n* 6\n\n**2. Instruction text**\n* (For step 5, the instruction is partially visible and reads): \"THE TOP PLATE TO THE ASSEMBLY BY USING THE BUTTON HEAD SCREWS IN THE FRONT AND THE M COUNTERSINK HEAD SCREWS IN THE BACK.\"\n\n**3. Parts referenced**\n* 20MM STANDOFF\n* BATTERY STRAP\n* TOP PLATE (mentioned in instruction text)\n* ASSEMBLY (mentioned in instruction text)\n* (Part labeled 6, partially visible): SPAC, PLA (likely \"SPACER PLATE\" or similar)\n\n**4. Screws/fasteners**\n* M3x6MM SCREWS (mentioned multiple times)\n* BUTTON HEAD SCREWS (mentioned in instruction text)\n* M COUNTERSINK HEAD SCREWS (mentioned in instruction text)\n\n**5. Diagram description**\n* The diagram for step 5 shows an assembly with multiple standoffs and screws, with a plate being attached. It appears to be a frame or chassis structure.\n* The diagram for step 6 shows a \"BATTERY STRAP\" and a part labeled \"SPAC PLA\" (likely a spacer plate).\n* There's also a diagram showing a \"20MM STANDOFF\"."
+    },
+    {
+      "step": 6,
+      "page": 4,
+      "path": "output/manual_parsed_v2/steps/step_06.png",
+      "ocr_text": "Here's the extracted information:\n\n**Step number:**\n6\n\n**Instruction text:**\nADD THE GOPRO MOUNT AND THE SPACER PLATE TOGETHER WITH A M3x8MM SCREW AND FINISH THE BUILD BY STICKING THE BATTERY PAD AND THE STRAP\n\n**Parts referenced:**\n* GoPro Mount\n* Spacer Plate\n* Battery Pad\n* Strap\n\n**Screws/fasteners:**\n* M3x8mm screw\n\n**Diagram description:**\nAn exploded view showing the assembly of a GoPro mount and a spacer plate onto a base structure, secured with screws. A battery pad is also indicated."
+    }
+  ]
+}

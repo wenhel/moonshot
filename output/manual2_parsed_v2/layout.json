@@ -1,0 +1,109 @@
+{
+  "name": "QAV-S 2 JOHNNYFPV EDITION",
+  "total_pages": 10,
+  "parts_pages": [
+    {
+      "page": 2,
+      "desc": "structural parts and plates"
+    },
+    {
+      "page": 3,
+      "desc": "mounts, standoffs, grommets, and straps"
+    },
+    {
+      "page": 4,
+      "desc": "screws and optional 7 inch frame kit parts"
+    }
+  ],
+  "step_pages": [
+    {
+      "page": 5,
+      "steps": [
+        1,
+        2,
+        3
+      ],
+      "boundaries": [
+        {
+          "step": 1,
+          "start_pct": 0.0,
+          "end_pct": 33.3
+        },
+        {
+          "step": 2,
+          "start_pct": 33.3,
+          "end_pct": 66.8
+        },
+        {
+          "step": 3,
+          "start_pct": 66.8,
+          "end_pct": 100.0
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "steps": [
+        4,
+        5
+      ],
+      "boundaries": [
+        {
+          "step": 4,
+          "start_pct": 0.0,
+          "end_pct": 44.9
+        },
+        {
+          "step": 5,
+          "start_pct": 44.9,
+          "end_pct": 100.0
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "steps": [
+        6,
+        7
+      ],
+      "boundaries": [
+        {
+          "step": 6,
+          "start_pct": 0.0,
+          "end_pct": 39.7
+        },
+        {
+          "step": 7,
+          "start_pct": 39.7,
+          "end_pct": 100.0
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "steps": [
+        8
+      ],
+      "boundaries": [
+        {
+          "step": 8,
+          "start_pct": 0,
+          "end_pct": 100
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "steps": [
+        9
+      ],
+      "boundaries": [
+        {
+          "step": 9,
+          "start_pct": 0,
+          "end_pct": 100
+        }
+      ]
+    }
+  ]
+}

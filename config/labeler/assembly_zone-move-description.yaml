@@ -1,0 +1,58 @@
+# Assembly Video Labeler - Zone-based movement + state description
+# Uses semantic zones (workspace, tools, parts, screws_board) instead of 3x3 grid
+# Two outputs per segment:
+#   1. Movement description using zone names
+#   2. Zone state description (from zoom crops)
+
+labeler_info:
+  name: "assembly_zone-move-description"
+  class_name: "AssemblyVideoLabeler"
+  base_class: "OpenRouterLabeler"
+  description: "Assembly video labeling with zone-based movement tracking and zone state descriptions"
+
+model_config_ref: "model/openrouter.yaml"
+
+task_config:
+  task_type: "assembly_video_zone_move"
+  instruction_type: "zone_move_description"
+  input_requirements:
+    requires_text: false
+    supports_images: true
+    max_images: 10
+  output_format: "free_text"
+
+generation_config:
+  temperature: 0.2
+  max_tokens: 1000
+
+instructions:
+  zone_move_description:
+    template: |
+      These are keyframes from a hardware assembly video segment ({time_range}).{transcript_hint}
+
+      This workspace has 4 functional zones:
+      - **workspace**: The active assembly area where hands perform work (center of table)
+      - **tools**: Where screwdrivers/hex drivers rest when not in use
+      - **parts**: Where frame components, standoffs, and structural parts are stored
+      - **screws_board**: The whiteboard/card showing screws organized by type and size
+
+      The zone coordinates for this segment are:
+      {zone_info}
+
+      Analyze the keyframes and provide THREE clearly separated sections:
+
+      **Movement**: Describe what the person does across the keyframes. When a tool or part moves between zones, use this format:
+        [TOOL: name @ source_zone -> dest_zone]
+        [PART: name @ source_zone -> dest_zone]
+      Example: "The person picks up [TOOL: hex screwdriver 2.0mm @ tools -> workspace] and uses it to tighten [PART: M3x16mm screw @ screws_board -> workspace] into the frame arm."
+      If an item stays within the same zone, write: [TOOL: name @ zone] (no arrow).
+
+      **Zone States**: For each zone, describe its current state at the END of this segment:
+        - workspace: what is being assembled/held there
+        - tools: which tools are present vs. missing (being used)
+        - parts: which parts remain vs. have been taken
+        - screws_board: any screws removed from the board
+
+      **Tools & Parts Summary**:
+        Tools: [TOOL: name @ zone]. If none active, write [TOOL: none].
+        Parts: [PART: name @ zone]. If none handled, write [PART: none].

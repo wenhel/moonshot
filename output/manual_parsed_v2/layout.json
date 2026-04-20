@@ -1,0 +1,62 @@
+{
+  "name": "QAV-S 2 JOSHUA BARDWELL EDITION",
+  "total_pages": 4,
+  "parts_pages": [
+    {
+      "page": 2,
+      "desc": "parts needed for this assembly"
+    }
+  ],
+  "step_pages": [
+    {
+      "page": 3,
+      "steps": [
+        1,
+        2,
+        3
+      ],
+      "boundaries": [
+        {
+          "step": 1,
+          "start_pct": 0.0,
+          "end_pct": 33.6
+        },
+        {
+          "step": 2,
+          "start_pct": 33.6,
+          "end_pct": 65.9
+        },
+        {
+          "step": 3,
+          "start_pct": 65.9,
+          "end_pct": 100.0
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "steps": [
+        4,
+        5,
+        6
+      ],
+      "boundaries": [
+        {
+          "step": 4,
+          "start_pct": 0.0,
+          "end_pct": 33.6
+        },
+        {
+          "step": 5,
+          "start_pct": 33.6,
+          "end_pct": 66.7
+        },
+        {
+          "step": 6,
+          "start_pct": 66.7,
+          "end_pct": 100.0
+        }
+      ]
+    }
+  ]
+}
