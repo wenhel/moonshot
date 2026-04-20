@@ -28,11 +28,11 @@ Here is a list of every part shown in the image:
 *   **REAR GOPRO MOUNT PLATE DUAL ANTENNA** x1
 
 
-### Page 3 — mounts, standoffs, grommets, and strap
+### Page 3 — mounts and standoffs
 
 [![parts page 3](parts/parts_page3.png)](parts/parts_page3.png)
 
-Here is the list of parts from the image:
+Here is a list of all the parts shown in the image:
 
 *   X-LOCK ARM WEDGE x2
 *   FPV CAMERA MOUNT RIGHT x1
@@ -89,14 +89,14 @@ Here is a list of every part shown in the image:
 **Instruction:** START THE ASSEMBLY BY USING THE SPLIT REAR PLATE TO MOUNT THE X-LOCK FC ISOLATOR WITH THE M3x26MM AND THE M3x6MM SCREWS.
 
 **Parts:**
-- SPLIT PLATE REAR
+- SPLIT REAR PLATE
 - X-LOCK FC ISOLATOR
 
 **Screws:**
-- M3x26MM SCREWS
-- M3x6MM SCREWS
+- M3x26MM
+- M3x6MM
 
-**Diagram:** The diagram shows an exploded view of the split plate rear, X-lock FC isolator, and the M3x26mm and M3x6mm screws being assembled.
+**Diagram:** The diagram shows an exploded view of the X-LOCK FC Isolator being mounted to the Split Plate Rear with M3x26mm and M3x6mm screws.
 
 
 ### Step 2
@@ -108,80 +108,92 @@ Here is a list of every part shown in the image:
 **Instruction:** SECURE THE ARMS BY TIGHTENING THE X-LOCK ARM WEDGES USING THE M3x16MM SCREWS TO LOCK THEM IN PLACE.
 
 **Parts:**
-- 5 inch arm
-- X-lock arm wedge
+- ARMS
+- X-LOCK ARM WEDGES
 
 **Screws:**
-- M3x16mm screws
+- M3x16MM SCREWS
 
-**Diagram:** The diagram shows an exploded view of a central frame piece, four 5-inch arms, four X-lock arm wedges, and four M3x16mm screws, illustrating how the arms and wedges are attached to the frame with the screws.
+**Diagram:** The diagram shows an overhead view of a drone frame with four arms being secured by X-lock arm wedges and M3x16mm screws.
 
 
 ### Step 3
 
 [![step 3](steps/step_03.png)](steps/step_03.png)
 
+---
+
 #### Step 3
 
 **Instruction:** ADD THE SPLIT FRONT PLATE TO THE ASSEMBLY AND USE THE M3x6MM IN THE MIDDLE TO SECURE IT.
 
 **Parts:**
-- SPLIT PLATE FRONT
+- SPLIT FRONT PLATE
 
 **Screws:**
 - M3x6MM
 
-**Diagram:** The diagram shows the split plate front being attached to the assembly with an M3x6MM screw in the middle.
+**Diagram:** The diagram shows a split front plate being added to an assembly and secured with a screw in the middle.
+
+---
 
 
 ### Step 4
 
 [![step 4](steps/step_04.png)](steps/step_04.png)
 
+---
+
 #### Step 4
 
 **Instruction:** USE THE M3x6MM BUTTON HEAD SCREWS TO SECURE THE FPV CAMERA MOUNTS AND THE M3x5MM TO SECURE THE REAR BASE MOUNTS TO THE MAIN ASSEMBLY. USE THE M3x16MM THROUGH THE ARMS INTO THE STANDOFFS.
 
 **Parts:**
-- 23mm STANDOFF
-- REAR BASE MOUNT RIGHT
 - FPV CAMERA MOUNTS
-- REAR BASE MOUNT LEFT
+- REAR BASE MOUNTS
+- ARMS
+- STANDOFFS
 
 **Screws:**
-- M3x6mm SCREWS
-- M3x16mm SCREWS
-- M3x5mm SCREWS
+- M3x6MM BUTTON HEAD SCREWS
+- M3x5MM
+- M3x16MM
 
-**Diagram:** The diagram shows an exploded view of the main assembly with FPV camera mounts, rear base mounts, standoffs, and various screws.
+**Diagram:** The diagram shows an exploded view of the main assembly with FPV camera mounts, rear base mounts, and standoffs being attached using various screws.
+
+---
 
 
 ### Step 5
 
 [![step 5](steps/step_05.png)](steps/step_05.png)
 
+---
+
 #### Step 5
 
 **Instruction:** INSERT THE M2 GROMMETS TO THE CAMERA PLATE AND USE THE M2x5MM SCREWS TO SECURE THE CAMERA PLATES TO THE ALUMINUM MOUNTS. USE THE M2x8MM SCREWS TO ATTACH THE O3 CAMERA TO THE ASSEMBLY.
 
 **Parts:**
-- M2 silicone grommets
-- Camera plate for grommets
-- 19mm camera plate right
-- 19mm camera plate left
+- M2 grommets
+- camera plate
+- aluminum mounts
 - O3 camera
-- Aluminum mounts
 
 **Screws:**
 - M2x5mm screws
 - M2x8mm screws
 
-**Diagram:** The diagram shows an exploded view of the camera assembly with grommets, camera plates, and screws, along with an overhead view of the assembled camera on the drone frame.
+**Diagram:** The diagram shows an exploded view of the camera plate assembly with grommets and screws, and an inset showing the overall assembly.
+
+---
 
 
 ### Step 6
 
 [![step 6](steps/step_06.png)](steps/step_06.png)
+
+---
 
 #### Step 6
 
@@ -193,24 +205,30 @@ Here is a list of every part shown in the image:
 **Screws:**
 - M3x5MM COUNTERSINK HEAD SCREWS
 
-**Diagram:** The diagram shows an exploded view of the top plate being attached to the assembly with screws.
+**Diagram:** An isometric view of the assembly with the top plate being secured by screws.
+
+---
 
 
 ### Step 7
 
 [![step 7](steps/step_07.png)](steps/step_07.png)
 
+---
+
 #### Step 7
 
-**Instruction:** START ASSEMBLING THE REAR MECHANISM BY ATTACHING THE REAR ADJUSTABLE MOUNTS USING THE M2x5MM SCREWS.
+**Instruction:** START ASSEMBLING THE REAR MECHANISM BY ATTACHING THE REAR ADJUSTABLE MOUNTS USING THE M2x5mm SCREWS.
 
 **Parts:**
-- Rear Adjustable Mounts
+- rear adjustable mounts
 
 **Screws:**
-- M2x5mm Screws
+- M2x5mm screws
 
-**Diagram:** The diagram shows an exploded view of the rear adjustable mounts being attached to the main body of the drone with screws.
+**Diagram:** The diagram shows an exploded view of the rear adjustable mounts being attached to the rear mechanism with screws, and an overview of the assembled part.
+
+---
 
 
 ### Step 8
@@ -219,21 +237,17 @@ Here is a list of every part shown in the image:
 
 #### Step 8
 
-**Instruction:** BUILD THE REAR MECHANISM BY SECURING THE PANEL MOUNT XT-60 TO THE REAR ANTENNA PLATE USING THE M2.5x8MM SCREWS. ADD THE M4 SILICONE GROMMET TO MOUNT THE VTX ANTENNA. CUSTOMIZE THE REAR MECHANISM BY USING THE INCLUDED PLATES ACCORDING TO YOUR BUILD AND SETUP. CHOOSE BETWEEN DUAL OR SINGLE ANTENNA AND BETWEEN GOPRO OR GPS MOUNTS.
+**Instruction:** BUILD THE REAR MECHANISM BY SECURING THE PANEL MOUNT XT-60 TO THE REAR ANTENNA PLATE USING THE M2.5x8MM SCREWS. ADD THE M4 SILICONE GROMMET TO MOUNT THE VTX ANTENNA.
 
 **Parts:**
-- Rear FPV Antenna Plate
-- Panel Mount XT-60
-- M4 Silicone Grommet
-- Rear GPS XT60 Mount Plate
-- Rear GoPro Mount Plate Dual Antenna
-- Rear GoPro Mount Plate
-- Rear GPS Dual Antenna Mount Plate
+- PANEL MOUNT XT-60
+- REAR ANTENNA PLATE
+- M4 SILICONE GROMMET
 
 **Screws:**
-- M2.5x8mm screws
+- M2.5x8MM SCREWS
 
-**Diagram:** The diagram shows an exploded view of the rear mechanism assembly, including the panel mount, antenna plate, and silicone grommet, along with various optional rear mount plates.
+**Diagram:** The diagram shows an exploded view of the rear mechanism assembly, detailing how the panel mount, antenna plate, and silicone grommet are connected with screws.
 
 
 ### Step 9
@@ -248,10 +262,10 @@ Here is a list of every part shown in the image:
 - GOPRO MOUNT
 - SPACER PLATE
 - BATTERY PAD
-- BATTERY STRAP
+- STRAP
 
 **Screws:**
 - M3x8MM SCREW
 
-**Diagram:** The diagram shows an exploded view of the GoPro mount, spacer plate, battery pad, and battery strap being added to the top of the drone frame, with an assembled drone shown to the right.
+**Diagram:** The diagram shows an exploded view of the GoPro mount, spacer plate, battery pad, and battery strap being added to the assembled drone frame.
 
