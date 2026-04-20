@@ -17,6 +17,7 @@ import argparse
 import json
 import os
 import time
+import cv2
 from pathlib import Path
 from typing import List, Optional
 
@@ -30,9 +31,162 @@ from core.interfaces import LabelerInput
 
 ZONE_NAMES = ["workspace", "tools", "parts", "screws_board"]
 
+# Default video path
+DEFAULT_VIDEO = "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/videos/correct_assemble_v1.mp4"
+
 
 # ---------------------------------------------------------------------------
-# Zone-aware labeler
+# Video-based labeling via Gemini native video input
+# ---------------------------------------------------------------------------
+
+def _get_gemini_genai():
+    """Lazy-init google.generativeai with API key from .env."""
+    import google.generativeai as genai
+    with open(os.path.join(os.path.dirname(__file__), '..', '.env')) as f:
+        for line in f:
+            if line.startswith('GEMINI_API_KEY'):
+                key = line.split('=', 1)[1].strip().strip('"')
+                genai.configure(api_key=key)
+                return genai
+    raise RuntimeError("GEMINI_API_KEY not found in .env")
+
+
+def _extract_clip(video_path: str, start_frame: int, end_frame: int,
+                  output_path: str, fps: float = 25.0) -> str:
+    """Extract a video clip from start_frame to end_frame."""
+    cap = cv2.VideoCapture(video_path)
+    w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+    h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    writer = cv2.VideoWriter(output_path, fourcc, fps, (w, h))
+    cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
+    for _ in range(end_frame - start_frame):
+        ret, frame = cap.read()
+        if not ret:
+            break
+        writer.write(frame)
+    cap.release()
+    writer.release()
+    return output_path
+
+
+VID_LABEL_PROMPT = """This is a {duration:.0f}-second video clip from a hardware assembly process ({time_range}).
+This is segment {seg_index} of a continuous video stream.{prev_context}
+
+The workspace has 4 functional zones:
+- **workspace**: The active assembly area where hands perform work
+- **tools**: Where screwdrivers/hex drivers rest when not in use
+- **parts**: Where frame components and structural parts are stored
+- **screws_board**: The whiteboard/card showing screws organized by type and size
+
+Zone coordinates: {zone_info}
+
+Watch the ENTIRE video carefully and provide FOUR sections:
+
+**Description**: 2-3 sentences describing what happens in this segment. Focus on the assembly step being performed.
+
+**Movement**: List each distinct movement. Use timestamps relative to clip start.
+[MOVE] ~Xs-~Ys | object | from_zone -> to_zone | what happens
+[ACTION] ~Xs-~Ys | object | zone | what is being done (e.g. tightening screw)
+[IDLE] ~Xs-~Ys | zone | nothing happening
+Be PRECISE: name tool colors, part types, screw sizes. Only describe what you SEE.
+
+**Zone States**: State of each zone at the END of this segment:
+- workspace: what is there
+- tools: which tools present vs missing
+- parts: which parts remain vs taken
+- screws_board: any screws removed
+
+**Tools & Parts Summary**:
+Tools: [TOOL: name @ zone]. Parts: [PART: name @ zone].
+"""
+
+
+def label_segment_video(
+    genai_module,
+    video_path: str,
+    seg: dict,
+    zones: List[dict],
+    prev_summary: str = "",
+    model_name: str = "gemini-2.5-flash",
+) -> str:
+    """Label a segment using Gemini native video input.
+
+    Extracts clip → uploads → generates → cleans up.
+    """
+    start_frame = seg["start_frame"]
+    end_frame = seg["end_frame"]
+    start_sec = seg["start_sec"]
+    end_sec = seg["end_sec"]
+    duration = end_sec - start_sec
+    seg_index = seg["index"]
+
+    # Extract clip
+    clip_path = f"/tmp/seg{seg_index:03d}_clip.mp4"
+    _extract_clip(video_path, start_frame, end_frame, clip_path)
+
+    # Upload
+    video_file = genai_module.upload_file(path=clip_path)
+    while video_file.state.name == 'PROCESSING':
+        time.sleep(1)
+        video_file = genai_module.get_file(video_file.name)
+
+    if video_file.state.name != 'ACTIVE':
+        os.remove(clip_path)
+        return f"(video processing failed: {video_file.state.name})"
+
+    # Format zone info
+    zone_info = ", ".join(
+        f"{z['name']}=({z['bbox'][0]:.2f},{z['bbox'][1]:.2f},{z['bbox'][2]:.2f},{z['bbox'][3]:.2f})"
+        for z in zones
+    )
+
+    # Previous segment context for stream continuity
+    prev_context = ""
+    if prev_summary:
+        prev_context = f"\n\nPrevious segment ended with: {prev_summary}"
+
+    prompt = VID_LABEL_PROMPT.format(
+        duration=duration,
+        time_range=f"{start_sec:.1f}s - {end_sec:.1f}s",
+        seg_index=seg_index,
+        prev_context=prev_context,
+        zone_info=zone_info,
+    )
+
+    # Generate
+    model = genai_module.GenerativeModel(model_name)
+    response = model.generate_content([video_file, prompt])
+    result = response.text
+
+    # Cleanup
+    try:
+        genai_module.delete_file(video_file.name)
+    except Exception:
+        pass
+    os.remove(clip_path)
+
+    return result
+
+
+def _extract_zone_state_summary(description: str) -> str:
+    """Extract a brief summary from Zone States for stream context."""
+    lines = description.split("\n")
+    in_zone_states = False
+    summary_parts = []
+    for line in lines:
+        if "**Zone States**" in line:
+            in_zone_states = True
+            continue
+        if in_zone_states:
+            if line.startswith("**") or line.strip() == "":
+                break
+            summary_parts.append(line.strip().lstrip("- "))
+    return "; ".join(summary_parts[:4]) if summary_parts else ""
+
+
+# ---------------------------------------------------------------------------
+# Zone-aware labeler (image mode)
 # ---------------------------------------------------------------------------
 
 class ZoneLabeler(AssemblyVideoLabeler):
@@ -106,8 +260,19 @@ def run_zone_pipeline(
     api_key: Optional[str] = None,
     rate_sleep: float = 1.5,
     include_zoom_images: bool = True,
+    mode: str = "img",
+    video_path: Optional[str] = None,
+    report_name: str = "report.md",
+    skip_partition: bool = False,
 ) -> None:
-    """Full pipeline: partition → label → report."""
+    """Full pipeline: partition → label → report.
+
+    Args:
+        mode: "img" = keyframe images via OpenRouter (original)
+              "vid" = video clips via Gemini native video input (stream)
+        video_path: source video path (required for mode=vid)
+        skip_partition: if True, reuse existing partitions from segments.json
+    """
 
     # Paths
     src_json = os.path.join(src_dir, "segments.json")
@@ -121,7 +286,8 @@ def run_zone_pipeline(
     kf_src = os.path.join(src_dir, "keyframes")
     kf_dst = os.path.join(out_dir, "keyframes")
     if not os.path.exists(kf_dst):
-        os.symlink(os.path.abspath(kf_src), kf_dst)
+        if os.path.exists(kf_src):
+            os.symlink(os.path.abspath(kf_src), kf_dst)
 
     with open(src_json, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -130,75 +296,45 @@ def run_zone_pipeline(
     video_info = data["video_info"]
 
     # ---- Step 1: Partition ----
-    print(f"=== Step 1: Partitioning {len(segments)} segments ===\n")
-
-    partition_tool = SmartPartitionTool(
-        name="zone_partition",
-        model=model,
-        prompt_template=GUIDED_PROMPT,
-        api_key=api_key,
-        temperature=0.2,
-        max_tokens=1200,
-    )
-
     partition_out = os.path.join(out_dir, "partitions")
-    os.makedirs(partition_out, exist_ok=True)
 
-    for i, seg in enumerate(segments):
-        kf_paths = _resolve_keyframe_paths(seg, src_dir, out_dir)
-        time_range = f"{seg['start_sec']:.0f}s-{seg['end_sec']:.0f}s"
-        print(f"  seg{i:03d} [{time_range}] ({len(kf_paths)} kf) ...", end=" ", flush=True)
+    if skip_partition and all(seg.get("zones") for seg in segments):
+        print(f"=== Step 1: Skipping partition (reusing existing zones) ===\n")
+    else:
+        print(f"=== Step 1: Partitioning {len(segments)} segments ===\n")
 
-        zones = partition_segment(
-            partition_tool, kf_paths, partition_out, i, zone_names=ZONE_NAMES
+        partition_tool = SmartPartitionTool(
+            name="zone_partition",
+            model=model,
+            prompt_template=GUIDED_PROMPT,
+            api_key=api_key,
+            temperature=0.2,
+            max_tokens=1200,
         )
-        seg["zones"] = zones
-        seg["_resolved_kf_paths"] = kf_paths
-        print(f"{len(zones)} zones")
+        os.makedirs(partition_out, exist_ok=True)
 
-        if i < len(segments) - 1:
-            time.sleep(rate_sleep)
+        for i, seg in enumerate(segments):
+            kf_paths = _resolve_keyframe_paths(seg, src_dir, out_dir)
+            time_range = f"{seg['start_sec']:.0f}s-{seg['end_sec']:.0f}s"
+            print(f"  seg{i:03d} [{time_range}] ({len(kf_paths)} kf) ...", end=" ", flush=True)
 
-    # ---- Step 2: Label with zone-aware prompt ----
-    print(f"\n=== Step 2: Zone-aware labeling ===\n")
+            zones = partition_segment(
+                partition_tool, kf_paths, partition_out, i, zone_names=ZONE_NAMES
+            )
+            seg["zones"] = zones
+            seg["_resolved_kf_paths"] = kf_paths
+            print(f"{len(zones)} zones")
 
-    labeler = ZoneLabeler.from_config(
-        config_dir="config",
-        labeler_name="assembly_zone-move-description",
-        api_key=api_key,
-    )
+            if i < len(segments) - 1:
+                time.sleep(rate_sleep)
 
-    for i, seg in enumerate(segments):
-        kf_paths = seg.get("_resolved_kf_paths", [])
-        zones = seg.get("zones", [])
-        time_range = f"{seg['start_sec']:.1f}s - {seg['end_sec']:.1f}s"
-
-        # Collect zoom images for first keyframe of each zone (zone state input)
-        zoom_paths = None
-        if include_zoom_images and kf_paths and zones:
-            zoom_dir = os.path.join(partition_out, "zones")
-            # Use first keyframe's zooms as representative
-            first_kf = Path(kf_paths[0]).stem
-            zoom_paths = []
-            for z in zones:
-                zp = os.path.join(zoom_dir, f"{first_kf}_{z['name']}.jpg")
-                if os.path.exists(zp):
-                    zoom_paths.append([zp])
-                else:
-                    zoom_paths.append([])
-
-        print(f"  seg{i:03d} [{time_range}] labeling ...", end=" ", flush=True)
-        seg["vlm_description"] = labeler.label_segment_with_zones(
-            keyframe_paths=kf_paths,
-            time_range=time_range,
-            zones=zones,
-            transcript=seg.get("transcript", ""),
-            zoom_paths=zoom_paths,
-        )
-        print("done")
-
-        if i < len(segments) - 1:
-            time.sleep(rate_sleep)
+    # ---- Step 2: Label ----
+    if mode == "vid":
+        _run_label_video(segments, video_path or DEFAULT_VIDEO, partition_out,
+                         model, rate_sleep, src_dir, out_dir)
+    else:
+        _run_label_images(segments, partition_out, api_key, include_zoom_images,
+                          rate_sleep, src_dir, out_dir)
 
     # ---- Step 3: Write report ----
     print(f"\n=== Step 3: Writing report ===\n")

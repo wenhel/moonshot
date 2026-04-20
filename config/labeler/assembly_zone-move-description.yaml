@@ -39,9 +39,11 @@ instructions:
       The zone coordinates for this segment are:
       {zone_info}
 
-      Analyze the keyframes and provide THREE clearly separated sections:
+      Analyze the keyframes and provide FOUR clearly separated sections:
 
-      **Movement**: Describe what the person does across the keyframes. When a tool or part moves between zones, use this format:
+      **Description**: In 2-3 sentences, describe what is happening in this segment as a whole. Focus on the assembly action, what step is being performed, and what the end result is. Write naturally, as if explaining to someone what the person is doing.
+
+      **Movement**: Describe each distinct movement of tools or parts between zones. Use this format:
         [TOOL: name @ source_zone -> dest_zone]
         [PART: name @ source_zone -> dest_zone]
       Example: "The person picks up [TOOL: hex screwdriver 2.0mm @ tools -> workspace] and uses it to tighten [PART: M3x16mm screw @ screws_board -> workspace] into the frame arm."

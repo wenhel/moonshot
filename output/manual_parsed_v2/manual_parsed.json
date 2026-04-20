@@ -65,7 +65,7 @@
     {
       "page": 2,
       "desc": "parts needed for this assembly",
-      "ocr_text": "Here is a list of all the parts shown in the image:\n\n*   TOP PLATE x1\n*   SPLIT PLATE FRONT x1\n*   SPLIT PLATE REAR x1\n*   5 INCH ARM x4\n*   BATTERY PAD x1\n*   FPV CAMERA MOUNT LEFT x1\n*   SPACER PLATE x1\n*   BATTERY STRAP x1\n*   FPV CAMERA MOUNT RIGHT x1\n*   X-LOCK ARM WEDGE x2\n*   X-LOCK FC ISOLATOR x1\n*   M2x4mm SCREWS x4\n*   M3x8mm SCREWS x16\n*   M3x16mm SCREWS x2\n*   M3x6mm SCREWS x4\n*   M3x8mm SCREWS x1\n*   M3x6mm SCREWS x13\n*   M3x16mm SCREWS x4\n*   M3x22mm SCREWS x4\n*   20mm STANDOFF x6\n*   GOPRO MOUNT x1"
+      "ocr_text": "Here is a list of all parts shown in the image:\n\n*   TOP PLATE x1\n*   SPLIT PLATE FRONT x1\n*   SPLIT PLATE REAR x1\n*   5 INCH ARM x4\n*   BATTERY PAD x1\n*   FPV CAMERA MOUNT LEFT x1\n*   SPACER PLATE x1\n*   BATTERY STRAP x1\n*   FPV CAMERA MOUNT RIGHT x1\n*   X-LOCK ARM WEDGE x2\n*   X-LOCK FC ISOLATOR x1\n*   M2x4mm SCREWS x4\n*   M3x8mm SCREWS x16\n*   M3x16mm SCREWS x2\n*   M3x6mm SCREWS x4\n*   M3x8mm SCREWS x1\n*   M3x6mm SCREWS x13\n*   M3x16mm SCREWS x4\n*   M3x22mm SCREWS x4\n*   20mm STANDOFF x6\n*   GOPRO MOUNT x1"
     }
   ],
   "steps": [
@@ -73,37 +73,37 @@
       "step": 1,
       "page": 3,
       "path": "output/manual_parsed_v2/steps/step_01.png",
-      "ocr_text": "#### Step 1\n\n**Instruction:** START THE ASSEMBLY BY USING THE SPUT REAR PLATE TO MOUNT THE X-LOCK FC ISOLATOR WITH THE M3X22MM AND THE M3X6MM SCREWS\n\n**Parts:**\n- SPUT REAR PLATE\n- X-LOCK FC ISOLATOR\n\n**Screws:**\n- M3x22mm\n- M"
+      "ocr_text": "#### Step 1\n\n**Instruction:** START THE ASSEMBLY BY USING THE SPUT REAR PLATE TO MOUNT THE X-LOCK FC ISOLATOR WITH THE M3x22MM AND THE M3x6MM SCREWS\n\n**Parts:**\n- SPUT REAR PLATE\n- X-LOCK FC ISOLATOR\n\n**Screws:**\n- M3x22MM\n- M3x6MM\n\n**Diagram:** The diagram shows an exploded view of the FC isolator being assembled with screws into a plate."
     },
     {
       "step": 2,
       "page": 3,
       "path": "output/manual_parsed_v2/steps/step_02.png",
-      "ocr_text": "---\n\n#### Step 2\n\n**Instruction:** ARMS BY TIGHTENING ARM WEDGES USING LOCK THEM IN PLACE\n\n**Parts:**\n- Arm wedge\n- 5 inch arm\n- Split plate rear\n- Split plate front\n\n**Screws:**\n- M3x16mm screws\n\n**Diagram:** A top-down view of a drone frame with arms, arm wedges, and split plates being assembled.\n\n---"
+      "ocr_text": "#### Step 2\n\n**Instruction:** Lock the arms by tightening the arm wedges using M3x16mm screws to lock them in place.\n\n**Parts:**\n- arm wedges\n- arms\n\n**Screws:**\n- M3x16mm screws\n\n**Diagram:** The diagram shows an exploded view of the frame assembly with arm wedges and M3x16mm screws."
     },
     {
       "step": 3,
       "page": 3,
       "path": "output/manual_parsed_v2/steps/step_03.png",
-      "ocr_text": "#### Step 3\n\n**Instruction:** ADD THE SPLIT FRONT PLATE TO THE ASSEMBLY AND USE THE M3X6MM IN THE MIDDLE TO SECURE IT\n\n**Parts:**\n- Split front plate\n\n**Screws:**\n- M3x6mm\n\n**Diagram:** The diagram shows a top-down view of an assembly with a screw being inserted into the middle of a split front plate."
+      "ocr_text": "#### Step 3\n\n**Instruction:** ADD THE SPLIT FRONT PLATE TO THE ASSEMBLY AND USE THE M3X6MM IN THE MIDDLE TO SECURE IT\n\n**Parts:**\n- split front plate\n\n**Screws:**\n- M3x6mm\n\n**Diagram:** The diagram shows a top-down view of an assembly with a screw being inserted into the middle of a plate."
     },
     {
       "step": 4,
       "page": 4,
       "path": "output/manual_parsed_v2/steps/step_04.png",
-      "ocr_text": "#### Step 4\n\n**Instruction:** USE THE M3x6MM BUTTON HEAD SCREW TO SECURE THE STANDOFFS AND THE FPV CAMERA MOUNTS TO THE SPLIT PLATES. USE THE M3X16MM THROUGH THE ARMS INTO THE STANDOFFS.\n\n**Parts:**\n- FPV Camera Mounts\n- Standoffs\n- Split Plates\n- Arms\n\n**Screws:**\n- M3x6mm button head screw\n- M3x16mm\n\n**Diagram:** The diagram shows an exploded view of the FPV camera mounts, standoffs, split plates, and arms, with M3x16mm screws indicated for assembly."
+      "ocr_text": "#### Step 4\n\n**Instruction:** USE THE M3x6mm BUTTON HEAD SCREW TO SECURE THE STANDOFFS AND THE FPV CAMERA MOUNTS TO THE SPLIT PLATES. USE THE M3x16mm THROUGH THE ARMS INTO THE STANDOFFS.\n\n**Parts:**\n- standoffs\n- FPV camera mounts\n- split plates\n- arms\n\n**Screws:**\n- M3x6mm BUTTON HEAD SCREW\n- M3x16mm\n\n**Diagram:** The diagram shows an exploded view of FPV camera mounts, standoffs, and arms being assembled with M3x16mm screws."
     },
     {
       "step": 5,
       "page": 4,
       "path": "output/manual_parsed_v2/steps/step_05.png",
-      "ocr_text": "#### Step 5\n\n**Instruction:** None\n\n**Parts:**\n- 20mm Standoff\n- Battery Strap\n\n**Screws:**\n- M3x6mm Screws\n\n**Diagram:** The diagram shows the assembly of a frame with multiple standoffs and screws, and a battery strap.\n\n---"
+      "ocr_text": "---\n\n#### Step 5\n\n**Instruction:** ATTACH THE TOP PLATE TO THE ASSEMBLY BY USING THE M3X6MM BUTTON HEAD SCREWS IN THE FRONT AND THE M3X6MM COUNTERSINK HEAD SCREWS IN THE BACK.\n\n**Parts:**\n- TOP PLATE\n- ASSEMBLY\n\n**Screws:**\n- M3X6MM BUTTON HEAD SCREWS\n- M3X6MM COUNTERSINK HEAD SCREWS\n\n**Diagram:** The diagram shows an exploded view of the top plate being attached to the assembly with screws.\n\n---"
     },
     {
       "step": 6,
       "page": 4,
       "path": "output/manual_parsed_v2/steps/step_06.png",
-      "ocr_text": "#### Step 6\n\n**Instruction:** ADD THE GOPRO MOUNT AND THE SPACER PLATE TOGETHER WITH A M3X8MM SCREW AND FINISH THE BUILD BY STICKING THE BATTERY PAD AND THE STRAP\n\n**Parts:**\n- Gopro mount\n- Spacer plate\n- Battery pad\n- Strap\n\n**Screws:**\n- M3x8mm screws\n\n**Diagram:** The diagram shows an exploded view of the Gopro mount, spacer plate, and battery pad being assembled onto the drone frame."
+      "ocr_text": "---\n\n#### Step 6\n\n**Instruction:** ADD THE GOPRO MOUNT AND THE SPACER PLATE TOGETHER WITH A M3X8MM SCREW AND FINISH THE BUILD BY STICKING THE BATTERY PAD AND THE STRAP\n\n**Parts:**\n- GOPRO MOUNT\n- SPACER PLATE\n- BATTERY PAD\n- STRAP\n\n**Screws:**\n- M3x8MM screw\n\n**Diagram:** The diagram shows an exploded view of the GoPro mount, spacer plate, and battery pad being assembled onto the drone frame.\n\n---"
     }
   ]
 }
