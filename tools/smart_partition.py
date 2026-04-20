@@ -125,6 +125,67 @@ class SmartPartitionTool(OpenRouterLabeler):
         zones = self._parse_zones(raw)
         return zones
 
+    def partition_video(
+        self,
+        video_path: str,
+        start_frame: int,
+        end_frame: int,
+        context: str = "",
+    ) -> List[Zone]:
+        """Partition using Gemini native video input (one clip → zones)."""
+        import cv2
+        # Extract clip to temp file
+        clip_path = f"/tmp/partition_clip_{start_frame}.mp4"
+        cap = cv2.VideoCapture(video_path)
+        fps = cap.get(cv2.CAP_PROP_FPS)
+        w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+        h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        writer = cv2.VideoWriter(clip_path, fourcc, fps, (w, h))
+        cap.set(cv2.CAP_PROP_POS_FRAMES, start_frame)
+        for _ in range(end_frame - start_frame):
+            ret, frame = cap.read()
+            if not ret:
+                break
+            writer.write(frame)
+        cap.release()
+        writer.release()
+
+        try:
+            import google.generativeai as genai
+            with open(os.path.join(Path(__file__).resolve().parents[1], '.env')) as f:
+                for line in f:
+                    if line.startswith('GEMINI_API_KEY'):
+                        key = line.split('=', 1)[1].strip().strip('"')
+                        genai.configure(api_key=key)
+                        break
+
+            video_file = genai.upload_file(path=clip_path)
+            import time as _time
+            while video_file.state.name == 'PROCESSING':
+                _time.sleep(1)
+                video_file = genai.get_file(video_file.name)
+
+            if video_file.state.name != 'ACTIVE':
+                return []
+
+            prompt = (
+                "Watch this video clip of an assembly workspace.\n\n"
+                + self.prompt_template.format(context=context)
+            )
+            model = genai.GenerativeModel('gemini-2.5-flash')
+            response = model.generate_content([video_file, prompt])
+            zones = self._parse_zones(response.text)
+
+            try:
+                genai.delete_file(video_file.name)
+            except Exception:
+                pass
+            return zones
+        finally:
+            if os.path.exists(clip_path):
+                os.remove(clip_path)
+
     def partition_batch(
         self,
         image_paths: List[str],

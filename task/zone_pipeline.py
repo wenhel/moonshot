@@ -154,7 +154,9 @@ def label_segment_video(
         zone_info=zone_info,
     )
 
-    # Generate
+    # Generate — strip provider prefix for Gemini SDK (e.g. "google/gemini-2.5-flash" -> "gemini-2.5-flash")
+    if "/" in model_name:
+        model_name = model_name.split("/", 1)[1]
     model = genai_module.GenerativeModel(model_name)
     response = model.generate_content([video_file, prompt])
     result = response.text
@@ -300,8 +302,11 @@ def run_zone_pipeline(
 
     if skip_partition and all(seg.get("zones") for seg in segments):
         print(f"=== Step 1: Skipping partition (reusing existing zones) ===\n")
+        # Still resolve keyframe paths for later use
+        for seg in segments:
+            seg["_resolved_kf_paths"] = _resolve_keyframe_paths(seg, src_dir, out_dir)
     else:
-        print(f"=== Step 1: Partitioning {len(segments)} segments ===\n")
+        print(f"=== Step 1: Partitioning {len(segments)} segments (mode={mode}) ===\n")
 
         partition_tool = SmartPartitionTool(
             name="zone_partition",
@@ -316,11 +321,43 @@ def run_zone_pipeline(
         for i, seg in enumerate(segments):
             kf_paths = _resolve_keyframe_paths(seg, src_dir, out_dir)
             time_range = f"{seg['start_sec']:.0f}s-{seg['end_sec']:.0f}s"
-            print(f"  seg{i:03d} [{time_range}] ({len(kf_paths)} kf) ...", end=" ", flush=True)
+            print(f"  seg{i:03d} [{time_range}] ...", end=" ", flush=True)
 
-            zones = partition_segment(
-                partition_tool, kf_paths, partition_out, i, zone_names=ZONE_NAMES
-            )
+            if mode == "vid" and video_path:
+                # Video-based partition
+                zones_list = partition_tool.partition_video(
+                    video_path or DEFAULT_VIDEO,
+                    seg["start_frame"], seg["end_frame"],
+                )
+                zones = [{"name": z.name, "bbox": list(z.bbox),
+                          "objects": z.objects, "description": z.description}
+                         for z in zones_list]
+                # Still generate overlays from keyframes for the report
+                from tools.bbox_zoom import BboxZoomTool
+                zoom_tool = BboxZoomTool(default_margin=0.1)
+                vis_dir = os.path.join(partition_out, "overlays")
+                zoom_dir = os.path.join(partition_out, "zones")
+                os.makedirs(vis_dir, exist_ok=True)
+                os.makedirs(zoom_dir, exist_ok=True)
+                for kf_path in kf_paths:
+                    if not os.path.exists(kf_path):
+                        continue
+                    kf_name = Path(kf_path).stem
+                    partition_tool.visualize(kf_path, zones_list,
+                                            output_path=os.path.join(vis_dir, f"{kf_name}_partition.jpg"))
+                    for z in zones_list:
+                        if z.bbox != (0, 0, 0, 0):
+                            try:
+                                zoom_tool.zoom_from_path(kf_path, z.bbox,
+                                    save_path=os.path.join(zoom_dir, f"{kf_name}_{z.name}.jpg"))
+                            except Exception:
+                                pass
+            else:
+                # Image-based partition (batch keyframes)
+                zones = partition_segment(
+                    partition_tool, kf_paths, partition_out, i, zone_names=ZONE_NAMES
+                )
+
             seg["zones"] = zones
             seg["_resolved_kf_paths"] = kf_paths
             print(f"{len(zones)} zones")
@@ -343,7 +380,7 @@ def run_zone_pipeline(
     for seg in segments:
         seg.pop("_resolved_kf_paths", None)
 
-    _write_zone_report(segments, video_info, out_dir, partition_out)
+    _write_zone_report(segments, video_info, out_dir, partition_out, report_name=report_name)
 
     # Save enriched JSON
     enriched = {
@@ -356,6 +393,77 @@ def run_zone_pipeline(
         json.dump(enriched, f, indent=2, ensure_ascii=False)
 
     print(f"\n=== Done: {out_dir} ===")
+
+
+def _run_label_video(segments, video_path, partition_out, model, rate_sleep, src_dir, out_dir):
+    """Step 2: Label using Gemini native video input (stream mode)."""
+    print(f"\n=== Step 2: Video-based labeling (stream mode) ===\n")
+    print(f"  Video: {video_path}\n")
+
+    genai = _get_gemini_genai()
+    prev_summary = ""
+
+    for i, seg in enumerate(segments):
+        zones = seg.get("zones", [])
+        time_range = f"{seg['start_sec']:.1f}s - {seg['end_sec']:.1f}s"
+        print(f"  seg{i:03d} [{time_range}] ...", end=" ", flush=True)
+
+        t0 = time.time()
+        seg["vlm_description"] = label_segment_video(
+            genai, video_path, seg, zones,
+            prev_summary=prev_summary,
+            model_name=model,
+        )
+        elapsed = time.time() - t0
+        print(f"done ({elapsed:.1f}s)")
+
+        # Extract zone state summary for stream continuity
+        prev_summary = _extract_zone_state_summary(seg["vlm_description"])
+
+        if i < len(segments) - 1:
+            time.sleep(rate_sleep)
+
+
+def _run_label_images(segments, partition_out, api_key, include_zoom_images,
+                      rate_sleep, src_dir, out_dir):
+    """Step 2: Label using keyframe images via OpenRouter."""
+    print(f"\n=== Step 2: Image-based labeling ===\n")
+
+    labeler = ZoneLabeler.from_config(
+        config_dir="config",
+        labeler_name="assembly_zone-move-description",
+        api_key=api_key,
+    )
+
+    for i, seg in enumerate(segments):
+        kf_paths = seg.get("_resolved_kf_paths", _resolve_keyframe_paths(seg, src_dir, out_dir))
+        zones = seg.get("zones", [])
+        time_range = f"{seg['start_sec']:.1f}s - {seg['end_sec']:.1f}s"
+
+        zoom_paths = None
+        if include_zoom_images and kf_paths and zones:
+            zoom_dir = os.path.join(partition_out, "zones")
+            first_kf = Path(kf_paths[0]).stem
+            zoom_paths = []
+            for z in zones:
+                zp = os.path.join(zoom_dir, f"{first_kf}_{z['name']}.jpg")
+                if os.path.exists(zp):
+                    zoom_paths.append([zp])
+                else:
+                    zoom_paths.append([])
+
+        print(f"  seg{i:03d} [{time_range}] labeling ...", end=" ", flush=True)
+        seg["vlm_description"] = labeler.label_segment_with_zones(
+            keyframe_paths=kf_paths,
+            time_range=time_range,
+            zones=zones,
+            transcript=seg.get("transcript", ""),
+            zoom_paths=zoom_paths,
+        )
+        print("done")
+
+        if i < len(segments) - 1:
+            time.sleep(rate_sleep)
 
 
 def _resolve_keyframe_paths(seg: dict, src_dir: str, out_dir: str) -> List[str]:
@@ -378,6 +486,7 @@ def _write_zone_report(
     video_info: dict,
     out_dir: str,
     partition_out: str,
+    report_name: str = "report.md",
 ) -> None:
     """Write markdown report with partition overlays + zone descriptions."""
 
@@ -433,7 +542,7 @@ def _write_zone_report(
 
         lines.append("")
 
-    report_path = os.path.join(out_dir, "report.md")
+    report_path = os.path.join(out_dir, report_name)
     with open(report_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     print(f"[output] Saved {report_path}")
@@ -448,11 +557,21 @@ def main():
     parser.add_argument("src_dir", help="Source dir with segments.json + keyframes/")
     parser.add_argument("--out-name", default="v1_fixed-with-loc_zoom-move-description",
                         help="Output directory name")
+    parser.add_argument("--mode", choices=["img", "vid"], default="img",
+                        help="Label mode: img (keyframe images) or vid (Gemini video input)")
+    parser.add_argument("--video", default=None,
+                        help="Source video path (required for --mode vid)")
     parser.add_argument("--model", default="google/gemini-2.5-flash")
     parser.add_argument("--rate-sleep", type=float, default=1.5)
+    parser.add_argument("--report-name", default=None,
+                        help="Report filename (default: report.md or report-vid.md)")
     parser.add_argument("--no-zoom", action="store_true",
-                        help="Skip sending zoom images to labeler (partition-as-prompt only)")
+                        help="Skip sending zoom images to labeler (img mode only)")
+    parser.add_argument("--skip-partition", action="store_true",
+                        help="Reuse existing partitions from segments.json")
     args = parser.parse_args()
+
+    report_name = args.report_name or ("report-vid.md" if args.mode == "vid" else "report.md")
 
     run_zone_pipeline(
         src_dir=args.src_dir,
@@ -460,6 +579,10 @@ def main():
         model=args.model,
         rate_sleep=args.rate_sleep,
         include_zoom_images=not args.no_zoom,
+        mode=args.mode,
+        video_path=args.video,
+        report_name=report_name,
+        skip_partition=args.skip_partition,
     )
 
 

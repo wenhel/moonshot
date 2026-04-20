@@ -1,29 +1,30 @@
-# Env
+
+build/
+dist/
+.DS_Store
+*.egg
+*.egg-info/
 .env
-
+# Env
+# IDE
+.idea/
 # Internal docs
+*.mp4
+# OS
+output/*
+# Output (allow specific example outputs)
+!output/manual2_parsed_v2/
+!output/manual_parsed_v2/
+!output/v1_fixed/
+!output/v1_fixed-with-loc_instruction/
+!output/v1_fixed-with-loc_zoom-move-description/
+!output/slicing_test/
+!output/partition_test/
 plan.md
-
-# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
-build/
-*.egg
-
-# Output (allow specific example outputs)
-output/*
-!output/v1_fixed/
-!output/manual_parsed_v2/
-!output/manual2_parsed_v2/
-
-# IDE
-.vscode/
-.idea/
-*.swp
+# Python
 *.swo
-
-# OS
-.DS_Store
+*.swp
 Thumbs.db
+.vscode/

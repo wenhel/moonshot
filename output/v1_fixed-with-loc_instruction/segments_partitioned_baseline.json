@@ -1,0 +1,2156 @@
+{
+  "video_info": {
+    "fps": 25.0,
+    "frame_count": 23246,
+    "duration": 929.84,
+    "width": 1920,
+    "height": 1080,
+    "resolution": "1920x1080"
+  },
+  "segment_count": 31,
+  "segments": [
+    {
+      "index": 0,
+      "start_sec": 0.0,
+      "end_sec": 30.0,
+      "start_frame": 0,
+      "end_frame": 750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg000_frame000000.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000125.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000250.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000375.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000500.jpg",
+        "output/v1_fixed/keyframes/seg000_frame000625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is picking up two small purple standoffs from the mid-left area of the frame. They then bring them together in the bottom-left area, appearing to connect them.\n\n**Tools**: [TOOL: none]\n\n**Parts**: [PART: purple standoff x2 @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 1,
+      "start_sec": 30.0,
+      "end_sec": 60.0,
+      "start_frame": 750,
+      "end_frame": 1500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg001_frame000750.jpg",
+        "output/v1_fixed/keyframes/seg001_frame000875.jpg",
+        "output/v1_fixed/keyframes/seg001_frame001000.jpg",
+        "output/v1_fixed/keyframes/seg001_frame001125.jpg",
+        "output/v1_fixed/keyframes/seg001_frame001250.jpg",
+        "output/v1_fixed/keyframes/seg001_frame001375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is preparing to attach the purple standoffs to a carbon fiber frame piece. They are picking up a purple standoff and placing it next to a small carbon fiber piece in the mid-left area of the frame.\n\n**Tools**: [TOOL: none]\n\n**Parts**:\n  [PART: carbon fiber frame pieces @ top-left]\n  [PART: purple standoff @ mid-left]\n  [PART: M3 x 16mm socket head screw @ top-right]\n  [PART: M3 x 22mm pan head screw @ top-right]\n  [PART: M3 x 6mm pan head screw @ top-right]\n  [PART: M3 x 16mm pan head screw @ top-right]",
+      "zones": []
+    },
+    {
+      "index": 2,
+      "start_sec": 60.0,
+      "end_sec": 90.0,
+      "start_frame": 1500,
+      "end_frame": 2250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg002_frame001500.jpg",
+        "output/v1_fixed/keyframes/seg002_frame001625.jpg",
+        "output/v1_fixed/keyframes/seg002_frame001750.jpg",
+        "output/v1_fixed/keyframes/seg002_frame001875.jpg",
+        "output/v1_fixed/keyframes/seg002_frame002000.jpg",
+        "output/v1_fixed/keyframes/seg002_frame002125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is preparing a hex screwdriver for use by removing a protective cap from its tip. This action occurs in the mid-center to bottom-center area of the frame.\n\n**Tools**:\n[TOOL: hex screwdriver (blue, 1.5mm) @ mid-center]\n\n**Parts**:\n[PART: none]",
+      "zones": []
+    },
+    {
+      "index": 3,
+      "start_sec": 90.0,
+      "end_sec": 120.0,
+      "start_frame": 2250,
+      "end_frame": 3000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg003_frame002250.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002375.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002500.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002625.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002750.jpg",
+        "output/v1_fixed/keyframes/seg003_frame002875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is demonstrating how to use the hex screwdrivers by picking up a gold 2.5mm hex screwdriver from the bottom-center, inserting it into a purple standoff in the mid-left, and then removing it. This action is a demonstration of how to use the tools rather than an assembly step.\n\n**Tools**:\n[TOOL: hex screwdriver (gold 2.5mm) @ bottom-center]\n\n**Parts**:\n[PART: purple standoff @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 4,
+      "start_sec": 120.0,
+      "end_sec": 150.0,
+      "start_frame": 3000,
+      "end_frame": 3750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg004_frame003000.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003125.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003250.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003375.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003500.jpg",
+        "output/v1_fixed/keyframes/seg004_frame003625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is preparing to attach a purple standoff to a carbon fiber frame piece. They pick up a small screw and then a hex screwdriver, aligning the screwdriver with the screw and standoff in the mid-left area of the frame.\n\n**Tools**:\n[TOOL: hex screwdriver (silver) @ mid-center]\n\n**Parts**:\n[PART: purple standoff @ mid-left]\n[PART: small screw @ mid-left]\n[PART: carbon fiber frame piece @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 5,
+      "start_sec": 150.0,
+      "end_sec": 180.0,
+      "start_frame": 3750,
+      "end_frame": 4500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg005_frame003750.jpg",
+        "output/v1_fixed/keyframes/seg005_frame003875.jpg",
+        "output/v1_fixed/keyframes/seg005_frame004000.jpg",
+        "output/v1_fixed/keyframes/seg005_frame004125.jpg",
+        "output/v1_fixed/keyframes/seg005_frame004250.jpg",
+        "output/v1_fixed/keyframes/seg005_frame004375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: This segment shows the presenter's hands entering the bottom-left of the frame, indicating the start of the assembly process. No actual assembly action is performed in these frames, but it sets the stage for the next steps.\n\n**Tools**:\n[TOOL: hex screwdriver 2.5mm @ bottom-center]\n[TOOL: hex screwdriver 2.0mm @ bottom-center]\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n[TOOL: hex screwdriver (silver) @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame pieces @ top-left]\n[PART: purple standoffs @ mid-left]\n[PART: small screws @ mid-left]\n[PART: M3 x 16mm socket head screws @ top-right]\n[PART: M3 x 22mm pan head screws @ top-right]\n[PART: M3 x 6mm pan head screws @ top-right]\n[PART: M3 x 16mm pan head screws @ top-right]",
+      "zones": []
+    },
+    {
+      "index": 6,
+      "start_sec": 180.0,
+      "end_sec": 210.0,
+      "start_frame": 4500,
+      "end_frame": 5250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg006_frame004500.jpg",
+        "output/v1_fixed/keyframes/seg006_frame004625.jpg",
+        "output/v1_fixed/keyframes/seg006_frame004750.jpg",
+        "output/v1_fixed/keyframes/seg006_frame004875.jpg",
+        "output/v1_fixed/keyframes/seg006_frame005000.jpg",
+        "output/v1_fixed/keyframes/seg006_frame005125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is selecting a carbon fiber frame arm from the top-left area of the frame. They then move it to the mid-left area, preparing to begin assembly.\n\n**Tools**: [TOOL: none]\n\n**Parts**: [PART: carbon fiber frame arm @ top-left], [PART: purple standoffs @ mid-left], [PART: small screws @ mid-left]",
+      "zones": [
+        {
+          "name": "drone_frame_components",
+          "bbox": [
+            0.0,
+            0.0,
+            0.49,
+            0.41
+          ],
+          "objects": [
+            {
+              "item": "drone frame part",
+              "color": "black"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black"
+            }
+          ],
+          "description": "Various black drone frame components laid out on a white surface."
+        },
+        {
+          "name": "screws_and_standoffs_display",
+          "bbox": [
+            0.5,
+            0.0,
+            1.0,
+            0.52
+          ],
+          "objects": [
+            {
+              "item": "whiteboard",
+              "content": "M3 x 16mm Socket Head, M3 x 22mm Pan Head, M3 x 6mm Pan Head, M3 x 16mm Pan Head"
+            },
+            {
+              "item": "screws",
+              "type": "M3 x 16mm Socket Head",
+              "count": 1
+            },
+            {
+              "item": "screws",
+              "type": "M3 x 22mm Pan Head",
+              "count": 3
+            },
+            {
+              "item": "screws",
+              "type": "M3 x 6mm Pan Head",
+              "count": 1
+            },
+            {
+              "item": "screws",
+              "type": "M3 x 16mm Pan Head",
+              "count": 4
+            }
+          ],
+          "description": "A whiteboard displaying different types and quantities of screws, categorized by size and head type."
+        },
+        {
+          "name": "tools_and_accessories",
+          "bbox": [
+            0.5,
+            0.52,
+            1.0,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "screwdriver",
+              "color": "gold"
+            },
+            {
+              "item": "screwdriver",
+              "color": "black",
+              "size": "2.5 mm"
+            },
+            {
+              "item": "screwdriver",
+              "color": "blue",
+              "size": "2.0 mm"
+            },
+            {
+              "item": "screwdriver",
+              "color": "silver"
+            }
+          ],
+          "description": "A set of four screwdrivers with different colored handles and sizes."
+        },
+        {
+          "name": "small_drone_parts",
+          "bbox": [
+            0.0,
+            0.41,
+            0.49,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "small purple standoffs",
+              "count": 6
+            },
+            {
+              "item": "small purple drone part",
+              "count": 2
+            },
+            {
+              "item": "small purple drone part",
+              "count": 1
+            }
+          ],
+          "description": "Small purple drone parts including standoffs and other components."
+        },
+        {
+          "name": "human_arm",
+          "bbox": [
+            0.0,
+            0.29,
+            0.5,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "human arm",
+              "action": "pointing"
+            }
+          ],
+          "description": "A human arm pointing towards the drone frame components."
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start_sec": 210.0,
+      "end_sec": 240.0,
+      "start_frame": 5250,
+      "end_frame": 6000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg007_frame005250.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005375.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005500.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005625.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005750.jpg",
+        "output/v1_fixed/keyframes/seg007_frame005875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler begins by selecting the correct screws for the next step, referencing the whiteboard in the top-right. They then pick up a carbon fiber frame piece and a small screw, preparing to attach it.\n\n**Tools**:\n[TOOL: none]\n\n**Parts**:\n[PART: M3 x 22mm pan head screw @ top-right]\n[PART: carbon fiber frame piece @ bottom-left]\n[PART: small screw @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 8,
+      "start_sec": 240.0,
+      "end_sec": 270.0,
+      "start_frame": 6000,
+      "end_frame": 6750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg008_frame006000.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006125.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006250.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006375.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006500.jpg",
+        "output/v1_fixed/keyframes/seg008_frame006625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is picking up purple standoffs from the mid-left area and attaching them to a carbon fiber frame piece in the bottom-left area. This action is part of the initial assembly of the frame.\n\n**Tools**: [TOOL: none]\n\n**Parts**:\n[PART: purple standoffs @ mid-left]\n[PART: carbon fiber frame piece @ bottom-left]",
+      "zones": []
+    },
+    {
+      "index": 9,
+      "start_sec": 270.0,
+      "end_sec": 300.0,
+      "start_frame": 6750,
+      "end_frame": 7500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg009_frame006750.jpg",
+        "output/v1_fixed/keyframes/seg009_frame006875.jpg",
+        "output/v1_fixed/keyframes/seg009_frame007000.jpg",
+        "output/v1_fixed/keyframes/seg009_frame007125.jpg",
+        "output/v1_fixed/keyframes/seg009_frame007250.jpg",
+        "output/v1_fixed/keyframes/seg009_frame007375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The user is preparing to assemble the frame by placing a purple standoff onto a carbon fiber frame piece in the mid-left area. Then, the user marks off two M3 x 22mm pan head screws on the whiteboard in the top-right, indicating they are ready for use.\n\n**Tools**:\n[TOOL: marker @ top-right]\n\n**Parts**:\n[PART: carbon fiber frame piece @ mid-left]\n[PART: purple standoff @ mid-left]\n[PART: M3 x 22mm pan head screw (referenced) @ top-right]",
+      "zones": []
+    },
+    {
+      "index": 10,
+      "start_sec": 300.0,
+      "end_sec": 330.0,
+      "start_frame": 7500,
+      "end_frame": 8250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg010_frame007500.jpg",
+        "output/v1_fixed/keyframes/seg010_frame007625.jpg",
+        "output/v1_fixed/keyframes/seg010_frame007750.jpg",
+        "output/v1_fixed/keyframes/seg010_frame007875.jpg",
+        "output/v1_fixed/keyframes/seg010_frame008000.jpg",
+        "output/v1_fixed/keyframes/seg010_frame008125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is preparing to attach the purple standoffs to the main frame plate. They pick up the main frame plate from the mid-left area, then pick up a purple standoff from the mid-left area, and begin to align them in the mid-left area.\n\n**Tools**: [TOOL: none]\n\n**Parts**:\n[PART: main frame plate @ mid-left]\n[PART: purple standoff @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 11,
+      "start_sec": 330.0,
+      "end_sec": 360.0,
+      "start_frame": 8250,
+      "end_frame": 9000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg011_frame008250.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008375.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008500.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008625.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008750.jpg",
+        "output/v1_fixed/keyframes/seg011_frame008875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is attaching a purple standoff to a carbon fiber frame piece using a blue hex screwdriver. They then retrieve two M3x22mm pan head screws from the top-right area of the whiteboard.\n\n**Tools**:\n[TOOL: hex screwdriver (blue) @ mid-left]\n\n**Parts**:\n[PART: purple standoff @ mid-left]\n[PART: carbon fiber frame piece @ mid-left]\n[PART: M3 x 22mm pan head screw x2 @ top-right]",
+      "zones": [
+        {
+          "name": "drone_frame_parts",
+          "bbox": [
+            0.0,
+            0.0,
+            0.49,
+            0.46
+          ],
+          "objects": [
+            {
+              "item": "drone frame part",
+              "color": "black",
+              "shape": "complex"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black",
+              "shape": "complex"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black",
+              "shape": "arm-like"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black",
+              "shape": "arm-like"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black",
+              "shape": "arm-like"
+            },
+            {
+              "item": "drone frame part",
+              "color": "black",
+              "shape": "arm-like"
+            },
+            {
+              "item": "standoffs",
+              "color": "purple",
+              "count": 6
+            },
+            {
+              "item": "decorative plates",
+              "color": "pink and black",
+              "shape": "bear-like",
+              "count": 2
+            }
+          ],
+          "description": "Various black and purple drone frame components and decorative plates."
+        },
+        {
+          "name": "screw_types_and_quantities",
+          "bbox": [
+            0.49,
+            0.0,
+            1.0,
+            0.53
+          ],
+          "objects": [
+            {
+              "item": "whiteboard",
+              "content": "M3 x 16mm SOCKET HEAD, M3 x 22mm PAN HEAD, M3 x 6mm PAN HEAD, M3 x 16mm PAN HEAD"
+            },
+            {
+              "item": "screws",
+              "type": "M3 x 16mm Socket Head",
+              "count": 1
+            },
+            {
+              "item": "screws",
+              "type": "M3 x 22mm Pan Head",
+              "count": 3
+            },
+            {
+              "item": "screws",
+              "type": "M3 x 6mm Pan Head",
+              "count": 1
+            },
+            {
+              "item": "screws",
+              "type": "M3 x 16mm Pan Head",
+              "count": 4
+            }
+          ],
+          "description": "A whiteboard displaying different types and quantities of screws, with actual screws placed below their descriptions."
+        },
+        {
+          "name": "tools_and_assembly_in_progress",
+          "bbox": [
+            0.0,
+            0.46,
+            1.0,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "hands",
+              "action": "assembling"
+            },
+            {
+              "item": "screwdriver",
+              "color": "blue and gold"
+            },
+            {
+              "item": "drone part",
+              "color": "black",
+              "state": "being assembled"
+            },
+            {
+              "item": "screwdriver",
+              "color": "gold and black",
+              "size": "2.5 mm"
+            },
+            {
+              "item": "screwdriver",
+              "color": "silver and gold"
+            }
+          ],
+          "description": "A pair of hands assembling a drone part with a screwdriver, alongside other screwdrivers."
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start_sec": 360.0,
+      "end_sec": 390.0,
+      "start_frame": 9000,
+      "end_frame": 9750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg012_frame009000.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009125.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009250.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009375.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009500.jpg",
+        "output/v1_fixed/keyframes/seg012_frame009625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching purple standoffs to a carbon fiber frame piece. They are using a hex screwdriver to secure the standoffs with screws. This action takes place in the mid-left to mid-center area of the frame. After securing the standoffs, the assembler points to the whiteboard in the top-right, likely referencing the next screw type.\n\n**Tools**:\n[TOOL: hex screwdriver (blue handle) @ mid-left]\n[TOOL: hex screwdriver 2.5mm (gold) @ mid-center]\n\n**Parts**:\n[PART: carbon fiber frame piece @ mid-left]\n[PART: purple standoff x2 @ mid-left]\n[PART: small screw x2 @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 13,
+      "start_sec": 390.0,
+      "end_sec": 420.0,
+      "start_frame": 9750,
+      "end_frame": 10500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg013_frame009750.jpg",
+        "output/v1_fixed/keyframes/seg013_frame009875.jpg",
+        "output/v1_fixed/keyframes/seg013_frame010000.jpg",
+        "output/v1_fixed/keyframes/seg013_frame010125.jpg",
+        "output/v1_fixed/keyframes/seg013_frame010250.jpg",
+        "output/v1_fixed/keyframes/seg013_frame010375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The user is assembling the drone frame by attaching purple standoffs to a carbon fiber plate. They are using a hex screwdriver to secure the standoffs with screws in the mid-center area of the frame.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ mid-center]\n\n**Parts**:\n[PART: carbon fiber frame plate @ mid-center]\n[PART: purple standoff @ mid-center]\n[PART: M3 x 6mm pan head screw @ mid-center]",
+      "zones": []
+    },
+    {
+      "index": 14,
+      "start_sec": 420.0,
+      "end_sec": 450.0,
+      "start_frame": 10500,
+      "end_frame": 11250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg014_frame010500.jpg",
+        "output/v1_fixed/keyframes/seg014_frame010625.jpg",
+        "output/v1_fixed/keyframes/seg014_frame010750.jpg",
+        "output/v1_fixed/keyframes/seg014_frame010875.jpg",
+        "output/v1_fixed/keyframes/seg014_frame011000.jpg",
+        "output/v1_fixed/keyframes/seg014_frame011125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching a purple standoff to a carbon fiber frame piece. They are using a blue hex screwdriver to tighten the screw that secures the standoff. This action takes place in the mid-center area of the frame.\n\n**Tools**:\n  [TOOL: hex screwdriver (blue) @ mid-center]\n\n**Parts**:\n  [PART: purple standoff @ mid-center]\n  [PART: carbon fiber frame piece @ mid-center]",
+      "zones": []
+    },
+    {
+      "index": 15,
+      "start_sec": 450.0,
+      "end_sec": 480.0,
+      "start_frame": 11250,
+      "end_frame": 12000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg015_frame011250.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011375.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011500.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011625.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011750.jpg",
+        "output/v1_fixed/keyframes/seg015_frame011875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching a carbon fiber arm to the main frame using a blue hex screwdriver. The arm is being screwed into place in the mid-center area of the frame. After the arm is secured, the assembler places the blue hex screwdriver back with the other tools.\n\n**Tools**:\n[TOOL: blue hex screwdriver 1.5mm @ mid-center]\n\n**Parts**:\n[PART: carbon fiber frame arm @ mid-center]\n[PART: carbon fiber frame @ mid-center]",
+      "zones": [
+        {
+          "name": "frame_components",
+          "bbox": [
+            0.0,
+            0.0,
+            0.47,
+            0.44
+          ],
+          "objects": [
+            {
+              "item": "drone_frame_part",
+              "color": "black"
+            },
+            {
+              "item": "drone_frame_part",
+              "color": "black"
+            },
+            {
+              "item": "drone_frame_part",
+              "color": "black"
+            },
+            {
+              "item": "drone_frame_part",
+              "color": "black"
+            },
+            {
+              "item": "drone_frame_part",
+              "color": "black"
+            }
+          ],
+          "description": "Various black drone frame components laid out on a white surface."
+        },
+        {
+          "name": "spacers_and_screws",
+          "bbox": [
+            0.27,
+            0.31,
+            0.42,
+            0.41
+          ],
+          "objects": [
+            {
+              "item": "spacer",
+              "color": "purple"
+            },
+            {
+              "item": "spacer",
+              "color": "purple"
+            },
+            {
+              "item": "spacer",
+              "color": "purple"
+            },
+            {
+              "item": "spacer",
+              "color": "purple"
+            },
+            {
+              "item": "spacer",
+              "color": "purple"
+            },
+            {
+              "item": "spacer",
+              "color": "purple"
+            }
+          ],
+          "description": "Small purple spacers and screws arranged in a line."
+        },
+        {
+          "name": "assembly_in_progress",
+          "bbox": [
+            0.0,
+            0.44,
+            0.47,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "hands",
+              "color": "skin_tone"
+            },
+            {
+              "item": "screwdriver",
+              "color": "blue_and_silver"
+            },
+            {
+              "item": "drone_frame_assembly",
+              "color": "black_and_purple"
+            }
+          ],
+          "description": "A person's hands assembling a drone frame component with a screwdriver."
+        },
+        {
+          "name": "fastener_organization_board",
+          "bbox": [
+            0.47,
+            0.0,
+            1.0,
+            0.6
+          ],
+          "objects": [
+            {
+              "item": "whiteboard",
+              "color": "white_and_grey"
+            },
+            {
+              "item": "m3_x_16mm_socket_head_screws",
+              "count": 1
+            },
+            {
+              "item": "m3_x_22mm_pan_head_screws",
+              "count": 0
+            },
+            {
+              "item": "m3_x_6mm_pan_head_screws",
+              "count": 1
+            },
+            {
+              "item": "m3_x_16mm_pan_head_screws",
+              "count": 4
+            }
+          ],
+          "description": "A whiteboard categorizing different types and sizes of fasteners, with some fasteners placed below their labels."
+        },
+        {
+          "name": "tools",
+          "bbox": [
+            0.47,
+            0.6,
+            1.0,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "screwdriver",
+              "color": "gold_and_black"
+            },
+            {
+              "item": "screwdriver",
+              "color": "black_and_silver"
+            },
+            {
+              "item": "screwdriver",
+              "color": "silver_and_black"
+            }
+          ],
+          "description": "Three screwdrivers of different sizes and colors laid out on the white surface."
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start_sec": 480.0,
+      "end_sec": 510.0,
+      "start_frame": 12000,
+      "end_frame": 12750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg016_frame012000.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012125.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012250.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012375.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012500.jpg",
+        "output/v1_fixed/keyframes/seg016_frame012625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is picking up a carbon fiber arm from the top-left area of the frame. This action is likely in preparation for attaching it to the main assembly.\n\n**Tools**: [TOOL: none]\n\n**Parts**: [PART: carbon fiber frame arm @ top-left]",
+      "zones": [
+        {
+          "name": "drone_frame_components",
+          "bbox": [
+            0.038,
+            0.088,
+            0.449,
+            0.334
+          ],
+          "objects": [
+            {
+              "object_name": "long_frame_piece"
+            },
+            {
+              "object_name": "main_frame_piece"
+            },
+            {
+              "object_name": "arm_piece_1"
+            },
+            {
+              "object_name": "arm_piece_2"
+            },
+            {
+              "object_name": "arm_piece_3"
+            }
+          ],
+          "description": "Various black carbon fiber components for a drone frame."
+        },
+        {
+          "name": "drone_standoffs_and_screws",
+          "bbox": [
+            0.208,
+            0.306,
+            0.41,
+            0.412
+          ],
+          "objects": [
+            {
+              "object_name": "purple_standoff_1"
+            },
+            {
+              "object_name": "purple_standoff_2"
+            },
+            {
+              "object_name": "purple_standoff_3"
+            },
+            {
+              "object_name": "purple_standoff_4"
+            },
+            {
+              "object_name": "purple_standoff_5"
+            },
+            {
+              "object_name": "purple_standoff_6"
+            },
+            {
+              "object_name": "purple_standoff_7"
+            },
+            {
+              "object_name": "purple_standoff_8"
+            }
+          ],
+          "description": "Small purple standoffs and screws for drone assembly."
+        },
+        {
+          "name": "drone_camera_mounts",
+          "bbox": [
+            0.178,
+            0.349,
+            0.36,
+            0.46
+          ],
+          "objects": [
+            {
+              "object_name": "purple_camera_mount_1"
+            },
+            {
+              "object_name": "purple_camera_mount_2"
+            }
+          ],
+          "description": "Two purple camera mounts for the drone."
+        },
+        {
+          "name": "partially_assembled_drone_component",
+          "bbox": [
+            0.178,
+            0.467,
+            0.36,
+            0.686
+          ],
+          "objects": [
+            {
+              "object_name": "silver_frame_piece"
+            },
+            {
+              "object_name": "purple_component_on_silver_piece"
+            }
+          ],
+          "description": "A partially assembled drone component, possibly a bottom plate with a purple part attached."
+        },
+        {
+          "name": "screwdriver_set",
+          "bbox": [
+            0.56,
+            0.54,
+            0.748,
+            0.89
+          ],
+          "objects": [
+            {
+              "object_name": "screwdriver_gold_2.5mm"
+            },
+            {
+              "object_name": "screwdriver_black_2.5mm"
+            },
+            {
+              "object_name": "screwdriver_blue_2.0mm"
+            },
+            {
+              "object_name": "screwdriver_silver_1.5mm"
+            }
+          ],
+          "description": "A set of four screwdrivers with different colored handles and sizes."
+        },
+        {
+          "name": "screw_types_and_quantities_display",
+          "bbox": [
+            0.48,
+            0.06,
+            0.93,
+            0.52
+          ],
+          "objects": [
+            {
+              "object_name": "whiteboard"
+            },
+            {
+              "object_name": "m3_16mm_socket_head_screw_1"
+            },
+            {
+              "object_name": "m3_6mm_pan_head_screw_1"
+            },
+            {
+              "object_name": "m3_16mm_pan_head_screw_1"
+            },
+            {
+              "object_name": "m3_16mm_pan_head_screw_2"
+            },
+            {
+              "object_name": "m3_16mm_pan_head_screw_3"
+            },
+            {
+              "object_name": "m3_16mm_pan_head_screw_4"
+            }
+          ],
+          "description": "A whiteboard displaying different types and quantities of screws, with actual screws placed below their descriptions."
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start_sec": 510.0,
+      "end_sec": 540.0,
+      "start_frame": 12750,
+      "end_frame": 13500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg017_frame012750.jpg",
+        "output/v1_fixed/keyframes/seg017_frame012875.jpg",
+        "output/v1_fixed/keyframes/seg017_frame013000.jpg",
+        "output/v1_fixed/keyframes/seg017_frame013125.jpg",
+        "output/v1_fixed/keyframes/seg017_frame013250.jpg",
+        "output/v1_fixed/keyframes/seg017_frame013375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is attaching the carbon fiber arms to the main frame of the drone. They are picking up individual arms from the top-left area and aligning them with the frame in the mid-center area.\n\n**Tools**: [TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame arm @ top-left]\n[PART: carbon fiber frame arm @ mid-center]\n[PART: drone frame (partially assembled) @ mid-center]",
+      "zones": [
+        {
+          "name": "drone_parts_assembly",
+          "bbox": [
+            0.0,
+            0.0,
+            0.5,
+            1.0
+          ],
+          "objects": [
+            {
+              "label": "drone_frame_part",
+              "bbox": [
+                0.03,
+                0.1,
+                0.12,
+                0.38
+              ]
+            },
+            {
+              "label": "drone_frame_part",
+              "bbox": [
+                0.16,
+                0.1,
+                0.27,
+                0.3
+              ]
+            },
+            {
+              "label": "drone_arm",
+              "bbox": [
+                0.29,
+                0.11,
+                0.38,
+                0.3
+              ]
+            },
+            {
+              "label": "drone_arm",
+              "bbox": [
+                0.38,
+                0.11,
+                0.47,
+                0.3
+              ]
+            },
+            {
+              "label": "standoffs",
+              "bbox": [
+                0.27,
+                0.31,
+                0.41,
+                0.36
+              ]
+            },
+            {
+              "label": "drone_part",
+              "bbox": [
+                0.33,
+                0.36,
+                0.4,
+                0.43
+              ]
+            },
+            {
+              "label": "drone_part",
+              "bbox": [
+                0.2,
+                0.45,
+                0.28,
+                0.52
+              ]
+            },
+            {
+              "label": "drone_part",
+              "bbox": [
+                0.28,
+                0.45,
+                0.36,
+                0.52
+              ]
+            },
+            {
+              "label": "hands_assembling_drone",
+              "bbox": [
+                0.0,
+                0.36,
+                0.37,
+                0.77
+              ]
+            },
+            {
+              "label": "drone_frame_part",
+              "bbox": [
+                0.21,
+                0.47,
+                0.36,
+                0.68
+              ]
+            },
+            {
+              "label": "drone_frame_part",
+              "bbox": [
+                0.18,
+                0.59,
+                0.37,
+                0.77
+              ]
+            }
+          ],
+          "description": "This zone shows various drone frame parts, including arms and standoffs, with hands in the process of assembling them."
+        },
+        {
+          "name": "fastener_types_and_screwdrivers",
+          "bbox": [
+            0.48,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "objects": [
+            {
+              "label": "whiteboard",
+              "bbox": [
+                0.5,
+                0.05,
+                0.93,
+                0.52
+              ]
+            },
+            {
+              "label": "M3 x 16mm Socket Head label",
+              "bbox": [
+                0.53,
+                0.08,
+                0.64,
+                0.14
+              ]
+            },
+            {
+              "label": "M3 x 22mm Pan Head label",
+              "bbox": [
+                0.65,
+                0.08,
+                0.76,
+                0.14
+              ]
+            },
+            {
+              "label": "M3 x 6mm Pan Head label",
+              "bbox": [
+                0.53,
+                0.25,
+                0.64,
+                0.31
+              ]
+            },
+            {
+              "label": "M3 x 16mm Pan Head label",
+              "bbox": [
+                0.65,
+                0.25,
+                0.76,
+                0.31
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.57,
+                0.37,
+                0.59,
+                0.4
+              ]
+            },
+            {
+              "label": "screws",
+              "bbox": [
+                0.66,
+                0.37,
+                0.74,
+                0.4
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.54,
+                0.74,
+                0.63
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.59,
+                0.74,
+                0.69
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.65,
+                0.74,
+                0.75
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.71,
+                0.74,
+                0.81
+              ]
+            }
+          ],
+          "description": "This zone displays a whiteboard detailing different types of fasteners (screws) and a collection of screwdrivers, likely for assembly."
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start_sec": 540.0,
+      "end_sec": 570.0,
+      "start_frame": 13500,
+      "end_frame": 14250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg018_frame013500.jpg",
+        "output/v1_fixed/keyframes/seg018_frame013625.jpg",
+        "output/v1_fixed/keyframes/seg018_frame013750.jpg",
+        "output/v1_fixed/keyframes/seg018_frame013875.jpg",
+        "output/v1_fixed/keyframes/seg018_frame014000.jpg",
+        "output/v1_fixed/keyframes/seg018_frame014125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is preparing to attach the purple standoffs to the frame. They are holding a blue hex screwdriver in their left hand and the frame in their right hand, positioning it for assembly in the mid-center area.\n\n**Tools**:\n  [TOOL: hex screwdriver 1.5mm @ bottom-left]\n\n**Parts**:\n  [PART: carbon fiber frame arm x2 @ top-left]\n  [PART: carbon fiber frame brace @ top-left]\n  [PART: carbon fiber frame plate @ top-left]\n  [PART: purple standoff x6 @ mid-left]\n  [PART: M3 x 6mm pan head screw x1 @ mid-left]\n  [PART: M3 x 16mm pan head screw x4 @ mid-right]\n  [PART: frame assembly (partially assembled) @ mid-center]",
+      "zones": []
+    },
+    {
+      "index": 19,
+      "start_sec": 570.0,
+      "end_sec": 600.0,
+      "start_frame": 14250,
+      "end_frame": 15000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg019_frame014250.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014375.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014500.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014625.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014750.jpg",
+        "output/v1_fixed/keyframes/seg019_frame014875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching the carbon fiber arms to the main frame plate. They are using a hex screwdriver to secure the arms in the mid-center area of the frame.\n\n**Tools**:\n[TOOL: hex screwdriver (silver) @ bottom-left]\n\n**Parts**:\n[PART: carbon fiber frame arm x4 @ mid-left]\n[PART: carbon fiber main frame plate @ mid-left]\n[PART: purple standoff x2 @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 20,
+      "start_sec": 600.0,
+      "end_sec": 630.0,
+      "start_frame": 15000,
+      "end_frame": 15750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg020_frame015000.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015125.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015250.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015375.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015500.jpg",
+        "output/v1_fixed/keyframes/seg020_frame015625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching the carbon fiber arms to the main frame plate. They are using a hex screwdriver to secure the arms with screws and purple standoffs. This action takes place in the mid-center area of the frame.\n\n**Tools**:\n[TOOL: hex screwdriver (gold) @ mid-center]\n[TOOL: hex screwdriver (black 2.0mm) @ bottom-center]\n[TOOL: hex screwdriver (blue 1.5mm) @ bottom-center]\n[TOOL: hex screwdriver (silver) @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arm x4 @ mid-center]\n[PART: carbon fiber main frame plate @ mid-center]\n[PART: purple standoff x4 @ mid-left]\n[PART: M3 x 6mm pan head screw x4 @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 21,
+      "start_sec": 630.0,
+      "end_sec": 660.0,
+      "start_frame": 15750,
+      "end_frame": 16500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg021_frame015750.jpg",
+        "output/v1_fixed/keyframes/seg021_frame015875.jpg",
+        "output/v1_fixed/keyframes/seg021_frame016000.jpg",
+        "output/v1_fixed/keyframes/seg021_frame016125.jpg",
+        "output/v1_fixed/keyframes/seg021_frame016250.jpg",
+        "output/v1_fixed/keyframes/seg021_frame016375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is attaching purple standoffs to the main frame of the drone. They are using a gold hex screwdriver to secure the standoffs in the mid-center area of the frame.\n\n**Tools**:\n[TOOL: hex screwdriver (gold) @ mid-center]\n\n**Parts**:\n[PART: carbon fiber drone frame @ mid-center]\n[PART: purple standoffs @ mid-center]",
+      "zones": []
+    },
+    {
+      "index": 22,
+      "start_sec": 660.0,
+      "end_sec": 690.0,
+      "start_frame": 16500,
+      "end_frame": 17250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg022_frame016500.jpg",
+        "output/v1_fixed/keyframes/seg022_frame016625.jpg",
+        "output/v1_fixed/keyframes/seg022_frame016750.jpg",
+        "output/v1_fixed/keyframes/seg022_frame016875.jpg",
+        "output/v1_fixed/keyframes/seg022_frame017000.jpg",
+        "output/v1_fixed/keyframes/seg022_frame017125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is preparing to attach the top plate to the drone frame. They pick up the top plate from the top-left and align it with the main frame in the mid-center area, positioning it over the purple standoffs.\n\n**Tools**:\n[TOOL: none]\n\n**Parts**:\n[PART: carbon fiber top plate @ top-left, then mid-center]\n[PART: drone frame (bottom plate and arms assembled) @ mid-center]\n[PART: purple standoffs @ mid-center]",
+      "zones": [
+        {
+          "name": "drone_frame_components",
+          "bbox": [
+            0.0,
+            0.0,
+            0.52,
+            0.73
+          ],
+          "objects": [
+            {
+              "label": "drone frame part",
+              "bbox": [
+                0.0,
+                0.0,
+                0.14,
+                0.32
+              ]
+            },
+            {
+              "label": "drone frame part",
+              "bbox": [
+                0.16,
+                0.09,
+                0.26,
+                0.27
+              ]
+            },
+            {
+              "label": "drone frame",
+              "bbox": [
+                0.13,
+                0.34,
+                0.37,
+                0.66
+              ]
+            },
+            {
+              "label": "drone frame part",
+              "bbox": [
+                0.29,
+                0.34,
+                0.35,
+                0.4
+              ]
+            },
+            {
+              "label": "drone frame part",
+              "bbox": [
+                0.36,
+                0.34,
+                0.42,
+                0.4
+              ]
+            },
+            {
+              "label": "standoffs",
+              "bbox": [
+                0.27,
+                0.3,
+                0.42,
+                0.36
+              ]
+            }
+          ],
+          "description": "Various components of a drone frame, including the main frame, arms, and standoffs."
+        },
+        {
+          "name": "screws_and_fasteners",
+          "bbox": [
+            0.42,
+            0.28,
+            0.52,
+            0.4
+          ],
+          "objects": [
+            {
+              "label": "screw",
+              "bbox": [
+                0.42,
+                0.3,
+                0.43,
+                0.32
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.44,
+                0.3,
+                0.45,
+                0.32
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.46,
+                0.3,
+                0.47,
+                0.32
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.48,
+                0.3,
+                0.49,
+                0.32
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.5,
+                0.3,
+                0.51,
+                0.32
+              ]
+            }
+          ],
+          "description": "A group of small screws or fasteners."
+        },
+        {
+          "name": "screwdrivers",
+          "bbox": [
+            0.55,
+            0.54,
+            0.77,
+            0.99
+          ],
+          "objects": [
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.55,
+                0.54,
+                0.77,
+                0.63
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.6,
+                0.77,
+                0.69
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.66,
+                0.77,
+                0.75
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.73,
+                0.77,
+                0.82
+              ]
+            }
+          ],
+          "description": "A set of four screwdrivers with different colored handles."
+        },
+        {
+          "name": "whiteboard_with_labels",
+          "bbox": [
+            0.49,
+            0.0,
+            1.0,
+            0.53
+          ],
+          "objects": [
+            {
+              "label": "whiteboard",
+              "bbox": [
+                0.49,
+                0.0,
+                1.0,
+                0.53
+              ]
+            },
+            {
+              "label": "text label",
+              "bbox": [
+                0.53,
+                0.07,
+                0.7,
+                0.13
+              ]
+            },
+            {
+              "label": "text label",
+              "bbox": [
+                0.71,
+                0.07,
+                0.87,
+                0.13
+              ]
+            },
+            {
+              "label": "text label",
+              "bbox": [
+                0.53,
+                0.24,
+                0.7,
+                0.3
+              ]
+            },
+            {
+              "label": "text label",
+              "bbox": [
+                0.71,
+                0.24,
+                0.87,
+                0.3
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.6,
+                0.33,
+                0.62,
+                0.35
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.72,
+                0.33,
+                0.74,
+                0.35
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.75,
+                0.33,
+                0.77,
+                0.35
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.78,
+                0.33,
+                0.8,
+                0.35
+              ]
+            },
+            {
+              "label": "screw",
+              "bbox": [
+                0.81,
+                0.33,
+                0.83,
+                0.35
+              ]
+            }
+          ],
+          "description": "A whiteboard with labeled sections for different screw types and examples of screws."
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start_sec": 690.0,
+      "end_sec": 720.0,
+      "start_frame": 17250,
+      "end_frame": 18000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg023_frame017250.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017375.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017500.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017625.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017750.jpg",
+        "output/v1_fixed/keyframes/seg023_frame017875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is demonstrating how to use a hex screwdriver. They pick up a blue hex screwdriver from the bottom-center, briefly hold it in the mid-left area, and then place it back in the bottom-center. This action is likely to show the viewer the correct tool for the next assembly step.\n\n**Tools**:\n[TOOL: blue hex screwdriver 1.5mm @ bottom-center]\n[TOOL: gold hex screwdriver 2.5mm @ bottom-center]\n[TOOL: black hex screwdriver 2.0mm @ bottom-center]\n[TOOL: silver hex screwdriver @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame (main body) @ mid-left]\n[PART: purple standoffs x6 @ mid-left]\n[PART: M3 x 6mm pan head screws x6 @ mid-left]\n[PART: carbon fiber frame pieces (arms, plates, braces) @ top-left]\n[PART: M3 x 16mm socket head screws x1 @ top-right]\n[PART: M3 x 22mm pan head screws x1 @ top-right]\n[PART: M3 x 16mm pan head screws x4 @ top-right]",
+      "zones": []
+    },
+    {
+      "index": 24,
+      "start_sec": 720.0,
+      "end_sec": 750.0,
+      "start_frame": 18000,
+      "end_frame": 18750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg024_frame018000.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018125.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018250.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018375.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018500.jpg",
+        "output/v1_fixed/keyframes/seg024_frame018625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching the carbon fiber arms to the main frame of the drone. They are carefully aligning the arms with the central frame piece in the mid-center area of the frame.\n\n**Tools**:\n[TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame arms x4 @ mid-left]\n[PART: carbon fiber main frame @ mid-center]\n[PART: M3 x 6mm pan head screws @ top-center]\n[PART: purple standoffs @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 25,
+      "start_sec": 750.0,
+      "end_sec": 780.0,
+      "start_frame": 18750,
+      "end_frame": 19500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg025_frame018750.jpg",
+        "output/v1_fixed/keyframes/seg025_frame018875.jpg",
+        "output/v1_fixed/keyframes/seg025_frame019000.jpg",
+        "output/v1_fixed/keyframes/seg025_frame019125.jpg",
+        "output/v1_fixed/keyframes/seg025_frame019250.jpg",
+        "output/v1_fixed/keyframes/seg025_frame019375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching the carbon fiber arms to the main frame of the drone. They are using a hex screwdriver to secure the arms with screws, working in the mid-left to mid-center area of the frame. The assembler also retrieves screws from the whiteboard in the top-right.\n\n**Tools**:\n[TOOL: hex screwdriver (blue handle) @ mid-left to mid-center]\n\n**Parts**:\n[PART: carbon fiber frame arms @ mid-left]\n[PART: carbon fiber main frame @ mid-center]\n[PART: M3 x 16mm pan head screws @ top-right]",
+      "zones": []
+    },
+    {
+      "index": 26,
+      "start_sec": 780.0,
+      "end_sec": 810.0,
+      "start_frame": 19500,
+      "end_frame": 20250,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg026_frame019500.jpg",
+        "output/v1_fixed/keyframes/seg026_frame019625.jpg",
+        "output/v1_fixed/keyframes/seg026_frame019750.jpg",
+        "output/v1_fixed/keyframes/seg026_frame019875.jpg",
+        "output/v1_fixed/keyframes/seg026_frame020000.jpg",
+        "output/v1_fixed/keyframes/seg026_frame020125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The user is assembling the main frame of the drone. They are seen attaching the arms to the main body of the frame, then securing them with screws. This action takes place in the mid-center area of the frame.\n\n**Tools**:\n[TOOL: hex screwdriver 2.0mm @ mid-center]\n\n**Parts**:\n[PART: carbon fiber frame arms @ mid-center]\n[PART: carbon fiber main frame body @ mid-center]\n[PART: M3 x 6mm pan head screws @ mid-center]",
+      "zones": [
+        {
+          "name": "screwdrivers",
+          "bbox": [
+            0.536,
+            0.542,
+            0.749,
+            0.802
+          ],
+          "objects": [
+            {
+              "item": "screwdriver",
+              "color": "gold"
+            },
+            {
+              "item": "screwdriver",
+              "color": "black"
+            },
+            {
+              "item": "screwdriver",
+              "color": "blue"
+            },
+            {
+              "item": "screwdriver",
+              "color": "silver"
+            }
+          ],
+          "description": "Four screwdrivers with different colored handles are neatly arranged on the right side of the table."
+        },
+        {
+          "name": "whiteboard_labels",
+          "bbox": [
+            0.511,
+            0.065,
+            0.932,
+            0.528
+          ],
+          "objects": [
+            {
+              "item": "whiteboard",
+              "content": "M3 x 16mm SOCKET HEAD"
+            },
+            {
+              "item": "whiteboard",
+              "content": "M3 x 22mm PAN HEAD"
+            },
+            {
+              "item": "whiteboard",
+              "content": "M3 x 6mm PAN HEAD"
+            },
+            {
+              "item": "whiteboard",
+              "content": "M3 x 16mm PAN HEAD"
+            }
+          ],
+          "description": "A whiteboard with four sections, each containing text labels for different screw types, is positioned in the upper right."
+        },
+        {
+          "name": "small_components",
+          "bbox": [
+            0.269,
+            0.312,
+            0.435,
+            0.375
+          ],
+          "objects": [
+            {
+              "item": "small pink components",
+              "count": 6
+            }
+          ],
+          "description": "A row of six small pink components is visible in the upper middle section."
+        },
+        {
+          "name": "pink_parts",
+          "bbox": [
+            0.188,
+            0.342,
+            0.275,
+            0.422
+          ],
+          "objects": [
+            {
+              "item": "pink parts",
+              "count": 2
+            }
+          ],
+          "description": "Two distinct pink parts are located below the row of small pink components."
+        },
+        {
+          "name": "metal_frame_parts",
+          "bbox": [
+            0.016,
+            0.102,
+            0.103,
+            0.307
+          ],
+          "objects": [
+            {
+              "item": "metal frame part",
+              "orientation": "vertical"
+            }
+          ],
+          "description": "A long, dark grey metal frame part with multiple cutouts is placed vertically on the far left."
+        },
+        {
+          "name": "assembly_in_progress",
+          "bbox": [
+            0.0,
+            0.433,
+            0.592,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "hands assembling metal parts"
+            },
+            {
+              "item": "metal frame parts"
+            }
+          ],
+          "description": "A pair of hands is actively engaged in assembling several grey metal frame parts in the lower left and center of the image."
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start_sec": 810.0,
+      "end_sec": 840.0,
+      "start_frame": 20250,
+      "end_frame": 21000,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg027_frame020250.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020375.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020500.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020625.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020750.jpg",
+        "output/v1_fixed/keyframes/seg027_frame020875.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The person is assembling the carbon fiber frame of a drone. They are attaching the arms to the main body of the frame using small screws in the mid-center area.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm @ bottom-center]\n\n**Parts**:\n[PART: carbon fiber frame arms @ mid-left]\n[PART: carbon fiber frame main body @ mid-left]\n[PART: M3 x 6mm pan head screws @ mid-left]",
+      "zones": [
+        {
+          "name": "drone_frame_assembly",
+          "bbox": [
+            0.0,
+            0.0,
+            0.49,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "drone frame component",
+              "bbox": [
+                0.01,
+                0.1,
+                0.09,
+                0.35
+              ]
+            },
+            {
+              "item": "drone frame",
+              "bbox": [
+                0.0,
+                0.33,
+                0.38,
+                0.77
+              ]
+            },
+            {
+              "item": "hand",
+              "bbox": [
+                0.0,
+                0.58,
+                0.5,
+                1.0
+              ]
+            },
+            {
+              "item": "small purple components",
+              "bbox": [
+                0.2,
+                0.35,
+                0.27,
+                0.42
+              ]
+            },
+            {
+              "item": "small purple components",
+              "bbox": [
+                0.27,
+                0.29,
+                0.39,
+                0.36
+              ]
+            },
+            {
+              "item": "small purple components",
+              "bbox": [
+                0.39,
+                0.29,
+                0.45,
+                0.34
+              ]
+            }
+          ],
+          "description": "This zone contains drone frame components, a hand holding a drone frame, and small purple components."
+        },
+        {
+          "name": "fastener_selection_area",
+          "bbox": [
+            0.49,
+            0.0,
+            1.0,
+            0.52
+          ],
+          "objects": [
+            {
+              "item": "whiteboard",
+              "bbox": [
+                0.5,
+                0.07,
+                0.93,
+                0.52
+              ]
+            },
+            {
+              "item": "text 'M3 x 16mm SOCKET HEAD'",
+              "bbox": [
+                0.53,
+                0.08,
+                0.7,
+                0.15
+              ]
+            },
+            {
+              "item": "text 'M3 x 22mm PAN HEAD'",
+              "bbox": [
+                0.65,
+                0.08,
+                0.8,
+                0.15
+              ]
+            },
+            {
+              "item": "text 'M3 x 6mm PAN HEAD'",
+              "bbox": [
+                0.53,
+                0.26,
+                0.7,
+                0.33
+              ]
+            },
+            {
+              "item": "text 'M3 x 16mm PAN HEAD'",
+              "bbox": [
+                0.65,
+                0.26,
+                0.8,
+                0.33
+              ]
+            }
+          ],
+          "description": "This zone features a whiteboard with labels for different types of fasteners, indicating a selection area."
+        },
+        {
+          "name": "tools_area",
+          "bbox": [
+            0.49,
+            0.52,
+            1.0,
+            1.0
+          ],
+          "objects": [
+            {
+              "item": "screwdriver",
+              "bbox": [
+                0.57,
+                0.54,
+                0.74,
+                0.6
+              ]
+            },
+            {
+              "item": "screwdriver",
+              "bbox": [
+                0.54,
+                0.59,
+                0.72,
+                0.67
+              ]
+            },
+            {
+              "item": "screwdriver",
+              "bbox": [
+                0.53,
+                0.66,
+                0.72,
+                0.74
+              ]
+            },
+            {
+              "item": "screwdriver",
+              "bbox": [
+                0.53,
+                0.73,
+                0.74,
+                0.81
+              ]
+            }
+          ],
+          "description": "This zone displays a collection of screwdrivers, likely for assembly tasks."
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start_sec": 840.0,
+      "end_sec": 870.0,
+      "start_frame": 21000,
+      "end_frame": 21750,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg028_frame021000.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021125.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021250.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021375.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021500.jpg",
+        "output/v1_fixed/keyframes/seg028_frame021625.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching the top carbon fiber plate to the main frame using purple standoffs and screws. They are carefully aligning the plate and then securing it with a hex screwdriver.\n\n**Tools**:\n  [TOOL: hex screwdriver (blue) @ mid-left]\n\n**Parts**:\n  [PART: carbon fiber frame (assembled) @ mid-left]\n  [PART: purple standoff x4 @ mid-left]\n  [PART: M3 x 6mm pan head screw x4 @ mid-left]",
+      "zones": []
+    },
+    {
+      "index": 29,
+      "start_sec": 870.0,
+      "end_sec": 900.0,
+      "start_frame": 21750,
+      "end_frame": 22500,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg029_frame021750.jpg",
+        "output/v1_fixed/keyframes/seg029_frame021875.jpg",
+        "output/v1_fixed/keyframes/seg029_frame022000.jpg",
+        "output/v1_fixed/keyframes/seg029_frame022125.jpg",
+        "output/v1_fixed/keyframes/seg029_frame022250.jpg",
+        "output/v1_fixed/keyframes/seg029_frame022375.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The user is assembling the drone frame. They are using a blue hex screwdriver to attach the bottom plate of the drone frame to the arms. The frame is being held in the mid-center area.\n\n**Tools**:\n[TOOL: hex screwdriver 1.5mm (blue) @ mid-center]\n\n**Parts**:\n[PART: carbon fiber drone frame (bottom plate and arms) @ mid-center]\n[PART: purple standoffs x4 @ mid-left]\n[PART: small screws x4 @ mid-left]",
+      "zones": [
+        {
+          "name": "drone_parts_and_tools",
+          "bbox": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "objects": [
+            "drone frame",
+            "screws",
+            "screwdriver",
+            "whiteboard with labels"
+          ],
+          "description": "This zone contains various drone parts, including a frame, screws, and screwdrivers, along with a whiteboard displaying screw specifications."
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start_sec": 900.0,
+      "end_sec": 929.84,
+      "start_frame": 22500,
+      "end_frame": 23246,
+      "title": "",
+      "keyframe_paths": [
+        "output/v1_fixed/keyframes/seg030_frame022500.jpg",
+        "output/v1_fixed/keyframes/seg030_frame022625.jpg",
+        "output/v1_fixed/keyframes/seg030_frame022750.jpg",
+        "output/v1_fixed/keyframes/seg030_frame022875.jpg",
+        "output/v1_fixed/keyframes/seg030_frame023000.jpg",
+        "output/v1_fixed/keyframes/seg030_frame023125.jpg"
+      ],
+      "transcript": "",
+      "vlm_description": "**Description**: The assembler is attaching the top carbon fiber plate to the main frame. They are aligning the plate with the frame and securing it in place. This action takes place in the mid-center area of the frame.\n\n**Tools**:\n[TOOL: none]\n\n**Parts**:\n[PART: carbon fiber frame (main) @ mid-center]\n[PART: carbon fiber top plate @ mid-center]",
+      "zones": [
+        {
+          "name": "drone_frame_components",
+          "bbox": [
+            0.0,
+            0.0,
+            0.49,
+            0.79
+          ],
+          "objects": [
+            {
+              "label": "drone frame part",
+              "bbox": [
+                0.0,
+                0.0,
+                0.12,
+                0.3
+              ]
+            },
+            {
+              "label": "drone frame part",
+              "bbox": [
+                0.17,
+                0.35,
+                0.27,
+                0.4
+              ]
+            },
+            {
+              "label": "drone frame part",
+              "bbox": [
+                0.28,
+                0.35,
+                0.38,
+                0.4
+              ]
+            },
+            {
+              "label": "drone frame part",
+              "bbox": [
+                0.22,
+                0.46,
+                0.49,
+                0.78
+              ]
+            },
+            {
+              "label": "small screws",
+              "bbox": [
+                0.26,
+                0.3,
+                0.3,
+                0.32
+              ]
+            },
+            {
+              "label": "small screws",
+              "bbox": [
+                0.3,
+                0.29,
+                0.33,
+                0.31
+              ]
+            }
+          ],
+          "description": "Various components of a drone frame, including the main frame, smaller parts, and screws."
+        },
+        {
+          "name": "screwdrivers",
+          "bbox": [
+            0.55,
+            0.52,
+            0.75,
+            0.89
+          ],
+          "objects": [
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.52,
+                0.73,
+                0.59
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.59,
+                0.73,
+                0.66
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.53,
+                0.65,
+                0.73,
+                0.74
+              ]
+            },
+            {
+              "label": "screwdriver",
+              "bbox": [
+                0.56,
+                0.76,
+                0.75,
+                0.89
+              ]
+            }
+          ],
+          "description": "A collection of four screwdrivers with different colored handles."
+        },
+        {
+          "name": "screw_specifications_board",
+          "bbox": [
+            0.49,
+            0.0,
+            1.0,
+            0.52
+          ],
+          "objects": [
+            {
+              "label": "whiteboard",
+              "bbox": [
+                0.49,
+                0.0,
+                1.0,
+                0.52
+              ]
+            },
+            {
+              "label": "text 'M3 x 16mm SOCKET HEAD'",
+              "bbox": [
+                0.53,
+                0.08,
+                0.71,
+                0.16
+              ]
+            },
+            {
+              "label": "text 'M3 x 22mm PAN HEAD'",
+              "bbox": [
+                0.65,
+                0.08,
+                0.83,
+                0.16
+              ]
+            },
+            {
+              "label": "text 'M3 x 6mm PAN HEAD'",
+              "bbox": [
+                0.53,
+                0.26,
+                0.71,
+                0.34
+              ]
+            },
+            {
+              "label": "text 'M3 x 16mm PAN HEAD'",
+              "bbox": [
+                0.65,
+                0.26,
+                0.83,
+                0.34
+              ]
+            }
+          ],
+          "description": "A whiteboard displaying specifications for various screws, organized into four sections."
+        }
+      ]
+    }
+  ]
+}
