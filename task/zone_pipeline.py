@@ -158,8 +158,19 @@ def label_segment_video(
     if "/" in model_name:
         model_name = model_name.split("/", 1)[1]
     model = genai_module.GenerativeModel(model_name)
-    response = model.generate_content([video_file, prompt])
-    result = response.text
+
+    result = ""
+    for attempt in range(3):
+        try:
+            response = model.generate_content([video_file, prompt])
+            result = response.text
+            break
+        except Exception as e:
+            if attempt < 2:
+                print(f"\n    [vid_label] Retry {attempt+1}/3: {e}")
+                time.sleep(5 * (attempt + 1))
+            else:
+                result = f"(video labeling failed after 3 attempts: {e})"
 
     # Cleanup
     try:

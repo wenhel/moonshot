@@ -4,6 +4,7 @@ Inherits from OpenRouterLabeler to reuse API call, retry, and JSON parsing.
 """
 
 import json
+import os
 import cv2
 import numpy as np
 from dataclasses import dataclass, field
@@ -153,6 +154,7 @@ class SmartPartitionTool(OpenRouterLabeler):
 
         try:
             import google.generativeai as genai
+            import time as _time
             with open(os.path.join(Path(__file__).resolve().parents[1], '.env')) as f:
                 for line in f:
                     if line.startswith('GEMINI_API_KEY'):
@@ -160,28 +162,36 @@ class SmartPartitionTool(OpenRouterLabeler):
                         genai.configure(api_key=key)
                         break
 
-            video_file = genai.upload_file(path=clip_path)
-            import time as _time
-            while video_file.state.name == 'PROCESSING':
-                _time.sleep(1)
-                video_file = genai.get_file(video_file.name)
+            for attempt in range(3):
+                try:
+                    video_file = genai.upload_file(path=clip_path)
+                    while video_file.state.name == 'PROCESSING':
+                        _time.sleep(1)
+                        video_file = genai.get_file(video_file.name)
 
-            if video_file.state.name != 'ACTIVE':
-                return []
+                    if video_file.state.name != 'ACTIVE':
+                        return []
 
-            prompt = (
-                "Watch this video clip of an assembly workspace.\n\n"
-                + self.prompt_template.format(context=context)
-            )
-            model = genai.GenerativeModel('gemini-2.5-flash')
-            response = model.generate_content([video_file, prompt])
-            zones = self._parse_zones(response.text)
+                    prompt = (
+                        "Watch this video clip of an assembly workspace.\n\n"
+                        + self.prompt_template.format(context=context)
+                    )
+                    model = genai.GenerativeModel('gemini-2.5-flash')
+                    response = model.generate_content([video_file, prompt])
+                    zones = self._parse_zones(response.text)
 
-            try:
-                genai.delete_file(video_file.name)
-            except Exception:
-                pass
-            return zones
+                    try:
+                        genai.delete_file(video_file.name)
+                    except Exception:
+                        pass
+                    return zones
+                except Exception as e:
+                    if attempt < 2:
+                        print(f"\n  [partition_video] Retry {attempt+1}/3 after error: {e}")
+                        _time.sleep(5 * (attempt + 1))
+                    else:
+                        print(f"\n  [partition_video] Failed after 3 attempts: {e}")
+                        return []
         finally:
             if os.path.exists(clip_path):
                 os.remove(clip_path)
