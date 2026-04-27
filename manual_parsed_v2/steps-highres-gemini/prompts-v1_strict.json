@@ -1,0 +1,25 @@
+{
+  "variant": "v1_strict",
+  "labeler_name": "image_enhance_v1_strict",
+  "description": "Sharpen lines and text contrast, preserve every part/screw/label exactly",
+  "source_yaml": "config/labeler/image_enhance_v1_strict.yaml",
+  "model": {
+    "id": "google/gemini-2.5-flash-image",
+    "provider": "openrouter",
+    "api_endpoint": "https://openrouter.ai/api/v1",
+    "supports_image_output": true,
+    "modalities_param": [
+      "image",
+      "text"
+    ]
+  },
+  "generation_config": {
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "allowed_inputs": [
+    "text",
+    "image"
+  ],
+  "prompt_template": "You are enhancing a single page-crop from a 3D printer assembly manual.\nOutput an enhanced version of the SAME image, only sharper and clearer.\n\nHARD CONSTRAINTS — content must be preserved exactly:\n  - Do NOT add, remove, duplicate, or relocate any part, screw, washer, arrow,\n    callout number, dimension label, or text.\n  - Count of every type of screw, plate, hole and component must remain identical.\n  - The step number circle (e.g. \"(1)\") and instructions text must remain intact\n    and at the same position.\n  - The X-LOCK logo must remain in its original position.\n  - Keep the dark navy / purple background and light line-art color scheme.\n  - Aspect ratio identical to the input.\n\nENHANCEMENTS allowed:\n  - Increase contrast between line art and background.\n  - Sharpen edges so technical lines and small text are crisp.\n  - Reduce raster blur on label text (e.g. \"M3x22mm SCREWS\", \"FC ISOLATOR\").\n  - Slightly increase resolution if helpful.\n\nOutput ONLY the enhanced image, no commentary.\n"
+}

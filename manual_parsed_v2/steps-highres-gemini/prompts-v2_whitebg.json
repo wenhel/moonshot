@@ -1,0 +1,25 @@
+{
+  "variant": "v2_whitebg",
+  "labeler_name": "image_enhance_v2_whitebg",
+  "description": "Re-render as clean black-line-on-white technical drawing; counts unchanged",
+  "source_yaml": "config/labeler/image_enhance_v2_whitebg.yaml",
+  "model": {
+    "id": "google/gemini-2.5-flash-image",
+    "provider": "openrouter",
+    "api_endpoint": "https://openrouter.ai/api/v1",
+    "supports_image_output": true,
+    "modalities_param": [
+      "image",
+      "text"
+    ]
+  },
+  "generation_config": {
+    "temperature": 0.2,
+    "max_tokens": 2048
+  },
+  "allowed_inputs": [
+    "text",
+    "image"
+  ],
+  "prompt_template": "You are converting a page-crop from a 3D printer assembly manual into a\ncleaner, more legible version. STYLE may change; CONTENT may not.\n\nSTYLE (allowed to change):\n  - Convert dark navy / purple background to WHITE.\n  - Convert light gray line art to crisp BLACK lines on white.\n  - Render text in clean sans-serif black; keep the wording identical.\n  - Keep the X-LOCK logo recognizable but it may be re-rendered cleaner.\n\nCONTENT (must NOT change — the manual must still be technically correct):\n  - The exact COUNT of every screw, washer, plate, and component must match\n    the input. If the input shows 6 long screws and 2 short screws, output\n    must show 6 long screws and 2 short screws — not 5, not 7.\n  - The exact wording of every callout and instruction text must match\n    (e.g. \"M3x22mm SCREWS\", \"M3x6mm SCREWS\", \"FC ISOLATOR\", numbered list).\n  - Geometry of plates, holes, mounting points stays the same.\n  - The step number circle (e.g. \"(1)\") stays at the same position.\n\nAspect ratio of the output must match the input.\nOutput ONLY the enhanced image, no commentary.\n"
+}

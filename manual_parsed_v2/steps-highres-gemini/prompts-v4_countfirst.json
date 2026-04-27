@@ -1,0 +1,25 @@
+{
+  "variant": "v4_countfirst",
+  "labeler_name": "image_enhance_v4_countfirst",
+  "description": "Audit components in text, then redraw enforcing the audit counts",
+  "source_yaml": "config/labeler/image_enhance_v4_countfirst.yaml",
+  "model": {
+    "id": "google/gemini-2.5-flash-image",
+    "provider": "openrouter",
+    "api_endpoint": "https://openrouter.ai/api/v1",
+    "supports_image_output": true,
+    "modalities_param": [
+      "image",
+      "text"
+    ]
+  },
+  "generation_config": {
+    "temperature": 0.1,
+    "max_tokens": 2048
+  },
+  "allowed_inputs": [
+    "text",
+    "image"
+  ],
+  "prompt_template": "You are producing a clearer version of a 3D printer assembly manual page-crop.\n\nDo this in TWO phases internally before producing the image:\n\nPHASE 1 (audit, do not output as text):\n  - Count every distinct component visible: each screw (by length / type),\n    each washer, each plate, each printed-circuit isolator, each arrow.\n  - Note the step number, every label string, every instruction line.\n  - Note the X-LOCK wordmark position.\n\nPHASE 2 (redraw enforcing the audit):\n  - Produce a clearer version of the SAME diagram. Style may change\n    (sharper lines, better contrast, even white background if helpful).\n  - The redrawn image MUST contain the exact same count of every screw\n    and component you noted in Phase 1. Adding or dropping even ONE screw\n    is a failure.\n  - Every label string and instruction line must appear with the same\n    wording, in the same approximate position.\n  - The step number circle stays in the same corner.\n  - Aspect ratio matches the input.\n\nOutput ONLY the redrawn image, no commentary, no audit text.\n"
+}
