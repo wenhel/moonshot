@@ -53,11 +53,58 @@ real photo），是最难的任务**。
 **Status legend**: ✅ 当前最佳 · ⚠ 部分可用（有已知限制）
 
 > **重叠说明**: `MR` 和 `SBIR-B` 都属 `[T3]` —— 解决同一问题，两个并行
-> approach 待选；前者 bbox 来自 SAM2 AMG（class-agnostic 像素精确，
-> 142 proposals），后者 bbox 来自 Qwen2.5-VL（语义过滤干净，24
-> proposals）。
+> approach 待选。详细对比见下方 [T3：MR vs SBIR-B 流程与模型对比](#t3mr-vs-sbir-b)。
 
 `YM` (step-matcher 优化) 任务不在本目录，结果在 `code/output0427/` 下未推送。
+
+---
+
+## <a id="t3mr-vs-sbir-b"></a>[T3] MR vs SBIR-B —— 流程与模型对比
+
+两条路径目标完全相同：parts_library (T1 输出) 当 query，video keyframe 当
+gallery，做跨域 part retrieval。区别全在「**bbox 候选生成**」+「**reference
+预处理**」，retrieval encoder (DINOv2) 共用。
+
+### 流程对比
+
+|  | **MR** ([path_b_sam2_amg_dinov2/](https://github.com/wenhel/moonshot/tree/master/output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2)) | **SBIR-B** ([sbir/task_b/v2/](https://github.com/wenhel/moonshot/tree/master/output0428/sbir/task_b/v2)) |
+|---|---|---|
+| 输入视频 | 同 (L2_000_t0.0-13.0.mp4) | 同 |
+| Keyframe 时间 | 同 (t = 0.5, 4, 7, 10, 12.5 s) | 同 |
+| Reference 来源 | 同 (parts_library/F, 21 parts) | 同 |
+| **Reference 预处理** | **无**：raw cell crop（含 caption + 白底）直接编码 | **`apply_mask_white_bg`**：SAM3 mask 把非物体像素抹白后再编码 |
+| **bbox 候选模型** | **SAM 2.1 hiera-large AMG**<br>本地 898 MB 权重<br>class-agnostic, points_per_side=32 | **Qwen2.5-VL 72B Instruct**<br>OpenRouter API 调用<br>VLM grounding，每帧返回 `[{bbox_2d, description, is_part_candidate}]` |
+| **bbox 几何过滤** | `pred_iou_thresh=0.7`, `stability_score_thresh=0.85`, `min_mask_region_area=64` | 仅校验 valid bbox (x2>x1, y2>y1) |
+| **bbox 语义过滤** | **无** | **`is_part_candidate=true`**（VLM 标记，丢掉手/工具/桌面）|
+| **5 帧候选总数** | **142** mask proposals (含背景/手/工具) | **24** candidates (VLM 已过滤) |
+| Encoder | DINOv2 vits14, 384-dim L2-normalized | 同 |
+| **检索方向** | per-**part** top-3 (gallery-side：库每个 part 在视频里 top-3) | per-**candidate** top-1 (query-side：每个候选物体 top-1 part) |
+| **confidence 阈值** | sim ≥ 0.45（视觉审查用）| sim ≥ 0.35（跨域，比 0.5 低）|
+| top-1 sim 平均 | 0.41 | **0.435** (mask-bg 加成) |
+| top-1 sim 最大 | ~0.50 | **0.65** |
+| confident 数 | sim≥0.45 视为可信（具体看 [retrieval.json](https://github.com/wenhel/moonshot/blob/master/output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/retrieval.json)）| **20/24** sim≥0.35 |
+| API 成本 | $0（全本地）| ~$0.025（5 次 Qwen 调用，cache 后 0）|
+| 失败模式 | **Sticky proposal**：~7 个 part collapse 到同一个 mid-frame mask | **SPLIT PLATE bias**：mask-bg 后孔阵特征过于强势，「金属带孔」候选大多 retrieve 到 SPLIT PLATE |
+| 详细 README | [path_b/README.md](https://github.com/wenhel/moonshot/blob/master/output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/README.md) | [task_b/README.md](https://github.com/wenhel/moonshot/blob/master/output0428/sbir/task_b/README.md) |
+
+### 何时选哪个
+
+| 场景 | 推荐 |
+|---|---|
+| 「这个 part 在视频里有没有出现，大致在哪」（gallery-driven 召回）| **MR**：per-part top-K，召回率高 |
+| 「这帧上的这个物体是哪个 part」（query-driven 命名）| **SBIR-B**：per-candidate top-1，VLM 已过滤非零件 |
+| 需要像素级精确 bbox（mask 边界紧贴物体）| **MR**：SAM 2 AMG 给 mask 边界 |
+| 需要语义干净的候选（无手/工具/桌面）| **SBIR-B**：`is_part_candidate` 已过滤 |
+| 离线 / 无 API 预算 | **MR**：全本地推理 |
+| 想最大化 cosine 数值（mask-bg 套件加成）| **SBIR-B**：mean 0.435, max 0.65 |
+
+### 共同根本限制
+
+两个 approach 都受 [CLAUDE.md `Domain facts`] 限制：
+- **Fact 1**：drone-specific parts 不在 vision foundation model vocabulary —— SBIR-B 用 VLM candidate-level 描述绕过；MR 用 class-agnostic SAM 2 AMG 绕过
+- **Fact 2**：per-screw identity (M3x6 vs M3x16 vs M3x22) 视觉无法区分。两 approach 都不能解决——任何「M3 螺丝」检索结果应视为「螺丝类」级别
+
+完整决策记录见 `code/doc/decision.md` 2026-04-29 07:13 entry。
 
 ---
 
