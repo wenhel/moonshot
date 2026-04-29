@@ -5,18 +5,57 @@
 
 ---
 
+## 三个核心任务（T1 / T2 / T3）
+
+`decision.md` 列出的所有 entry 实质上属于 3 大类。每个 entry 在 Master
+summary 表里都打了 `[T1]` / `[T2]` / `[T3]` 标签。
+
+### [T1] 从 manual 拆 part 建 parts library
+从 manual 的 parts page 一次性抠出每个零件，建立**下游 T2 + T3 共用的
+gallery**。每个 entry 包含：cell crop、object mask、bbox、display_name。
+
+输入：`parts_page2.png`（一张 manual 页面）
+输出：21 个零件 entry
+
+### [T2] 用 manual part 在 **manual step page** 上检索定位
+给定 6 张 step PNG（manual 上的步骤示意图），在每张上找出可见零件的
+bbox + 它对应 T1 library 哪个 entry。
+
+输入：6 张 step PNG（同一 manual 内的其他页面）
+输出：每个 step 上每个零件的 bbox + label
+
+### [T3] 用 manual part 在 **真实视频 frame** 上检索定位
+给定真实组装视频抽出的 keyframe，在每帧上找出可见零件的 bbox + 它
+对应 T1 library 哪个 entry。**这是跨域 retrieval（manual line-art ↔
+real photo），是最难的任务**。
+
+输入：5 个视频 keyframe（来自 L2_000_t0.0-13.0.mp4）
+输出：每帧上每个零件的 bbox + label
+
+> T3 在 `decision.md` 里出现两条 entry（`MR` 和 `SBIR-B`）—— **同一任务
+> 的两个并行 approach**，bbox 候选来源不同（VLM grounding vs SAM2
+> AMG），retrieval 都用 DINOv2。
+
+---
+
 ## 📋 Master summary
 
-来自 `code/doc/decision.md` 的 master summary 表，对应到本目录的 web 链接。
+来自 `code/doc/decision.md` 的 master summary 表，每行加 [T\*] 标签 +
+对应到本目录的 web 链接。
 
 | Task ID | 任务描述 | 当前结果 | 结果目录 |
 |---|---|---|---|
-| **MR** | 手册图 ↔ 视频帧 跨域 part 检索 | ✅ Best = path (b) SAM 2 AMG + DINOv2，不完美但视觉确认最 usable | [path_b_sam2_amg_dinov2/](https://github.com/wenhel/moonshot/tree/master/output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2) |
-| **SBIR-1** | parts library 建库（21 个 drone 零件 reference） | ✅ Method F，21/21 part 全部定位 | [sbir/seg_ablation/F/](https://github.com/wenhel/moonshot/tree/master/output0428/sbir/seg_ablation/F) |
-| **SBIR-A** | 手册 step 页面 part 识别（6 张 step PNG） | ⚠ v2，50/53 = 94% 命中库 — **不理想，需视觉审查** | [sbir/task_a/v2/](https://github.com/wenhel/moonshot/tree/master/output0428/sbir/task_a/v2) |
-| **SBIR-B** | 视频帧 part 识别（5 个 keyframe） | ✅ v2 + mask-bg + sim≥0.35，20/24 confident | [sbir/task_b/v2/](https://github.com/wenhel/moonshot/tree/master/output0428/sbir/task_b/v2) |
+| **`[T3]`** **MR** | 手册图 ↔ 视频帧 跨域 part 检索（approach: SAM2 AMG + DINOv2） | ✅ Best = path (b) SAM 2 AMG + DINOv2，不完美但视觉确认最 usable | [path_b_sam2_amg_dinov2/](https://github.com/wenhel/moonshot/tree/master/output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2) |
+| **`[T1]`** **SBIR-1** | parts library 建库（21 个 drone 零件 reference） | ✅ Method F，21/21 part 全部定位 | [sbir/seg_ablation/F/](https://github.com/wenhel/moonshot/tree/master/output0428/sbir/seg_ablation/F) |
+| **`[T2]`** **SBIR-A** | 手册 step 页面 part 识别（6 张 step PNG） | ⚠ v2，50/53 = 94% 命中库 — **不理想，需视觉审查** | [sbir/task_a/v2/](https://github.com/wenhel/moonshot/tree/master/output0428/sbir/task_a/v2) |
+| **`[T3]`** **SBIR-B** | 视频帧 part 识别（5 个 keyframe）（approach: VLM bbox + DINOv2） | ✅ v2 + mask-bg + sim≥0.35，20/24 confident | [sbir/task_b/v2/](https://github.com/wenhel/moonshot/tree/master/output0428/sbir/task_b/v2) |
 
 **Status legend**: ✅ 当前最佳 · ⚠ 部分可用（有已知限制）
+
+> **重叠说明**: `MR` 和 `SBIR-B` 都属 `[T3]` —— 解决同一问题，两个并行
+> approach 待选；前者 bbox 来自 SAM2 AMG（class-agnostic 像素精确，
+> 142 proposals），后者 bbox 来自 Qwen2.5-VL（语义过滤干净，24
+> proposals）。
 
 `YM` (step-matcher 优化) 任务不在本目录，结果在 `code/output0427/` 下未推送。
 
