@@ -1,0 +1,1324 @@
+{
+  "_meta": {
+    "step": "step_05.png",
+    "n_raw": 41,
+    "n_kept": 41,
+    "sim_threshold": 0.7,
+    "method": "v1_sam3_siglip",
+    "library_dir": "output0428/sbir/seg_ablation/F"
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        151,
+        482,
+        330,
+        524
+      ],
+      "sam3_score": 0.46484375,
+      "sam3_prompt": "TOP PLATE",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6424210667610168,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6424210667610168
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6364338994026184
+        },
+        {
+          "part_id": 4,
+          "label": "BATTERY PAD",
+          "sim": 0.6225820779800415
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_000.png"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        397,
+        193,
+        417,
+        219
+      ],
+      "sam3_score": 0.25390625,
+      "sam3_prompt": "SPACER PLATE",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6721917390823364,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6721917390823364
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6630434989929199
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6623449325561523
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_001.png"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        151,
+        482,
+        330,
+        524
+      ],
+      "sam3_score": 0.376953125,
+      "sam3_prompt": "SPACER PLATE",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6424210667610168,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6424210667610168
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6364338994026184
+        },
+        {
+          "part_id": 4,
+          "label": "BATTERY PAD",
+          "sim": 0.6225820779800415
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_002.png"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        48,
+        649,
+        142,
+        668
+      ],
+      "sam3_score": 0.2470703125,
+      "sam3_prompt": "SPACER PLATE",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6893519759178162,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6893519759178162
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6858468651771545
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6575385332107544
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_003.png"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        151,
+        554,
+        379,
+        598
+      ],
+      "sam3_score": 0.263671875,
+      "sam3_prompt": "SPACER PLATE",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6493247151374817,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6493247151374817
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6339315176010132
+        },
+        {
+          "part_id": 4,
+          "label": "BATTERY PAD",
+          "sim": 0.6262214779853821
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_004.png"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        -1,
+        208,
+        88,
+        254
+      ],
+      "sam3_score": 0.4765625,
+      "sam3_prompt": "X-LOCK ARM WEDGE",
+      "top1_part_id": 9,
+      "top1_label": "BATTERY STRAP",
+      "top1_sim": 0.7198280692100525,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.7198280692100525
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.7077943682670593
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.707789421081543
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_005.png"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        48,
+        483,
+        420,
+        715
+      ],
+      "sam3_score": 0.28515625,
+      "sam3_prompt": "X-LOCK ARM WEDGE",
+      "top1_part_id": 3,
+      "top1_label": "unknown",
+      "top1_sim": 0.6832059621810913,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6832059621810913
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.679340124130249
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.6712254285812378
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_006.png"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        397,
+        193,
+        417,
+        219
+      ],
+      "sam3_score": 0.3125,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6721917390823364,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6721917390823364
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6630434989929199
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6623449325561523
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_007.png"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        403,
+        626,
+        417,
+        661
+      ],
+      "sam3_score": 0.380859375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7187893390655518,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7187893390655518
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.7153047323226929
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7144812941551208
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_008.png"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        31,
+        617,
+        47,
+        657
+      ],
+      "sam3_score": 0.443359375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7703146934509277,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7703146934509277
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7677915096282959
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7558802366256714
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_009.png"
+    },
+    {
+      "id": 10,
+      "bbox_xyxy": [
+        -1,
+        208,
+        88,
+        255
+      ],
+      "sam3_score": 0.251953125,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "BATTERY STRAP",
+      "top1_sim": 0.7224443554878235,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.7224443554878235
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.7081544399261475
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.7043284177780151
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_010.png"
+    },
+    {
+      "id": 11,
+      "bbox_xyxy": [
+        107,
+        608,
+        123,
+        645
+      ],
+      "sam3_score": 0.37109375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7546477317810059,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7546477317810059
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7517013549804688
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7425611019134521
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_011.png"
+    },
+    {
+      "id": 12,
+      "bbox_xyxy": [
+        71,
+        609,
+        87,
+        645
+      ],
+      "sam3_score": 0.380859375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7397555112838745,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7397555112838745
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7386674880981445
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7362703680992126
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_012.png"
+    },
+    {
+      "id": 13,
+      "bbox_xyxy": [
+        402,
+        195,
+        415,
+        206
+      ],
+      "sam3_score": 0.2021484375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 8,
+      "top1_label": "unknown",
+      "top1_sim": 0.6611641049385071,
+      "top3": [
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6611641049385071
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6450690627098083
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6420422792434692
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_013.png"
+    },
+    {
+      "id": 14,
+      "bbox_xyxy": [
+        48,
+        482,
+        425,
+        715
+      ],
+      "sam3_score": 0.375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 3,
+      "top1_label": "unknown",
+      "top1_sim": 0.681429386138916,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.681429386138916
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6734142303466797
+        },
+        {
+          "part_id": 11,
+          "label": "M2x4MM SCREWS",
+          "sim": 0.6658444404602051
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_014.png"
+    },
+    {
+      "id": 15,
+      "bbox_xyxy": [
+        242,
+        252,
+        393,
+        271
+      ],
+      "sam3_score": 0.2177734375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "20MM STANDOFF",
+      "top1_sim": 0.734512209892273,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.734512209892273
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6987327337265015
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6977983713150024
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_015.png"
+    },
+    {
+      "id": 16,
+      "bbox_xyxy": [
+        32,
+        607,
+        125,
+        655
+      ],
+      "sam3_score": 0.2490234375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.81231689453125,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.81231689453125
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7912737131118774
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7766814231872559
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_016.png"
+    },
+    {
+      "id": 17,
+      "bbox_xyxy": [
+        177,
+        544,
+        190,
+        631
+      ],
+      "sam3_score": 0.2392578125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.62657630443573,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.62657630443573
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.5943072438240051
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.5915068984031677
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_017.png"
+    },
+    {
+      "id": 18,
+      "bbox_xyxy": [
+        396,
+        193,
+        417,
+        219
+      ],
+      "sam3_score": 0.3203125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6732903122901917,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6732903122901917
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6679598093032837
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6515344381332397
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_018.png"
+    },
+    {
+      "id": 19,
+      "bbox_xyxy": [
+        107,
+        608,
+        123,
+        645
+      ],
+      "sam3_score": 0.53125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7546477317810059,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7546477317810059
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7517013549804688
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7425611019134521
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_019.png"
+    },
+    {
+      "id": 20,
+      "bbox_xyxy": [
+        403,
+        626,
+        417,
+        661
+      ],
+      "sam3_score": 0.546875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7187893390655518,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7187893390655518
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.7153047323226929
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7144812941551208
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_020.png"
+    },
+    {
+      "id": 21,
+      "bbox_xyxy": [
+        31,
+        617,
+        47,
+        657
+      ],
+      "sam3_score": 0.625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7703146934509277,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7703146934509277
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7677915096282959
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7558802366256714
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_021.png"
+    },
+    {
+      "id": 22,
+      "bbox_xyxy": [
+        -1,
+        208,
+        88,
+        254
+      ],
+      "sam3_score": 0.2431640625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "BATTERY STRAP",
+      "top1_sim": 0.7198280692100525,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.7198280692100525
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.7077943682670593
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.707789421081543
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_022.png"
+    },
+    {
+      "id": 23,
+      "bbox_xyxy": [
+        71,
+        609,
+        87,
+        645
+      ],
+      "sam3_score": 0.515625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7397555112838745,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7397555112838745
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7386674880981445
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7362703680992126
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_023.png"
+    },
+    {
+      "id": 24,
+      "bbox_xyxy": [
+        150,
+        536,
+        163,
+        636
+      ],
+      "sam3_score": 0.248046875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6586442589759827,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6586442589759827
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6359384059906006
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6299272775650024
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_024.png"
+    },
+    {
+      "id": 25,
+      "bbox_xyxy": [
+        309,
+        525,
+        321,
+        622
+      ],
+      "sam3_score": 0.201171875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.655003547668457,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.655003547668457
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6257282495498657
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.6234254837036133
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_025.png"
+    },
+    {
+      "id": 26,
+      "bbox_xyxy": [
+        402,
+        195,
+        415,
+        206
+      ],
+      "sam3_score": 0.2060546875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 8,
+      "top1_label": "unknown",
+      "top1_sim": 0.6611641049385071,
+      "top3": [
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6611641049385071
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6450690627098083
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6420422792434692
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_026.png"
+    },
+    {
+      "id": 27,
+      "bbox_xyxy": [
+        209,
+        526,
+        221,
+        625
+      ],
+      "sam3_score": 0.216796875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6625989079475403,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6625989079475403
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6361513733863831
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6310527920722961
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_027.png"
+    },
+    {
+      "id": 28,
+      "bbox_xyxy": [
+        48,
+        497,
+        422,
+        715
+      ],
+      "sam3_score": 0.291015625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.705782413482666,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.705782413482666
+        },
+        {
+          "part_id": 11,
+          "label": "M2x4MM SCREWS",
+          "sim": 0.7026851177215576
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.6964481472969055
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_028.png"
+    },
+    {
+      "id": 29,
+      "bbox_xyxy": [
+        238,
+        533,
+        250,
+        634
+      ],
+      "sam3_score": 0.234375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6674139499664307,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6674139499664307
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6421476006507874
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6357518434524536
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_029.png"
+    },
+    {
+      "id": 30,
+      "bbox_xyxy": [
+        242,
+        252,
+        393,
+        271
+      ],
+      "sam3_score": 0.251953125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "20MM STANDOFF",
+      "top1_sim": 0.734512209892273,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.734512209892273
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.698732852935791
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6977983713150024
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_030.png"
+    },
+    {
+      "id": 31,
+      "bbox_xyxy": [
+        32,
+        608,
+        125,
+        655
+      ],
+      "sam3_score": 0.283203125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.8079280853271484,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.8079280853271484
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7887522578239441
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7710782885551453
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_031.png"
+    },
+    {
+      "id": 32,
+      "bbox_xyxy": [
+        107,
+        607,
+        123,
+        645
+      ],
+      "sam3_score": 0.251953125,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7454454302787781,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7454454302787781
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.745097279548645
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7290170192718506
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_032.png"
+    },
+    {
+      "id": 33,
+      "bbox_xyxy": [
+        403,
+        625,
+        417,
+        661
+      ],
+      "sam3_score": 0.259765625,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7517715692520142,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7517715692520142
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7509011030197144
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.7334674000740051
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_033.png"
+    },
+    {
+      "id": 34,
+      "bbox_xyxy": [
+        31,
+        617,
+        47,
+        657
+      ],
+      "sam3_score": 0.296875,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7703146934509277,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7703146934509277
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7677915096282959
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7558802366256714
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_034.png"
+    },
+    {
+      "id": 35,
+      "bbox_xyxy": [
+        71,
+        609,
+        87,
+        645
+      ],
+      "sam3_score": 0.236328125,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7397555112838745,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7397555112838745
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7386674880981445
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7362703680992126
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_035.png"
+    },
+    {
+      "id": 36,
+      "bbox_xyxy": [
+        107,
+        607,
+        123,
+        645
+      ],
+      "sam3_score": 0.2041015625,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7454454302787781,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7454454302787781
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.745097279548645
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7290170192718506
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_036.png"
+    },
+    {
+      "id": 37,
+      "bbox_xyxy": [
+        403,
+        626,
+        417,
+        661
+      ],
+      "sam3_score": 0.2294921875,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7187893390655518,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7187893390655518
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.7153047323226929
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7144812941551208
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_037.png"
+    },
+    {
+      "id": 38,
+      "bbox_xyxy": [
+        31,
+        617,
+        47,
+        656
+      ],
+      "sam3_score": 0.27734375,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7684831619262695,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7684831619262695
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7649116516113281
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7522227764129639
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_038.png"
+    },
+    {
+      "id": 39,
+      "bbox_xyxy": [
+        71,
+        609,
+        87,
+        645
+      ],
+      "sam3_score": 0.2041015625,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7397555112838745,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7397555112838745
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7386674880981445
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7362703084945679
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_039.png"
+    },
+    {
+      "id": 40,
+      "bbox_xyxy": [
+        31,
+        607,
+        124,
+        655
+      ],
+      "sam3_score": 0.23046875,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.8122518062591553,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.8122518062591553
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7974611520767212
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7849864959716797
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_05/crops/det_040.png"
+    }
+  ]
+}

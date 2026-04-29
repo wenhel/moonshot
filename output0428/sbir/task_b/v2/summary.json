@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "method": "v2_qwen_dinov2",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "video": "output0427/hierarchical-video-splitter/pen_0.5/seg_000/L2_000_t0.0-13.0.mp4",
+    "sim_threshold": 0.35,
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "timestamps_sec": [
+      0.5,
+      4.0,
+      7.0,
+      10.0,
+      12.5
+    ]
+  },
+  "per_frame": [
+    {
+      "frame": "frame_t00.5s.png",
+      "t_sec": 0.5,
+      "n_returned": 4,
+      "n_candidates": 4,
+      "n_kept": 4,
+      "n_confident": 3
+    },
+    {
+      "frame": "frame_t04.0s.png",
+      "t_sec": 4.0,
+      "n_returned": 6,
+      "n_candidates": 6,
+      "n_kept": 6,
+      "n_confident": 5
+    },
+    {
+      "frame": "frame_t07.0s.png",
+      "t_sec": 7.0,
+      "n_returned": 4,
+      "n_candidates": 4,
+      "n_kept": 4,
+      "n_confident": 3
+    },
+    {
+      "frame": "frame_t10.0s.png",
+      "t_sec": 10.0,
+      "n_returned": 5,
+      "n_candidates": 5,
+      "n_kept": 5,
+      "n_confident": 4
+    },
+    {
+      "frame": "frame_t12.5s.png",
+      "t_sec": 12.5,
+      "n_returned": 5,
+      "n_candidates": 5,
+      "n_kept": 5,
+      "n_confident": 5
+    }
+  ]
+}

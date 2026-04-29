@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "method": "siglip_text_image_rerank",
+    "text_threshold": 0.1,
+    "library_dir": "output0428/sbir/seg_ablation/F"
+  },
+  "per_frame": [
+    {
+      "frame": "frame_t00.5s",
+      "n_dinov2_confident": 3,
+      "n_agreed": 0,
+      "n_disagreed": 3
+    },
+    {
+      "frame": "frame_t04.0s",
+      "n_dinov2_confident": 5,
+      "n_agreed": 0,
+      "n_disagreed": 5
+    },
+    {
+      "frame": "frame_t07.0s",
+      "n_dinov2_confident": 3,
+      "n_agreed": 0,
+      "n_disagreed": 3
+    },
+    {
+      "frame": "frame_t10.0s",
+      "n_dinov2_confident": 4,
+      "n_agreed": 0,
+      "n_disagreed": 4
+    },
+    {
+      "frame": "frame_t12.5s",
+      "n_dinov2_confident": 5,
+      "n_agreed": 0,
+      "n_disagreed": 5
+    }
+  ]
+}

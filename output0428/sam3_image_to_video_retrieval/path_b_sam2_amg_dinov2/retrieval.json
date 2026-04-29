@@ -1,0 +1,3813 @@
+{
+  "_meta": {
+    "method": "path_b_sam2_amg_dinov2",
+    "video": "output0427/hierarchical-video-splitter/pen_0.5/seg_000/L2_000_t0.0-13.0.mp4",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "timestamps_sec": [
+      0.5,
+      4.0,
+      7.0,
+      10.0,
+      12.5
+    ],
+    "n_frames": 5,
+    "n_proposals": 142,
+    "n_parts": 21,
+    "topk": 3,
+    "amg_points_per_side": 32
+  },
+  "per_part_topk": [
+    {
+      "part_id": 0,
+      "label": "TOP PLATE",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_000.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.4993247985839844,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p005.png",
+          "predicted_iou": 0.9503579139709473,
+          "area": 924
+        },
+        {
+          "rank": 2,
+          "sim": 0.4903254508972168,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p004.png",
+          "predicted_iou": 0.9622417688369751,
+          "area": 945
+        },
+        {
+          "rank": 3,
+          "sim": 0.4888601303100586,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p005.png",
+          "predicted_iou": 0.9517682194709778,
+          "area": 925
+        }
+      ]
+    },
+    {
+      "part_id": 1,
+      "label": "SPLIT PLATE FRONT",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_001.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.5403907895088196,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p005.png",
+          "predicted_iou": 0.9503579139709473,
+          "area": 924
+        },
+        {
+          "rank": 2,
+          "sim": 0.5348654985427856,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p004.png",
+          "predicted_iou": 0.9622417688369751,
+          "area": 945
+        },
+        {
+          "rank": 3,
+          "sim": 0.5329252481460571,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p005.png",
+          "predicted_iou": 0.9517682194709778,
+          "area": 925
+        }
+      ]
+    },
+    {
+      "part_id": 2,
+      "label": "SPLIT PLATE REAR",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_002.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.551658570766449,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p005.png",
+          "predicted_iou": 0.96090167760849,
+          "area": 1000
+        },
+        {
+          "rank": 2,
+          "sim": 0.5425728559494019,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p004.png",
+          "predicted_iou": 0.9619756937026978,
+          "area": 1005
+        },
+        {
+          "rank": 3,
+          "sim": 0.537719190120697,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p004.png",
+          "predicted_iou": 0.9619287252426147,
+          "area": 1008
+        }
+      ]
+    },
+    {
+      "part_id": 3,
+      "label": "5 INCH ARM",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_003.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6312875747680664,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            153,
+            72,
+            173,
+            129
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p010.png",
+          "predicted_iou": 0.8965827822685242,
+          "area": 414
+        },
+        {
+          "rank": 2,
+          "sim": 0.6177777051925659,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            153,
+            72,
+            172,
+            129
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p011.png",
+          "predicted_iou": 0.8954680562019348,
+          "area": 413
+        },
+        {
+          "rank": 3,
+          "sim": 0.6151959896087646,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            153,
+            72,
+            172,
+            129
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p012.png",
+          "predicted_iou": 0.8965092897415161,
+          "area": 410
+        }
+      ]
+    },
+    {
+      "part_id": 4,
+      "label": "BATTERY PAD",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_004.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.41731202602386475,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p006.png",
+          "predicted_iou": 0.950326144695282,
+          "area": 923
+        },
+        {
+          "rank": 2,
+          "sim": 0.41540026664733887,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p004.png",
+          "predicted_iou": 0.9622417688369751,
+          "area": 945
+        },
+        {
+          "rank": 3,
+          "sim": 0.41491079330444336,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p005.png",
+          "predicted_iou": 0.9503579139709473,
+          "area": 924
+        }
+      ]
+    },
+    {
+      "part_id": 5,
+      "label": "FPV CAMERA MOUNT LEFT",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_005.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.47740867733955383,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p009.png",
+          "predicted_iou": 0.908998966217041,
+          "area": 223
+        },
+        {
+          "rank": 2,
+          "sim": 0.47610896825790405,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+          "predicted_iou": 0.9107736945152283,
+          "area": 220
+        },
+        {
+          "rank": 3,
+          "sim": 0.4700664281845093,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p010.png",
+          "predicted_iou": 0.91678386926651,
+          "area": 216
+        }
+      ]
+    },
+    {
+      "part_id": 6,
+      "label": "FPV CAMERA MOUNT RIGHT",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_006.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.45992374420166016,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p009.png",
+          "predicted_iou": 0.908998966217041,
+          "area": 223
+        },
+        {
+          "rank": 2,
+          "sim": 0.4587637186050415,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+          "predicted_iou": 0.9107736945152283,
+          "area": 220
+        },
+        {
+          "rank": 3,
+          "sim": 0.45315787196159363,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            76,
+            107,
+            100,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p009.png",
+          "predicted_iou": 0.9133352637290955,
+          "area": 216
+        }
+      ]
+    },
+    {
+      "part_id": 7,
+      "label": "SPACER PLATE",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_007.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.3641519546508789,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p009.png",
+          "predicted_iou": 0.908998966217041,
+          "area": 223
+        },
+        {
+          "rank": 2,
+          "sim": 0.36334866285324097,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p010.png",
+          "predicted_iou": 0.91678386926651,
+          "area": 216
+        },
+        {
+          "rank": 3,
+          "sim": 0.3620021939277649,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+          "predicted_iou": 0.9107736945152283,
+          "area": 220
+        }
+      ]
+    },
+    {
+      "part_id": 8,
+      "label": "X-LOCK ARM WEDGE",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_008.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.38911494612693787,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p010.png",
+          "predicted_iou": 0.91678386926651,
+          "area": 216
+        },
+        {
+          "rank": 2,
+          "sim": 0.38187384605407715,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+          "predicted_iou": 0.9107736945152283,
+          "area": 220
+        },
+        {
+          "rank": 3,
+          "sim": 0.3807104825973511,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p009.png",
+          "predicted_iou": 0.908998966217041,
+          "area": 223
+        }
+      ]
+    },
+    {
+      "part_id": 9,
+      "label": "BATTERY STRAP",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_009.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.2821100950241089,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            262,
+            221,
+            315,
+            241
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p021.png",
+          "predicted_iou": 0.781699001789093,
+          "area": 437
+        },
+        {
+          "rank": 2,
+          "sim": 0.2787199914455414,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            262,
+            221,
+            315,
+            241
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p023.png",
+          "predicted_iou": 0.7808374166488647,
+          "area": 437
+        },
+        {
+          "rank": 3,
+          "sim": 0.2782137393951416,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            47,
+            84,
+            62,
+            97
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p019.png",
+          "predicted_iou": 0.8133442997932434,
+          "area": 28
+        }
+      ]
+    },
+    {
+      "part_id": 10,
+      "label": "X-LOCK FC ISOLATOR",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_010.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.516044020652771,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p010.png",
+          "predicted_iou": 0.91678386926651,
+          "area": 216
+        },
+        {
+          "rank": 2,
+          "sim": 0.4967111349105835,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p009.png",
+          "predicted_iou": 0.908998966217041,
+          "area": 223
+        },
+        {
+          "rank": 3,
+          "sim": 0.49475961923599243,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+          "predicted_iou": 0.9107736945152283,
+          "area": 220
+        }
+      ]
+    },
+    {
+      "part_id": 11,
+      "label": "M2x4MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_011.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.31644535064697266,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p010.png",
+          "predicted_iou": 0.91678386926651,
+          "area": 216
+        },
+        {
+          "rank": 2,
+          "sim": 0.3060486912727356,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p009.png",
+          "predicted_iou": 0.908998966217041,
+          "area": 223
+        },
+        {
+          "rank": 3,
+          "sim": 0.30519813299179077,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+          "predicted_iou": 0.9107736945152283,
+          "area": 220
+        }
+      ]
+    },
+    {
+      "part_id": 12,
+      "label": "M3x8MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_012.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.3686867356300354,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            240,
+            91,
+            251,
+            101
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p022.png",
+          "predicted_iou": 0.7998268604278564,
+          "area": 11
+        },
+        {
+          "rank": 2,
+          "sim": 0.3656681180000305,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            212,
+            86,
+            224,
+            107
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p016.png",
+          "predicted_iou": 0.8414269685745239,
+          "area": 62
+        },
+        {
+          "rank": 3,
+          "sim": 0.3647448718547821,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            240,
+            91,
+            251,
+            101
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p027.png",
+          "predicted_iou": 0.7603151798248291,
+          "area": 11
+        }
+      ]
+    },
+    {
+      "part_id": 13,
+      "label": "M3x16MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_013.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.3471551537513733,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            212,
+            86,
+            224,
+            107
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p016.png",
+          "predicted_iou": 0.8414269685745239,
+          "area": 62
+        },
+        {
+          "rank": 2,
+          "sim": 0.34229105710983276,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            0,
+            11,
+            12,
+            55
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p024.png",
+          "predicted_iou": 0.7762492299079895,
+          "area": 187
+        },
+        {
+          "rank": 3,
+          "sim": 0.32936951518058777,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            0,
+            12,
+            10,
+            41
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p028.png",
+          "predicted_iou": 0.7024305462837219,
+          "area": 97
+        }
+      ]
+    },
+    {
+      "part_id": 14,
+      "label": "M3x8MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_014.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.3154148459434509,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p010.png",
+          "predicted_iou": 0.91678386926651,
+          "area": 216
+        },
+        {
+          "rank": 2,
+          "sim": 0.307819128036499,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            240,
+            91,
+            251,
+            101
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p022.png",
+          "predicted_iou": 0.7998268604278564,
+          "area": 11
+        },
+        {
+          "rank": 3,
+          "sim": 0.3008382022380829,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            47,
+            84,
+            62,
+            97
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p019.png",
+          "predicted_iou": 0.8133442997932434,
+          "area": 28
+        }
+      ]
+    },
+    {
+      "part_id": 15,
+      "label": "M3x6MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_015.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.3230880796909332,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p010.png",
+          "predicted_iou": 0.91678386926651,
+          "area": 216
+        },
+        {
+          "rank": 2,
+          "sim": 0.31362929940223694,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            240,
+            91,
+            251,
+            101
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p022.png",
+          "predicted_iou": 0.7998268604278564,
+          "area": 11
+        },
+        {
+          "rank": 3,
+          "sim": 0.3067408502101898,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+          "predicted_iou": 0.9107736945152283,
+          "area": 220
+        }
+      ]
+    },
+    {
+      "part_id": 16,
+      "label": "M3x6MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_016.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.31640538573265076,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            240,
+            91,
+            251,
+            101
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p022.png",
+          "predicted_iou": 0.7998268604278564,
+          "area": 11
+        },
+        {
+          "rank": 2,
+          "sim": 0.29880717396736145,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            240,
+            91,
+            251,
+            101
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p027.png",
+          "predicted_iou": 0.7603151798248291,
+          "area": 11
+        },
+        {
+          "rank": 3,
+          "sim": 0.29522162675857544,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            0,
+            12,
+            10,
+            41
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p028.png",
+          "predicted_iou": 0.7024305462837219,
+          "area": 97
+        }
+      ]
+    },
+    {
+      "part_id": 17,
+      "label": "M3x16MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_017.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.34099245071411133,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            0,
+            11,
+            12,
+            55
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p024.png",
+          "predicted_iou": 0.7762492299079895,
+          "area": 187
+        },
+        {
+          "rank": 2,
+          "sim": 0.3371741771697998,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            0,
+            12,
+            10,
+            41
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p028.png",
+          "predicted_iou": 0.7024305462837219,
+          "area": 97
+        },
+        {
+          "rank": 3,
+          "sim": 0.32627370953559875,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            240,
+            91,
+            251,
+            101
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p022.png",
+          "predicted_iou": 0.7998268604278564,
+          "area": 11
+        }
+      ]
+    },
+    {
+      "part_id": 18,
+      "label": "M3x22MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_018.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.38565540313720703,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            0,
+            11,
+            12,
+            55
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p024.png",
+          "predicted_iou": 0.7762492299079895,
+          "area": 187
+        },
+        {
+          "rank": 2,
+          "sim": 0.37383610010147095,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            0,
+            12,
+            10,
+            41
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p028.png",
+          "predicted_iou": 0.7024305462837219,
+          "area": 97
+        },
+        {
+          "rank": 3,
+          "sim": 0.3732510507106781,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            240,
+            91,
+            251,
+            101
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p022.png",
+          "predicted_iou": 0.7998268604278564,
+          "area": 11
+        }
+      ]
+    },
+    {
+      "part_id": 19,
+      "label": "20MM STANDOFF",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_019.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.4215816855430603,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            212,
+            86,
+            224,
+            107
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p016.png",
+          "predicted_iou": 0.8414269685745239,
+          "area": 62
+        },
+        {
+          "rank": 2,
+          "sim": 0.3939594626426697,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            211,
+            86,
+            224,
+            107
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p016.png",
+          "predicted_iou": 0.846807599067688,
+          "area": 63
+        },
+        {
+          "rank": 3,
+          "sim": 0.38057011365890503,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            212,
+            86,
+            224,
+            107
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p017.png",
+          "predicted_iou": 0.8435859680175781,
+          "area": 62
+        }
+      ]
+    },
+    {
+      "part_id": 20,
+      "label": "GOPRO MOUNT",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_020.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.2438846230506897,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            399,
+            114,
+            415,
+            131
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p016.png",
+          "predicted_iou": 0.8679662346839905,
+          "area": 75
+        },
+        {
+          "rank": 2,
+          "sim": 0.237063467502594,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            76,
+            106,
+            101,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+          "predicted_iou": 0.9107736945152283,
+          "area": 220
+        },
+        {
+          "rank": 3,
+          "sim": 0.2366776466369629,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            76,
+            107,
+            100,
+            132
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p009.png",
+          "predicted_iou": 0.9133352637290955,
+          "area": 216
+        }
+      ]
+    }
+  ],
+  "per_proposal_top1_part": [
+    {
+      "global_idx": 0,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p000.png",
+      "bbox_xyxy_px": [
+        0,
+        0,
+        460,
+        270
+      ],
+      "predicted_iou": 0.9927175045013428,
+      "stability_score": 0.9133363366127014,
+      "area": 91685,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.26895976066589355
+    },
+    {
+      "global_idx": 1,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p001.png",
+      "bbox_xyxy_px": [
+        418,
+        0,
+        480,
+        270
+      ],
+      "predicted_iou": 0.9923356175422668,
+      "stability_score": 0.9820603132247925,
+      "area": 10952,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.12866854667663574
+    },
+    {
+      "global_idx": 2,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p002.png",
+      "bbox_xyxy_px": [
+        208,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9885610938072205,
+      "stability_score": 0.9821035265922546,
+      "area": 21607,
+      "best_part_id": 6,
+      "best_label": "FPV CAMERA MOUNT RIGHT",
+      "best_sim": 0.20601096749305725
+    },
+    {
+      "global_idx": 3,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p003.png",
+      "bbox_xyxy_px": [
+        110,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.965099036693573,
+      "stability_score": 0.9765810370445251,
+      "area": 21678,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.25368592143058777
+    },
+    {
+      "global_idx": 4,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p004.png",
+      "bbox_xyxy_px": [
+        13,
+        111,
+        48,
+        170
+      ],
+      "predicted_iou": 0.9619756937026978,
+      "stability_score": 0.9724950790405273,
+      "area": 1005,
+      "best_part_id": 2,
+      "best_label": "SPLIT PLATE REAR",
+      "best_sim": 0.5425728559494019
+    },
+    {
+      "global_idx": 5,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p005.png",
+      "bbox_xyxy_px": [
+        47,
+        122,
+        81,
+        179
+      ],
+      "predicted_iou": 0.9503579139709473,
+      "stability_score": 0.9567966461181641,
+      "area": 924,
+      "best_part_id": 1,
+      "best_label": "SPLIT PLATE FRONT",
+      "best_sim": 0.5403907895088196
+    },
+    {
+      "global_idx": 6,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p006.png",
+      "bbox_xyxy_px": [
+        217,
+        144,
+        303,
+        161
+      ],
+      "predicted_iou": 0.9378361105918884,
+      "stability_score": 0.964083194732666,
+      "area": 519,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2888575792312622
+    },
+    {
+      "global_idx": 7,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p007.png",
+      "bbox_xyxy_px": [
+        237,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.9359953999519348,
+      "stability_score": 0.9703832864761353,
+      "area": 565,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.28112292289733887
+    },
+    {
+      "global_idx": 8,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p008.png",
+      "bbox_xyxy_px": [
+        224,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.9359627366065979,
+      "stability_score": 0.9574105739593506,
+      "area": 574,
+      "best_part_id": 9,
+      "best_label": "BATTERY STRAP",
+      "best_sim": 0.2651122212409973
+    },
+    {
+      "global_idx": 9,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p009.png",
+      "bbox_xyxy_px": [
+        76,
+        107,
+        100,
+        132
+      ],
+      "predicted_iou": 0.9133352637290955,
+      "stability_score": 0.9336283206939697,
+      "area": 216,
+      "best_part_id": 10,
+      "best_label": "X-LOCK FC ISOLATOR",
+      "best_sim": 0.4916868805885315
+    },
+    {
+      "global_idx": 10,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p010.png",
+      "bbox_xyxy_px": [
+        153,
+        72,
+        172,
+        129
+      ],
+      "predicted_iou": 0.8971236944198608,
+      "stability_score": 0.964200496673584,
+      "area": 413,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.6014416217803955
+    },
+    {
+      "global_idx": 11,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p011.png",
+      "bbox_xyxy_px": [
+        111,
+        66,
+        140,
+        124
+      ],
+      "predicted_iou": 0.8956517577171326,
+      "stability_score": 0.9339407682418823,
+      "area": 426,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.4582367241382599
+    },
+    {
+      "global_idx": 12,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p012.png",
+      "bbox_xyxy_px": [
+        237,
+        170,
+        323,
+        187
+      ],
+      "predicted_iou": 0.8870336413383484,
+      "stability_score": 0.9414141178131104,
+      "area": 481,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.27776038646698
+    },
+    {
+      "global_idx": 13,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p013.png",
+      "bbox_xyxy_px": [
+        97,
+        66,
+        128,
+        122
+      ],
+      "predicted_iou": 0.8856698870658875,
+      "stability_score": 0.9321267008781433,
+      "area": 423,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.4456913471221924
+    },
+    {
+      "global_idx": 14,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p014.png",
+      "bbox_xyxy_px": [
+        136,
+        70,
+        159,
+        127
+      ],
+      "predicted_iou": 0.8839757442474365,
+      "stability_score": 0.9548693299293518,
+      "area": 408,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.5311430096626282
+    },
+    {
+      "global_idx": 15,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p015.png",
+      "bbox_xyxy_px": [
+        399,
+        114,
+        415,
+        131
+      ],
+      "predicted_iou": 0.8567714095115662,
+      "stability_score": 0.9868420958518982,
+      "area": 75,
+      "best_part_id": 4,
+      "best_label": "BATTERY PAD",
+      "best_sim": 0.28470683097839355
+    },
+    {
+      "global_idx": 16,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p016.png",
+      "bbox_xyxy_px": [
+        212,
+        86,
+        224,
+        107
+      ],
+      "predicted_iou": 0.8414269685745239,
+      "stability_score": 0.9384615421295166,
+      "area": 62,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.4215816855430603
+    },
+    {
+      "global_idx": 17,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p017.png",
+      "bbox_xyxy_px": [
+        273,
+        170,
+        323,
+        187
+      ],
+      "predicted_iou": 0.8412681818008423,
+      "stability_score": 0.9924623370170593,
+      "area": 397,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.30649739503860474
+    },
+    {
+      "global_idx": 18,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p018.png",
+      "bbox_xyxy_px": [
+        47,
+        84,
+        62,
+        97
+      ],
+      "predicted_iou": 0.8389250636100769,
+      "stability_score": 0.9655172228813171,
+      "area": 28,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3252471685409546
+    },
+    {
+      "global_idx": 19,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p019.png",
+      "bbox_xyxy_px": [
+        59,
+        84,
+        73,
+        96
+      ],
+      "predicted_iou": 0.8283798694610596,
+      "stability_score": 1.0,
+      "area": 25,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3160635828971863
+    },
+    {
+      "global_idx": 20,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p020.png",
+      "bbox_xyxy_px": [
+        0,
+        10,
+        14,
+        64
+      ],
+      "predicted_iou": 0.8153651356697083,
+      "stability_score": 0.8672566413879395,
+      "area": 317,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.31352460384368896
+    },
+    {
+      "global_idx": 21,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p021.png",
+      "bbox_xyxy_px": [
+        262,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.781699001789093,
+      "stability_score": 0.968397319316864,
+      "area": 437,
+      "best_part_id": 9,
+      "best_label": "BATTERY STRAP",
+      "best_sim": 0.2821100950241089
+    },
+    {
+      "global_idx": 22,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p022.png",
+      "bbox_xyxy_px": [
+        240,
+        91,
+        251,
+        101
+      ],
+      "predicted_iou": 0.7809469699859619,
+      "stability_score": 0.9166666865348816,
+      "area": 11,
+      "best_part_id": 12,
+      "best_label": "M3x8MM SCREWS",
+      "best_sim": 0.3618638515472412
+    },
+    {
+      "global_idx": 23,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p023.png",
+      "bbox_xyxy_px": [
+        0,
+        11,
+        12,
+        54
+      ],
+      "predicted_iou": 0.779496967792511,
+      "stability_score": 0.8877550959587097,
+      "area": 185,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3451225757598877
+    },
+    {
+      "global_idx": 24,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p024.png",
+      "bbox_xyxy_px": [
+        208,
+        30,
+        229,
+        45
+      ],
+      "predicted_iou": 0.7747745513916016,
+      "stability_score": 0.9693877696990967,
+      "area": 97,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.21592533588409424
+    },
+    {
+      "global_idx": 25,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p025.png",
+      "bbox_xyxy_px": [
+        276,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.7672936320304871,
+      "stability_score": 0.9546539187431335,
+      "area": 412,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.29342013597488403
+    },
+    {
+      "global_idx": 26,
+      "frame_id": "frame_t00.5s",
+      "t_sec": 0.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t00.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t00.5s_p026.png",
+      "bbox_xyxy_px": [
+        329,
+        38,
+        345,
+        53
+      ],
+      "predicted_iou": 0.7658745050430298,
+      "stability_score": 0.9375,
+      "area": 30,
+      "best_part_id": 8,
+      "best_label": "X-LOCK ARM WEDGE",
+      "best_sim": 0.2984165549278259
+    },
+    {
+      "global_idx": 27,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p000.png",
+      "bbox_xyxy_px": [
+        0,
+        0,
+        459,
+        270
+      ],
+      "predicted_iou": 0.9928119778633118,
+      "stability_score": 0.9246639609336853,
+      "area": 90955,
+      "best_part_id": 5,
+      "best_label": "FPV CAMERA MOUNT LEFT",
+      "best_sim": 0.25767040252685547
+    },
+    {
+      "global_idx": 28,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p001.png",
+      "bbox_xyxy_px": [
+        418,
+        0,
+        480,
+        270
+      ],
+      "predicted_iou": 0.9917365908622742,
+      "stability_score": 0.980876088142395,
+      "area": 10875,
+      "best_part_id": 4,
+      "best_label": "BATTERY PAD",
+      "best_sim": 0.1426057666540146
+    },
+    {
+      "global_idx": 29,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p002.png",
+      "bbox_xyxy_px": [
+        208,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9889504313468933,
+      "stability_score": 0.9820985794067383,
+      "area": 21608,
+      "best_part_id": 6,
+      "best_label": "FPV CAMERA MOUNT RIGHT",
+      "best_sim": 0.2038954496383667
+    },
+    {
+      "global_idx": 30,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p003.png",
+      "bbox_xyxy_px": [
+        109,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9663662314414978,
+      "stability_score": 0.9500709176063538,
+      "area": 21743,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.25493288040161133
+    },
+    {
+      "global_idx": 31,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p004.png",
+      "bbox_xyxy_px": [
+        13,
+        111,
+        48,
+        170
+      ],
+      "predicted_iou": 0.9619287252426147,
+      "stability_score": 0.9734252095222473,
+      "area": 1008,
+      "best_part_id": 2,
+      "best_label": "SPLIT PLATE REAR",
+      "best_sim": 0.537719190120697
+    },
+    {
+      "global_idx": 32,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p005.png",
+      "bbox_xyxy_px": [
+        47,
+        122,
+        81,
+        179
+      ],
+      "predicted_iou": 0.9517803192138672,
+      "stability_score": 0.9608879685401917,
+      "area": 923,
+      "best_part_id": 1,
+      "best_label": "SPLIT PLATE FRONT",
+      "best_sim": 0.5272647142410278
+    },
+    {
+      "global_idx": 33,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p006.png",
+      "bbox_xyxy_px": [
+        217,
+        144,
+        303,
+        161
+      ],
+      "predicted_iou": 0.9380043745040894,
+      "stability_score": 0.967863917350769,
+      "area": 518,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.29619941115379333
+    },
+    {
+      "global_idx": 34,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p007.png",
+      "bbox_xyxy_px": [
+        237,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.9348384141921997,
+      "stability_score": 0.9704347848892212,
+      "area": 565,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2828719913959503
+    },
+    {
+      "global_idx": 35,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p008.png",
+      "bbox_xyxy_px": [
+        224,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.9340159893035889,
+      "stability_score": 0.9692307710647583,
+      "area": 574,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.263930082321167
+    },
+    {
+      "global_idx": 36,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p009.png",
+      "bbox_xyxy_px": [
+        76,
+        106,
+        101,
+        132
+      ],
+      "predicted_iou": 0.908998966217041,
+      "stability_score": 0.939130425453186,
+      "area": 223,
+      "best_part_id": 10,
+      "best_label": "X-LOCK FC ISOLATOR",
+      "best_sim": 0.4967111349105835
+    },
+    {
+      "global_idx": 37,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p010.png",
+      "bbox_xyxy_px": [
+        20,
+        3,
+        415,
+        157
+      ],
+      "predicted_iou": 0.8969962000846863,
+      "stability_score": 0.8605204820632935,
+      "area": 21890,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2802526354789734
+    },
+    {
+      "global_idx": 38,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p011.png",
+      "bbox_xyxy_px": [
+        153,
+        72,
+        172,
+        129
+      ],
+      "predicted_iou": 0.8954680562019348,
+      "stability_score": 0.9618138670921326,
+      "area": 413,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.6177777051925659
+    },
+    {
+      "global_idx": 39,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p012.png",
+      "bbox_xyxy_px": [
+        111,
+        66,
+        140,
+        124
+      ],
+      "predicted_iou": 0.885087788105011,
+      "stability_score": 0.9229024648666382,
+      "area": 426,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.45191431045532227
+    },
+    {
+      "global_idx": 40,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p013.png",
+      "bbox_xyxy_px": [
+        136,
+        70,
+        159,
+        127
+      ],
+      "predicted_iou": 0.8846268057823181,
+      "stability_score": 0.9524940848350525,
+      "area": 408,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.5165213346481323
+    },
+    {
+      "global_idx": 41,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p014.png",
+      "bbox_xyxy_px": [
+        237,
+        170,
+        323,
+        187
+      ],
+      "predicted_iou": 0.8819281458854675,
+      "stability_score": 0.9419999718666077,
+      "area": 484,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.27513572573661804
+    },
+    {
+      "global_idx": 42,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p015.png",
+      "bbox_xyxy_px": [
+        97,
+        66,
+        128,
+        122
+      ],
+      "predicted_iou": 0.8783822655677795,
+      "stability_score": 0.9284116625785828,
+      "area": 426,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.44959527254104614
+    },
+    {
+      "global_idx": 43,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p016.png",
+      "bbox_xyxy_px": [
+        399,
+        114,
+        415,
+        131
+      ],
+      "predicted_iou": 0.8679662346839905,
+      "stability_score": 0.9866666793823242,
+      "area": 75,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.3114771842956543
+    },
+    {
+      "global_idx": 44,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p017.png",
+      "bbox_xyxy_px": [
+        212,
+        86,
+        224,
+        107
+      ],
+      "predicted_iou": 0.8435859680175781,
+      "stability_score": 0.9242424368858337,
+      "area": 62,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.38057011365890503
+    },
+    {
+      "global_idx": 45,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p018.png",
+      "bbox_xyxy_px": [
+        273,
+        170,
+        323,
+        187
+      ],
+      "predicted_iou": 0.8354795575141907,
+      "stability_score": 0.9659367203712463,
+      "area": 399,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2956802546977997
+    },
+    {
+      "global_idx": 46,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p019.png",
+      "bbox_xyxy_px": [
+        47,
+        84,
+        62,
+        97
+      ],
+      "predicted_iou": 0.834852933883667,
+      "stability_score": 0.9655172228813171,
+      "area": 28,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3425930142402649
+    },
+    {
+      "global_idx": 47,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p020.png",
+      "bbox_xyxy_px": [
+        59,
+        84,
+        73,
+        96
+      ],
+      "predicted_iou": 0.8270502090454102,
+      "stability_score": 1.0,
+      "area": 25,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.29726582765579224
+    },
+    {
+      "global_idx": 48,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p021.png",
+      "bbox_xyxy_px": [
+        0,
+        10,
+        14,
+        64
+      ],
+      "predicted_iou": 0.8188797235488892,
+      "stability_score": 0.874626874923706,
+      "area": 311,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.32709169387817383
+    },
+    {
+      "global_idx": 49,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p022.png",
+      "bbox_xyxy_px": [
+        262,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.7813942432403564,
+      "stability_score": 0.9684684872627258,
+      "area": 437,
+      "best_part_id": 9,
+      "best_label": "BATTERY STRAP",
+      "best_sim": 0.2766246199607849
+    },
+    {
+      "global_idx": 50,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p023.png",
+      "bbox_xyxy_px": [
+        0,
+        11,
+        12,
+        53
+      ],
+      "predicted_iou": 0.7754004597663879,
+      "stability_score": 0.8820512890815735,
+      "area": 185,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.34335604310035706
+    },
+    {
+      "global_idx": 51,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p024.png",
+      "bbox_xyxy_px": [
+        329,
+        38,
+        345,
+        53
+      ],
+      "predicted_iou": 0.7689070701599121,
+      "stability_score": 0.90625,
+      "area": 30,
+      "best_part_id": 8,
+      "best_label": "X-LOCK ARM WEDGE",
+      "best_sim": 0.29527547955513
+    },
+    {
+      "global_idx": 52,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p025.png",
+      "bbox_xyxy_px": [
+        276,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.7659647464752197,
+      "stability_score": 0.9618138670921326,
+      "area": 414,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2966032028198242
+    },
+    {
+      "global_idx": 53,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p026.png",
+      "bbox_xyxy_px": [
+        208,
+        30,
+        229,
+        45
+      ],
+      "predicted_iou": 0.7655278444290161,
+      "stability_score": 0.9591836929321289,
+      "area": 97,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.21275538206100464
+    },
+    {
+      "global_idx": 54,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p027.png",
+      "bbox_xyxy_px": [
+        240,
+        91,
+        251,
+        101
+      ],
+      "predicted_iou": 0.7603151798248291,
+      "stability_score": 0.9166666865348816,
+      "area": 11,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.37311816215515137
+    },
+    {
+      "global_idx": 55,
+      "frame_id": "frame_t04.0s",
+      "t_sec": 4.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t04.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t04.0s_p028.png",
+      "bbox_xyxy_px": [
+        0,
+        12,
+        10,
+        41
+      ],
+      "predicted_iou": 0.7024305462837219,
+      "stability_score": 0.9223300814628601,
+      "area": 97,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.37383610010147095
+    },
+    {
+      "global_idx": 56,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p000.png",
+      "bbox_xyxy_px": [
+        0,
+        0,
+        459,
+        270
+      ],
+      "predicted_iou": 0.9927143454551697,
+      "stability_score": 0.9245651364326477,
+      "area": 91309,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2640860974788666
+    },
+    {
+      "global_idx": 57,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p001.png",
+      "bbox_xyxy_px": [
+        418,
+        0,
+        480,
+        270
+      ],
+      "predicted_iou": 0.9920403361320496,
+      "stability_score": 0.9818627238273621,
+      "area": 10935,
+      "best_part_id": 4,
+      "best_label": "BATTERY PAD",
+      "best_sim": 0.13718438148498535
+    },
+    {
+      "global_idx": 58,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p002.png",
+      "bbox_xyxy_px": [
+        208,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9887382984161377,
+      "stability_score": 0.9828220009803772,
+      "area": 21600,
+      "best_part_id": 6,
+      "best_label": "FPV CAMERA MOUNT RIGHT",
+      "best_sim": 0.1993449330329895
+    },
+    {
+      "global_idx": 59,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p003.png",
+      "bbox_xyxy_px": [
+        109,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9706352949142456,
+      "stability_score": 0.9622878432273865,
+      "area": 21719,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2575978934764862
+    },
+    {
+      "global_idx": 60,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p004.png",
+      "bbox_xyxy_px": [
+        13,
+        111,
+        48,
+        170
+      ],
+      "predicted_iou": 0.962368905544281,
+      "stability_score": 0.9743842482566833,
+      "area": 1005,
+      "best_part_id": 2,
+      "best_label": "SPLIT PLATE REAR",
+      "best_sim": 0.5350688695907593
+    },
+    {
+      "global_idx": 61,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p005.png",
+      "bbox_xyxy_px": [
+        47,
+        122,
+        81,
+        179
+      ],
+      "predicted_iou": 0.9517682194709778,
+      "stability_score": 0.9618644118309021,
+      "area": 925,
+      "best_part_id": 1,
+      "best_label": "SPLIT PLATE FRONT",
+      "best_sim": 0.5329252481460571
+    },
+    {
+      "global_idx": 62,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p006.png",
+      "bbox_xyxy_px": [
+        217,
+        144,
+        303,
+        161
+      ],
+      "predicted_iou": 0.9370349049568176,
+      "stability_score": 0.9620493650436401,
+      "area": 518,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2865232229232788
+    },
+    {
+      "global_idx": 63,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p007.png",
+      "bbox_xyxy_px": [
+        224,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.9358013868331909,
+      "stability_score": 0.9640411138534546,
+      "area": 572,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.26076388359069824
+    },
+    {
+      "global_idx": 64,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p008.png",
+      "bbox_xyxy_px": [
+        237,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.9356415271759033,
+      "stability_score": 0.9669564962387085,
+      "area": 564,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2847195565700531
+    },
+    {
+      "global_idx": 65,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p009.png",
+      "bbox_xyxy_px": [
+        76,
+        106,
+        101,
+        132
+      ],
+      "predicted_iou": 0.9107736945152283,
+      "stability_score": 0.9304347634315491,
+      "area": 220,
+      "best_part_id": 10,
+      "best_label": "X-LOCK FC ISOLATOR",
+      "best_sim": 0.49475961923599243
+    },
+    {
+      "global_idx": 66,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p010.png",
+      "bbox_xyxy_px": [
+        153,
+        72,
+        173,
+        129
+      ],
+      "predicted_iou": 0.8965827822685242,
+      "stability_score": 0.9642857313156128,
+      "area": 414,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.6312875747680664
+    },
+    {
+      "global_idx": 67,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p011.png",
+      "bbox_xyxy_px": [
+        20,
+        3,
+        415,
+        157
+      ],
+      "predicted_iou": 0.8898917436599731,
+      "stability_score": 0.8511283993721008,
+      "area": 21959,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2836328446865082
+    },
+    {
+      "global_idx": 68,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p012.png",
+      "bbox_xyxy_px": [
+        111,
+        66,
+        140,
+        124
+      ],
+      "predicted_iou": 0.8887178897857666,
+      "stability_score": 0.9251700639724731,
+      "area": 426,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.44553887844085693
+    },
+    {
+      "global_idx": 69,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p013.png",
+      "bbox_xyxy_px": [
+        237,
+        170,
+        323,
+        187
+      ],
+      "predicted_iou": 0.8873924016952515,
+      "stability_score": 0.9438877701759338,
+      "area": 486,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2654327154159546
+    },
+    {
+      "global_idx": 70,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p014.png",
+      "bbox_xyxy_px": [
+        136,
+        70,
+        159,
+        127
+      ],
+      "predicted_iou": 0.885783314704895,
+      "stability_score": 0.9524940848350525,
+      "area": 409,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.5248304009437561
+    },
+    {
+      "global_idx": 71,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p015.png",
+      "bbox_xyxy_px": [
+        97,
+        66,
+        128,
+        122
+      ],
+      "predicted_iou": 0.8820047974586487,
+      "stability_score": 0.9282511472702026,
+      "area": 423,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.44676369428634644
+    },
+    {
+      "global_idx": 72,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p016.png",
+      "bbox_xyxy_px": [
+        211,
+        86,
+        224,
+        107
+      ],
+      "predicted_iou": 0.846807599067688,
+      "stability_score": 0.9104477763175964,
+      "area": 63,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.3939594626426697
+    },
+    {
+      "global_idx": 73,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p017.png",
+      "bbox_xyxy_px": [
+        399,
+        114,
+        415,
+        131
+      ],
+      "predicted_iou": 0.8437045216560364,
+      "stability_score": 0.9733333587646484,
+      "area": 75,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2832576036453247
+    },
+    {
+      "global_idx": 74,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p018.png",
+      "bbox_xyxy_px": [
+        273,
+        170,
+        323,
+        188
+      ],
+      "predicted_iou": 0.8421965837478638,
+      "stability_score": 0.9682151675224304,
+      "area": 400,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.30538803339004517
+    },
+    {
+      "global_idx": 75,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p019.png",
+      "bbox_xyxy_px": [
+        47,
+        84,
+        62,
+        97
+      ],
+      "predicted_iou": 0.8371666073799133,
+      "stability_score": 0.9655172228813171,
+      "area": 28,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3425930142402649
+    },
+    {
+      "global_idx": 76,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p020.png",
+      "bbox_xyxy_px": [
+        59,
+        84,
+        73,
+        96
+      ],
+      "predicted_iou": 0.8288528919219971,
+      "stability_score": 1.0,
+      "area": 25,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.28872793912887573
+    },
+    {
+      "global_idx": 77,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p021.png",
+      "bbox_xyxy_px": [
+        0,
+        10,
+        14,
+        65
+      ],
+      "predicted_iou": 0.8158738017082214,
+      "stability_score": 0.8783382773399353,
+      "area": 316,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.35419678688049316
+    },
+    {
+      "global_idx": 78,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p022.png",
+      "bbox_xyxy_px": [
+        240,
+        91,
+        251,
+        101
+      ],
+      "predicted_iou": 0.7998268604278564,
+      "stability_score": 0.9166666865348816,
+      "area": 11,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3732510507106781
+    },
+    {
+      "global_idx": 79,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p023.png",
+      "bbox_xyxy_px": [
+        262,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.7808374166488647,
+      "stability_score": 0.970588207244873,
+      "area": 437,
+      "best_part_id": 9,
+      "best_label": "BATTERY STRAP",
+      "best_sim": 0.2787199914455414
+    },
+    {
+      "global_idx": 80,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p024.png",
+      "bbox_xyxy_px": [
+        0,
+        11,
+        12,
+        55
+      ],
+      "predicted_iou": 0.7762492299079895,
+      "stability_score": 0.875,
+      "area": 187,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.38565540313720703
+    },
+    {
+      "global_idx": 81,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p025.png",
+      "bbox_xyxy_px": [
+        208,
+        30,
+        229,
+        45
+      ],
+      "predicted_iou": 0.7720016837120056,
+      "stability_score": 0.9591836929321289,
+      "area": 97,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.21275538206100464
+    },
+    {
+      "global_idx": 82,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p026.png",
+      "bbox_xyxy_px": [
+        329,
+        38,
+        345,
+        53
+      ],
+      "predicted_iou": 0.7701164484024048,
+      "stability_score": 0.9354838728904724,
+      "area": 30,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2992844581604004
+    },
+    {
+      "global_idx": 83,
+      "frame_id": "frame_t07.0s",
+      "t_sec": 7.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t07.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t07.0s_p027.png",
+      "bbox_xyxy_px": [
+        276,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.767356812953949,
+      "stability_score": 0.9617224931716919,
+      "area": 413,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.29682299494743347
+    },
+    {
+      "global_idx": 84,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p000.png",
+      "bbox_xyxy_px": [
+        0,
+        0,
+        460,
+        270
+      ],
+      "predicted_iou": 0.9919164776802063,
+      "stability_score": 0.9146906733512878,
+      "area": 90754,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2637879550457001
+    },
+    {
+      "global_idx": 85,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p001.png",
+      "bbox_xyxy_px": [
+        418,
+        0,
+        480,
+        270
+      ],
+      "predicted_iou": 0.9911996722221375,
+      "stability_score": 0.9856832027435303,
+      "area": 10968,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.12703412771224976
+    },
+    {
+      "global_idx": 86,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p002.png",
+      "bbox_xyxy_px": [
+        208,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9881832003593445,
+      "stability_score": 0.9822781085968018,
+      "area": 21604,
+      "best_part_id": 6,
+      "best_label": "FPV CAMERA MOUNT RIGHT",
+      "best_sim": 0.19984030723571777
+    },
+    {
+      "global_idx": 87,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p003.png",
+      "bbox_xyxy_px": [
+        0,
+        238,
+        36,
+        270
+      ],
+      "predicted_iou": 0.9730998277664185,
+      "stability_score": 0.960493803024292,
+      "area": 795,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.22101452946662903
+    },
+    {
+      "global_idx": 88,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p004.png",
+      "bbox_xyxy_px": [
+        101,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9657545685768127,
+      "stability_score": 0.9384655952453613,
+      "area": 21738,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.24651063978672028
+    },
+    {
+      "global_idx": 89,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p005.png",
+      "bbox_xyxy_px": [
+        13,
+        111,
+        48,
+        170
+      ],
+      "predicted_iou": 0.96090167760849,
+      "stability_score": 0.9694882035255432,
+      "area": 1000,
+      "best_part_id": 2,
+      "best_label": "SPLIT PLATE REAR",
+      "best_sim": 0.551658570766449
+    },
+    {
+      "global_idx": 90,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p006.png",
+      "bbox_xyxy_px": [
+        47,
+        122,
+        81,
+        179
+      ],
+      "predicted_iou": 0.950326144695282,
+      "stability_score": 0.9597883820533752,
+      "area": 923,
+      "best_part_id": 1,
+      "best_label": "SPLIT PLATE FRONT",
+      "best_sim": 0.5318582057952881
+    },
+    {
+      "global_idx": 91,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p007.png",
+      "bbox_xyxy_px": [
+        224,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.9393410682678223,
+      "stability_score": 0.9624573588371277,
+      "area": 574,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2568620443344116
+    },
+    {
+      "global_idx": 92,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p008.png",
+      "bbox_xyxy_px": [
+        218,
+        144,
+        303,
+        161
+      ],
+      "predicted_iou": 0.9364848732948303,
+      "stability_score": 0.971319317817688,
+      "area": 515,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2758358120918274
+    },
+    {
+      "global_idx": 93,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p009.png",
+      "bbox_xyxy_px": [
+        237,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.9326397776603699,
+      "stability_score": 0.9650959968566895,
+      "area": 563,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2803453207015991
+    },
+    {
+      "global_idx": 94,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p010.png",
+      "bbox_xyxy_px": [
+        76,
+        106,
+        101,
+        132
+      ],
+      "predicted_iou": 0.91678386926651,
+      "stability_score": 0.9461883306503296,
+      "area": 216,
+      "best_part_id": 10,
+      "best_label": "X-LOCK FC ISOLATOR",
+      "best_sim": 0.516044020652771
+    },
+    {
+      "global_idx": 95,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p011.png",
+      "bbox_xyxy_px": [
+        111,
+        66,
+        140,
+        124
+      ],
+      "predicted_iou": 0.9027567505836487,
+      "stability_score": 0.9311926364898682,
+      "area": 418,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.4572582542896271
+    },
+    {
+      "global_idx": 96,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p012.png",
+      "bbox_xyxy_px": [
+        153,
+        72,
+        172,
+        129
+      ],
+      "predicted_iou": 0.8931581974029541,
+      "stability_score": 0.9641148447990417,
+      "area": 412,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.6123024821281433
+    },
+    {
+      "global_idx": 97,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p013.png",
+      "bbox_xyxy_px": [
+        97,
+        66,
+        128,
+        122
+      ],
+      "predicted_iou": 0.8916846513748169,
+      "stability_score": 0.9362186789512634,
+      "area": 424,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.45422834157943726
+    },
+    {
+      "global_idx": 98,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p014.png",
+      "bbox_xyxy_px": [
+        237,
+        170,
+        323,
+        188
+      ],
+      "predicted_iou": 0.8871445059776306,
+      "stability_score": 0.9457831382751465,
+      "area": 485,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2641569972038269
+    },
+    {
+      "global_idx": 99,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p015.png",
+      "bbox_xyxy_px": [
+        136,
+        70,
+        159,
+        127
+      ],
+      "predicted_iou": 0.8828870058059692,
+      "stability_score": 0.9545454382896423,
+      "area": 408,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.5461947321891785
+    },
+    {
+      "global_idx": 100,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p016.png",
+      "bbox_xyxy_px": [
+        399,
+        114,
+        416,
+        131
+      ],
+      "predicted_iou": 0.8641142845153809,
+      "stability_score": 0.9620253443717957,
+      "area": 77,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3020833730697632
+    },
+    {
+      "global_idx": 101,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p017.png",
+      "bbox_xyxy_px": [
+        273,
+        170,
+        323,
+        188
+      ],
+      "predicted_iou": 0.8552716374397278,
+      "stability_score": 0.9637681245803833,
+      "area": 400,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2789495587348938
+    },
+    {
+      "global_idx": 102,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p018.png",
+      "bbox_xyxy_px": [
+        212,
+        86,
+        224,
+        107
+      ],
+      "predicted_iou": 0.845537006855011,
+      "stability_score": 0.9375,
+      "area": 62,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.2637942135334015
+    },
+    {
+      "global_idx": 103,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p019.png",
+      "bbox_xyxy_px": [
+        47,
+        84,
+        62,
+        97
+      ],
+      "predicted_iou": 0.8151873350143433,
+      "stability_score": 1.0,
+      "area": 28,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3389815092086792
+    },
+    {
+      "global_idx": 104,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p020.png",
+      "bbox_xyxy_px": [
+        59,
+        84,
+        73,
+        96
+      ],
+      "predicted_iou": 0.8093195557594299,
+      "stability_score": 0.9599999785423279,
+      "area": 25,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3324696719646454
+    },
+    {
+      "global_idx": 105,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p021.png",
+      "bbox_xyxy_px": [
+        0,
+        10,
+        14,
+        67
+      ],
+      "predicted_iou": 0.7997820973396301,
+      "stability_score": 0.8510028719902039,
+      "area": 320,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.344602108001709
+    },
+    {
+      "global_idx": 106,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p022.png",
+      "bbox_xyxy_px": [
+        262,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.7785386443138123,
+      "stability_score": 0.9450549483299255,
+      "area": 437,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2776562571525574
+    },
+    {
+      "global_idx": 107,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p023.png",
+      "bbox_xyxy_px": [
+        208,
+        30,
+        229,
+        45
+      ],
+      "predicted_iou": 0.7706001996994019,
+      "stability_score": 0.9587628841400146,
+      "area": 95,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.1989530324935913
+    },
+    {
+      "global_idx": 108,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p024.png",
+      "bbox_xyxy_px": [
+        275,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.7676628232002258,
+      "stability_score": 0.9518072009086609,
+      "area": 406,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2920476496219635
+    },
+    {
+      "global_idx": 109,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p025.png",
+      "bbox_xyxy_px": [
+        329,
+        38,
+        345,
+        53
+      ],
+      "predicted_iou": 0.7552950978279114,
+      "stability_score": 0.9375,
+      "area": 31,
+      "best_part_id": 8,
+      "best_label": "X-LOCK ARM WEDGE",
+      "best_sim": 0.279333233833313
+    },
+    {
+      "global_idx": 110,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p026.png",
+      "bbox_xyxy_px": [
+        0,
+        10,
+        12,
+        56
+      ],
+      "predicted_iou": 0.7546204328536987,
+      "stability_score": 0.8790697455406189,
+      "area": 203,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3587518632411957
+    },
+    {
+      "global_idx": 111,
+      "frame_id": "frame_t10.0s",
+      "t_sec": 10.0,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t10.0s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t10.0s_p027.png",
+      "bbox_xyxy_px": [
+        240,
+        90,
+        251,
+        101
+      ],
+      "predicted_iou": 0.710513710975647,
+      "stability_score": 1.0,
+      "area": 12,
+      "best_part_id": 8,
+      "best_label": "X-LOCK ARM WEDGE",
+      "best_sim": 0.29227638244628906
+    },
+    {
+      "global_idx": 112,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p000.png",
+      "bbox_xyxy_px": [
+        0,
+        0,
+        460,
+        270
+      ],
+      "predicted_iou": 0.9923030138015747,
+      "stability_score": 0.9448111057281494,
+      "area": 86199,
+      "best_part_id": 6,
+      "best_label": "FPV CAMERA MOUNT RIGHT",
+      "best_sim": 0.24644112586975098
+    },
+    {
+      "global_idx": 113,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p001.png",
+      "bbox_xyxy_px": [
+        418,
+        0,
+        480,
+        270
+      ],
+      "predicted_iou": 0.9919524788856506,
+      "stability_score": 0.9801089763641357,
+      "area": 10905,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.12260434031486511
+    },
+    {
+      "global_idx": 114,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p002.png",
+      "bbox_xyxy_px": [
+        208,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9890269637107849,
+      "stability_score": 0.9827705025672913,
+      "area": 21596,
+      "best_part_id": 6,
+      "best_label": "FPV CAMERA MOUNT RIGHT",
+      "best_sim": 0.20356306433677673
+    },
+    {
+      "global_idx": 115,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p003.png",
+      "bbox_xyxy_px": [
+        101,
+        3,
+        415,
+        131
+      ],
+      "predicted_iou": 0.9737115502357483,
+      "stability_score": 0.9563743472099304,
+      "area": 21728,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.24644514918327332
+    },
+    {
+      "global_idx": 116,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p004.png",
+      "bbox_xyxy_px": [
+        47,
+        122,
+        81,
+        179
+      ],
+      "predicted_iou": 0.9622417688369751,
+      "stability_score": 0.9585492014884949,
+      "area": 945,
+      "best_part_id": 1,
+      "best_label": "SPLIT PLATE FRONT",
+      "best_sim": 0.5348654985427856
+    },
+    {
+      "global_idx": 117,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p005.png",
+      "bbox_xyxy_px": [
+        0,
+        217,
+        107,
+        270
+      ],
+      "predicted_iou": 0.9397828578948975,
+      "stability_score": 0.9661109447479248,
+      "area": 3609,
+      "best_part_id": 6,
+      "best_label": "FPV CAMERA MOUNT RIGHT",
+      "best_sim": 0.1459730714559555
+    },
+    {
+      "global_idx": 118,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p006.png",
+      "bbox_xyxy_px": [
+        237,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.9371289014816284,
+      "stability_score": 0.9701754450798035,
+      "area": 561,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.28106406331062317
+    },
+    {
+      "global_idx": 119,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p007.png",
+      "bbox_xyxy_px": [
+        224,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.9291746020317078,
+      "stability_score": 0.9592529535293579,
+      "area": 575,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.257853239774704
+    },
+    {
+      "global_idx": 120,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p008.png",
+      "bbox_xyxy_px": [
+        218,
+        144,
+        303,
+        161
+      ],
+      "predicted_iou": 0.9279093742370605,
+      "stability_score": 0.9713740348815918,
+      "area": 517,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2704235315322876
+    },
+    {
+      "global_idx": 121,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p009.png",
+      "bbox_xyxy_px": [
+        75,
+        106,
+        101,
+        132
+      ],
+      "predicted_iou": 0.9226732850074768,
+      "stability_score": 0.9613733887672424,
+      "area": 230,
+      "best_part_id": 10,
+      "best_label": "X-LOCK FC ISOLATOR",
+      "best_sim": 0.4616655707359314
+    },
+    {
+      "global_idx": 122,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p010.png",
+      "bbox_xyxy_px": [
+        88,
+        193,
+        136,
+        242
+      ],
+      "predicted_iou": 0.9066169261932373,
+      "stability_score": 0.9506820440292358,
+      "area": 927,
+      "best_part_id": 1,
+      "best_label": "SPLIT PLATE FRONT",
+      "best_sim": 0.4071996212005615
+    },
+    {
+      "global_idx": 123,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p011.png",
+      "bbox_xyxy_px": [
+        111,
+        66,
+        140,
+        124
+      ],
+      "predicted_iou": 0.9053157567977905,
+      "stability_score": 0.9336384534835815,
+      "area": 418,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.45799320936203003
+    },
+    {
+      "global_idx": 124,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p012.png",
+      "bbox_xyxy_px": [
+        153,
+        72,
+        172,
+        129
+      ],
+      "predicted_iou": 0.8965092897415161,
+      "stability_score": 0.9664268493652344,
+      "area": 410,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.6151959896087646
+    },
+    {
+      "global_idx": 125,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p013.png",
+      "bbox_xyxy_px": [
+        237,
+        170,
+        323,
+        188
+      ],
+      "predicted_iou": 0.8958194851875305,
+      "stability_score": 0.9453441500663757,
+      "area": 482,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2627016305923462
+    },
+    {
+      "global_idx": 126,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p014.png",
+      "bbox_xyxy_px": [
+        97,
+        66,
+        128,
+        122
+      ],
+      "predicted_iou": 0.8953453898429871,
+      "stability_score": 0.9362186789512634,
+      "area": 424,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.4488220810890198
+    },
+    {
+      "global_idx": 127,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p015.png",
+      "bbox_xyxy_px": [
+        136,
+        70,
+        159,
+        127
+      ],
+      "predicted_iou": 0.8894270658493042,
+      "stability_score": 0.9592326283454895,
+      "area": 409,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.5526940226554871
+    },
+    {
+      "global_idx": 128,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p016.png",
+      "bbox_xyxy_px": [
+        399,
+        114,
+        415,
+        131
+      ],
+      "predicted_iou": 0.875494122505188,
+      "stability_score": 0.9868420958518982,
+      "area": 75,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2776399254798889
+    },
+    {
+      "global_idx": 129,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p017.png",
+      "bbox_xyxy_px": [
+        212,
+        86,
+        224,
+        107
+      ],
+      "predicted_iou": 0.8520689606666565,
+      "stability_score": 0.953125,
+      "area": 62,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.2652086913585663
+    },
+    {
+      "global_idx": 130,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p018.png",
+      "bbox_xyxy_px": [
+        273,
+        170,
+        323,
+        188
+      ],
+      "predicted_iou": 0.8501075506210327,
+      "stability_score": 0.9636803865432739,
+      "area": 400,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2787991464138031
+    },
+    {
+      "global_idx": 131,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p019.png",
+      "bbox_xyxy_px": [
+        47,
+        84,
+        62,
+        97
+      ],
+      "predicted_iou": 0.8133442997932434,
+      "stability_score": 0.9333333373069763,
+      "area": 28,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.34161871671676636
+    },
+    {
+      "global_idx": 132,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p020.png",
+      "bbox_xyxy_px": [
+        0,
+        10,
+        14,
+        64
+      ],
+      "predicted_iou": 0.8116201758384705,
+      "stability_score": 0.8727810382843018,
+      "area": 315,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.3462910056114197
+    },
+    {
+      "global_idx": 133,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p021.png",
+      "bbox_xyxy_px": [
+        59,
+        84,
+        73,
+        96
+      ],
+      "predicted_iou": 0.8030093312263489,
+      "stability_score": 0.8888888955116272,
+      "area": 25,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.32518744468688965
+    },
+    {
+      "global_idx": 134,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p022.png",
+      "bbox_xyxy_px": [
+        262,
+        221,
+        315,
+        241
+      ],
+      "predicted_iou": 0.7921004295349121,
+      "stability_score": 0.968397319316864,
+      "area": 439,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2811353802680969
+    },
+    {
+      "global_idx": 135,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p023.png",
+      "bbox_xyxy_px": [
+        48,
+        216,
+        107,
+        270
+      ],
+      "predicted_iou": 0.7747236490249634,
+      "stability_score": 0.9394418001174927,
+      "area": 1847,
+      "best_part_id": 6,
+      "best_label": "FPV CAMERA MOUNT RIGHT",
+      "best_sim": 0.14459657669067383
+    },
+    {
+      "global_idx": 136,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p024.png",
+      "bbox_xyxy_px": [
+        208,
+        30,
+        229,
+        45
+      ],
+      "predicted_iou": 0.7725000977516174,
+      "stability_score": 0.9479166865348816,
+      "area": 95,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.20887146890163422
+    },
+    {
+      "global_idx": 137,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p025.png",
+      "bbox_xyxy_px": [
+        0,
+        11,
+        12,
+        54
+      ],
+      "predicted_iou": 0.7684176564216614,
+      "stability_score": 0.8832487463951111,
+      "area": 181,
+      "best_part_id": 18,
+      "best_label": "M3x22MM SCREWS",
+      "best_sim": 0.31646767258644104
+    },
+    {
+      "global_idx": 138,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p026.png",
+      "bbox_xyxy_px": [
+        276,
+        187,
+        325,
+        205
+      ],
+      "predicted_iou": 0.7674094438552856,
+      "stability_score": 0.9515738487243652,
+      "area": 404,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.296192467212677
+    },
+    {
+      "global_idx": 139,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p027.png",
+      "bbox_xyxy_px": [
+        0,
+        198,
+        136,
+        270
+      ],
+      "predicted_iou": 0.7607917189598083,
+      "stability_score": 0.8519313335418701,
+      "area": 4441,
+      "best_part_id": 2,
+      "best_label": "SPLIT PLATE REAR",
+      "best_sim": 0.3393937945365906
+    },
+    {
+      "global_idx": 140,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p028.png",
+      "bbox_xyxy_px": [
+        329,
+        38,
+        345,
+        53
+      ],
+      "predicted_iou": 0.7595410943031311,
+      "stability_score": 0.9375,
+      "area": 30,
+      "best_part_id": 3,
+      "best_label": "5 INCH ARM",
+      "best_sim": 0.2803530991077423
+    },
+    {
+      "global_idx": 141,
+      "frame_id": "frame_t12.5s",
+      "t_sec": 12.5,
+      "frame_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/frames/frame_t12.5s.png",
+      "proposal_path": "output0428/sam3_image_to_video_retrieval/path_b_sam2_amg_dinov2/proposals/frame_t12.5s_p029.png",
+      "bbox_xyxy_px": [
+        255,
+        144,
+        303,
+        161
+      ],
+      "predicted_iou": 0.7119666337966919,
+      "stability_score": 0.9635416865348816,
+      "area": 376,
+      "best_part_id": 19,
+      "best_label": "20MM STANDOFF",
+      "best_sim": 0.2912099063396454
+    }
+  ]
+}

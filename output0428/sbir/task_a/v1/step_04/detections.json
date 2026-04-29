@@ -1,0 +1,716 @@
+{
+  "_meta": {
+    "step": "step_04.png",
+    "n_raw": 22,
+    "n_kept": 22,
+    "sim_threshold": 0.7,
+    "method": "v1_sam3_siglip",
+    "library_dir": "output0428/sbir/seg_ablation/F"
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        86,
+        173,
+        418,
+        313
+      ],
+      "sam3_score": 0.4453125,
+      "sam3_prompt": "X-LOCK ARM WEDGE",
+      "top1_part_id": 3,
+      "top1_label": "5 INCH ARM",
+      "top1_sim": 0.7148438096046448,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.7148438096046448
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6761881113052368
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6663618087768555
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_000.png"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        87,
+        118,
+        419,
+        313
+      ],
+      "sam3_score": 0.2353515625,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 3,
+      "top1_label": "unknown",
+      "top1_sim": 0.6760517954826355,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6760517954826355
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6634719371795654
+        },
+        {
+          "part_id": 6,
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.6607787609100342
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_001.png"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        387,
+        153,
+        399,
+        219
+      ],
+      "sam3_score": 0.29296875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "20MM STANDOFF",
+      "top1_sim": 0.7218457460403442,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.7218457460403442
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6731671094894409
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6694557070732117
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_002.png"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        386,
+        154,
+        399,
+        309
+      ],
+      "sam3_score": 0.3203125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.658866286277771,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.658866286277771
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6071979999542236
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.6023207902908325
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_003.png"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        173,
+        234,
+        185,
+        290
+      ],
+      "sam3_score": 0.279296875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6268748641014099,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6268748641014099
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6022922396659851
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.5965662002563477
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_004.png"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        339,
+        269,
+        352,
+        302
+      ],
+      "sam3_score": 0.251953125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6892441511154175,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6892441511154175
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.6584513187408447
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6564931869506836
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_005.png"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        197,
+        263,
+        209,
+        279
+      ],
+      "sam3_score": 0.2275390625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6519612669944763,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6519612669944763
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.630332350730896
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6211244463920593
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_006.png"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        406,
+        146,
+        416,
+        191
+      ],
+      "sam3_score": 0.208984375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6154677867889404,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6154677867889404
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6091229915618896
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.6003292798995972
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_007.png"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        237,
+        132,
+        249,
+        214
+      ],
+      "sam3_score": 0.37109375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6844296455383301,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6844296455383301
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6674163341522217
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.6401125192642212
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_008.png"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        173,
+        272,
+        185,
+        290
+      ],
+      "sam3_score": 0.2412109375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6702748537063599,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6702748537063599
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6536802649497986
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6365795731544495
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_009.png"
+    },
+    {
+      "id": 10,
+      "bbox_xyxy": [
+        386,
+        290,
+        399,
+        310
+      ],
+      "sam3_score": 0.2138671875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6651512980461121,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6651512980461121
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6573657989501953
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.6344899535179138
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_010.png"
+    },
+    {
+      "id": 11,
+      "bbox_xyxy": [
+        405,
+        285,
+        416,
+        302
+      ],
+      "sam3_score": 0.20703125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6471689939498901,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6471689939498901
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6463464498519897
+        },
+        {
+          "part_id": 4,
+          "label": "BATTERY PAD",
+          "sim": 0.6362105011940002
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_011.png"
+    },
+    {
+      "id": 12,
+      "bbox_xyxy": [
+        86,
+        121,
+        420,
+        314
+      ],
+      "sam3_score": 0.353515625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 3,
+      "top1_label": "unknown",
+      "top1_sim": 0.6883427500724792,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6883427500724792
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6778413653373718
+        },
+        {
+          "part_id": 6,
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.6610734462738037
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_012.png"
+    },
+    {
+      "id": 13,
+      "bbox_xyxy": [
+        313,
+        145,
+        325,
+        221
+      ],
+      "sam3_score": 0.376953125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6938152313232422,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6938152313232422
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.656572699546814
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6475325226783752
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_013.png"
+    },
+    {
+      "id": 14,
+      "bbox_xyxy": [
+        263,
+        257,
+        275,
+        290
+      ],
+      "sam3_score": 0.234375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6335541009902954,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6335541009902954
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6102957129478455
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.6102874875068665
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_014.png"
+    },
+    {
+      "id": 15,
+      "bbox_xyxy": [
+        406,
+        146,
+        416,
+        302
+      ],
+      "sam3_score": 0.359375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6366521120071411,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6366521120071411
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.5998378992080688
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.5842234492301941
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_015.png"
+    },
+    {
+      "id": 16,
+      "bbox_xyxy": [
+        236,
+        269,
+        248,
+        302
+      ],
+      "sam3_score": 0.271484375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6424705386161804,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6424705386161804
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6252375841140747
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.614817202091217
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_016.png"
+    },
+    {
+      "id": 17,
+      "bbox_xyxy": [
+        312,
+        282,
+        325,
+        315
+      ],
+      "sam3_score": 0.2236328125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6417420506477356,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6417420506477356
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.63646000623703
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.6338038444519043
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_017.png"
+    },
+    {
+      "id": 18,
+      "bbox_xyxy": [
+        264,
+        120,
+        276,
+        174
+      ],
+      "sam3_score": 0.365234375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6708558797836304,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6708558797836304
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6553293466567993
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.6263567209243774
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_018.png"
+    },
+    {
+      "id": 19,
+      "bbox_xyxy": [
+        340,
+        132,
+        352,
+        213
+      ],
+      "sam3_score": 0.404296875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6987811326980591,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6987811326980591
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6734991073608398
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.647673487663269
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_019.png"
+    },
+    {
+      "id": 20,
+      "bbox_xyxy": [
+        196,
+        230,
+        209,
+        280
+      ],
+      "sam3_score": 0.228515625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.6451042890548706,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6451042890548706
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.635965883731842
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.6252136826515198
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_020.png"
+    },
+    {
+      "id": 21,
+      "bbox_xyxy": [
+        237,
+        133,
+        249,
+        170
+      ],
+      "sam3_score": 0.2080078125,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6449463367462158,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6449463367462158
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6429427266120911
+        },
+        {
+          "part_id": 4,
+          "label": "BATTERY PAD",
+          "sim": 0.6075124740600586
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_04/crops/det_021.png"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "step": "step_03.png",
+    "step_idx": 3,
+    "method": "v2_qwen_label",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "n_returned": 3,
+    "n_kept": 3
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        47,
+        232,
+        221,
+        295
+      ],
+      "label": "SPLIT PLATE FRONT",
+      "part_id": 1,
+      "note": "split plate front with holes",
+      "crop_path": "output0428/sbir/task_a/v2/step_03/crops/det_000.png"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        0,
+        259,
+        359,
+        340
+      ],
+      "label": "5 INCH ARM",
+      "part_id": 3,
+      "note": "arm extending from the split plate front",
+      "crop_path": "output0428/sbir/task_a/v2/step_03/crops/det_001.png"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        159,
+        194,
+        174,
+        218
+      ],
+      "label": "M3x6MM SCREWS",
+      "part_id": 15,
+      "note": "screw labeled M3x6mm",
+      "crop_path": "output0428/sbir/task_a/v2/step_03/crops/det_002.png"
+    }
+  ]
+}

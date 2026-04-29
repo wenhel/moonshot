@@ -1,0 +1,1113 @@
+{
+  "_meta": {
+    "method": "path_bc_amg_siglip",
+    "video": "output0427/hierarchical-video-splitter/pen_0.5/seg_000/L2_000_t0.0-13.0.mp4",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "timestamps_sec": [
+      0.5,
+      4.0,
+      7.0,
+      10.0,
+      12.5
+    ],
+    "n_frames": 5,
+    "n_proposals": 142,
+    "n_parts": 21,
+    "topk": 3,
+    "amg_points_per_side": 32
+  },
+  "per_part_topk": [
+    {
+      "part_id": 0,
+      "label": "TOP PLATE",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_000.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6688752174377441,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p004.png",
+          "predicted_iou": 0.9619756937026978,
+          "area": 1005
+        },
+        {
+          "rank": 2,
+          "sim": 0.6658802032470703,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p005.png",
+          "predicted_iou": 0.96090167760849,
+          "area": 1000
+        },
+        {
+          "rank": 3,
+          "sim": 0.6625666618347168,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p004.png",
+          "predicted_iou": 0.9619287252426147,
+          "area": 1008
+        }
+      ]
+    },
+    {
+      "part_id": 1,
+      "label": "SPLIT PLATE FRONT",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_001.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.7031146287918091,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p004.png",
+          "predicted_iou": 0.9619756937026978,
+          "area": 1005
+        },
+        {
+          "rank": 2,
+          "sim": 0.6983623504638672,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p004.png",
+          "predicted_iou": 0.9619287252426147,
+          "area": 1008
+        },
+        {
+          "rank": 3,
+          "sim": 0.6971156597137451,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p004.png",
+          "predicted_iou": 0.962368905544281,
+          "area": 1005
+        }
+      ]
+    },
+    {
+      "part_id": 2,
+      "label": "SPLIT PLATE REAR",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_002.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6803838610649109,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p005.png",
+          "predicted_iou": 0.96090167760849,
+          "area": 1000
+        },
+        {
+          "rank": 2,
+          "sim": 0.6740071773529053,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p004.png",
+          "predicted_iou": 0.9619756937026978,
+          "area": 1005
+        },
+        {
+          "rank": 3,
+          "sim": 0.6672395467758179,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p004.png",
+          "predicted_iou": 0.9619287252426147,
+          "area": 1008
+        }
+      ]
+    },
+    {
+      "part_id": 3,
+      "label": "5 INCH ARM",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_003.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6951528191566467,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p004.png",
+          "predicted_iou": 0.962368905544281,
+          "area": 1005
+        },
+        {
+          "rank": 2,
+          "sim": 0.6930315494537354,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p004.png",
+          "predicted_iou": 0.9619287252426147,
+          "area": 1008
+        },
+        {
+          "rank": 3,
+          "sim": 0.6905791759490967,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p004.png",
+          "predicted_iou": 0.9619756937026978,
+          "area": 1005
+        }
+      ]
+    },
+    {
+      "part_id": 4,
+      "label": "BATTERY PAD",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_004.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.662879467010498,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p006.png",
+          "predicted_iou": 0.950326144695282,
+          "area": 923
+        },
+        {
+          "rank": 2,
+          "sim": 0.6596683859825134,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p005.png",
+          "predicted_iou": 0.96090167760849,
+          "area": 1000
+        },
+        {
+          "rank": 3,
+          "sim": 0.6581395864486694,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            47,
+            122,
+            81,
+            179
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p005.png",
+          "predicted_iou": 0.9517682194709778,
+          "area": 925
+        }
+      ]
+    },
+    {
+      "part_id": 5,
+      "label": "FPV CAMERA MOUNT LEFT",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_005.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.5835027694702148,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            88,
+            193,
+            136,
+            242
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t12.5s_p010.png",
+          "predicted_iou": 0.9066169261932373,
+          "area": 927
+        },
+        {
+          "rank": 2,
+          "sim": 0.5833142995834351,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p004.png",
+          "predicted_iou": 0.962368905544281,
+          "area": 1005
+        },
+        {
+          "rank": 3,
+          "sim": 0.5826694369316101,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p004.png",
+          "predicted_iou": 0.9619287252426147,
+          "area": 1008
+        }
+      ]
+    },
+    {
+      "part_id": 6,
+      "label": "FPV CAMERA MOUNT RIGHT",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_006.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.5851396322250366,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p004.png",
+          "predicted_iou": 0.9619287252426147,
+          "area": 1008
+        },
+        {
+          "rank": 2,
+          "sim": 0.5846543908119202,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p004.png",
+          "predicted_iou": 0.962368905544281,
+          "area": 1005
+        },
+        {
+          "rank": 3,
+          "sim": 0.5832604169845581,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            88,
+            193,
+            136,
+            242
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t12.5s_p010.png",
+          "predicted_iou": 0.9066169261932373,
+          "area": 927
+        }
+      ]
+    },
+    {
+      "part_id": 7,
+      "label": "SPACER PLATE",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_007.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.5946045517921448,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            255,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t12.5s_p029.png",
+          "predicted_iou": 0.7119666337966919,
+          "area": 376
+        },
+        {
+          "rank": 2,
+          "sim": 0.5933257341384888,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            237,
+            170,
+            323,
+            187
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p012.png",
+          "predicted_iou": 0.8870336413383484,
+          "area": 481
+        },
+        {
+          "rank": 3,
+          "sim": 0.5927278995513916,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            276,
+            187,
+            325,
+            205
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p025.png",
+          "predicted_iou": 0.7659647464752197,
+          "area": 414
+        }
+      ]
+    },
+    {
+      "part_id": 8,
+      "label": "X-LOCK ARM WEDGE",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_008.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6797299385070801,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            111,
+            66,
+            140,
+            124
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p011.png",
+          "predicted_iou": 0.8956517577171326,
+          "area": 426
+        },
+        {
+          "rank": 2,
+          "sim": 0.6740153431892395,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            111,
+            66,
+            140,
+            124
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p012.png",
+          "predicted_iou": 0.885087788105011,
+          "area": 426
+        },
+        {
+          "rank": 3,
+          "sim": 0.6684879064559937,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            111,
+            66,
+            140,
+            124
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p012.png",
+          "predicted_iou": 0.8887178897857666,
+          "area": 426
+        }
+      ]
+    },
+    {
+      "part_id": 9,
+      "label": "BATTERY STRAP",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_009.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.7001118063926697,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            224,
+            221,
+            315,
+            241
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p008.png",
+          "predicted_iou": 0.9359627366065979,
+          "area": 574
+        },
+        {
+          "rank": 2,
+          "sim": 0.699713945388794,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            224,
+            221,
+            315,
+            241
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p007.png",
+          "predicted_iou": 0.9393410682678223,
+          "area": 574
+        },
+        {
+          "rank": 3,
+          "sim": 0.6973422765731812,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            224,
+            221,
+            315,
+            241
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p007.png",
+          "predicted_iou": 0.9358013868331909,
+          "area": 572
+        }
+      ]
+    },
+    {
+      "part_id": 10,
+      "label": "X-LOCK FC ISOLATOR",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_010.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6527311205863953,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p004.png",
+          "predicted_iou": 0.962368905544281,
+          "area": 1005
+        },
+        {
+          "rank": 2,
+          "sim": 0.6521835327148438,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p004.png",
+          "predicted_iou": 0.9619287252426147,
+          "area": 1008
+        },
+        {
+          "rank": 3,
+          "sim": 0.6492900848388672,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            13,
+            111,
+            48,
+            170
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p004.png",
+          "predicted_iou": 0.9619756937026978,
+          "area": 1005
+        }
+      ]
+    },
+    {
+      "part_id": 11,
+      "label": "M2x4MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_011.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.7048394680023193,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            218,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p008.png",
+          "predicted_iou": 0.9364848732948303,
+          "area": 515
+        },
+        {
+          "rank": 2,
+          "sim": 0.7045819163322449,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        },
+        {
+          "rank": 3,
+          "sim": 0.7038305997848511,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        }
+      ]
+    },
+    {
+      "part_id": 12,
+      "label": "M3x8MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_012.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6725784540176392,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        },
+        {
+          "rank": 2,
+          "sim": 0.6709846258163452,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            218,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p008.png",
+          "predicted_iou": 0.9364848732948303,
+          "area": 515
+        },
+        {
+          "rank": 3,
+          "sim": 0.6679059863090515,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        }
+      ]
+    },
+    {
+      "part_id": 13,
+      "label": "M3x16MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_013.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6939901113510132,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        },
+        {
+          "rank": 2,
+          "sim": 0.6935877799987793,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        },
+        {
+          "rank": 3,
+          "sim": 0.6911011934280396,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            218,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p008.png",
+          "predicted_iou": 0.9364848732948303,
+          "area": 515
+        }
+      ]
+    },
+    {
+      "part_id": 14,
+      "label": "M3x8MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_014.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6661397218704224,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        },
+        {
+          "rank": 2,
+          "sim": 0.6648167371749878,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        },
+        {
+          "rank": 3,
+          "sim": 0.6613768339157104,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            218,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p008.png",
+          "predicted_iou": 0.9364848732948303,
+          "area": 515
+        }
+      ]
+    },
+    {
+      "part_id": 15,
+      "label": "M3x6MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_015.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6678027510643005,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        },
+        {
+          "rank": 2,
+          "sim": 0.6668816208839417,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        },
+        {
+          "rank": 3,
+          "sim": 0.6619064807891846,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            218,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p008.png",
+          "predicted_iou": 0.9364848732948303,
+          "area": 515
+        }
+      ]
+    },
+    {
+      "part_id": 16,
+      "label": "M3x6MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_016.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.6845787763595581,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        },
+        {
+          "rank": 2,
+          "sim": 0.6828737258911133,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        },
+        {
+          "rank": 3,
+          "sim": 0.6782941818237305,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            218,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p008.png",
+          "predicted_iou": 0.9364848732948303,
+          "area": 515
+        }
+      ]
+    },
+    {
+      "part_id": 17,
+      "label": "M3x16MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_017.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.7083066701889038,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        },
+        {
+          "rank": 2,
+          "sim": 0.7064926028251648,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        },
+        {
+          "rank": 3,
+          "sim": 0.6990817785263062,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            218,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p008.png",
+          "predicted_iou": 0.9364848732948303,
+          "area": 515
+        }
+      ]
+    },
+    {
+      "part_id": 18,
+      "label": "M3x22MM SCREWS",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_018.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.7158986926078796,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        },
+        {
+          "rank": 2,
+          "sim": 0.714332103729248,
+          "frame_id": "frame_t10.0s",
+          "t_sec": 10.0,
+          "bbox_xyxy_px": [
+            224,
+            221,
+            315,
+            241
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t10.0s_p007.png",
+          "predicted_iou": 0.9393410682678223,
+          "area": 574
+        },
+        {
+          "rank": 3,
+          "sim": 0.7142859101295471,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        }
+      ]
+    },
+    {
+      "part_id": 19,
+      "label": "20MM STANDOFF",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_019.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.7660964727401733,
+          "frame_id": "frame_t00.5s",
+          "t_sec": 0.5,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t00.5s_p006.png",
+          "predicted_iou": 0.9378361105918884,
+          "area": 519
+        },
+        {
+          "rank": 2,
+          "sim": 0.7632719874382019,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p006.png",
+          "predicted_iou": 0.9380043745040894,
+          "area": 518
+        },
+        {
+          "rank": 3,
+          "sim": 0.7631682753562927,
+          "frame_id": "frame_t07.0s",
+          "t_sec": 7.0,
+          "bbox_xyxy_px": [
+            217,
+            144,
+            303,
+            161
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t07.0s_p006.png",
+          "predicted_iou": 0.9370349049568176,
+          "area": 518
+        }
+      ]
+    },
+    {
+      "part_id": 20,
+      "label": "GOPRO MOUNT",
+      "library_crop": "/home/wenhel/dsta-stance-project/dsta-stance-clean-refactor-s2/moonshot/code/output0428/sbir/seg_ablation/F/crops/part_020.png",
+      "topk": [
+        {
+          "rank": 1,
+          "sim": 0.5688571929931641,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            48,
+            216,
+            107,
+            270
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t12.5s_p023.png",
+          "predicted_iou": 0.7747236490249634,
+          "area": 1847
+        },
+        {
+          "rank": 2,
+          "sim": 0.5622717142105103,
+          "frame_id": "frame_t04.0s",
+          "t_sec": 4.0,
+          "bbox_xyxy_px": [
+            111,
+            66,
+            140,
+            124
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t04.0s_p012.png",
+          "predicted_iou": 0.885087788105011,
+          "area": 426
+        },
+        {
+          "rank": 3,
+          "sim": 0.5590645670890808,
+          "frame_id": "frame_t12.5s",
+          "t_sec": 12.5,
+          "bbox_xyxy_px": [
+            399,
+            114,
+            415,
+            131
+          ],
+          "proposal_path": "output0428/sam3_image_to_video_retrieval/path_bc_amg_siglip/proposals/frame_t12.5s_p016.png",
+          "predicted_iou": 0.875494122505188,
+          "area": 75
+        }
+      ]
+    }
+  ]
+}

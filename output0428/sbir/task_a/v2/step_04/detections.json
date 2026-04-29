@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "step": "step_04.png",
+    "step_idx": 4,
+    "method": "v2_qwen_label",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "n_returned": 4,
+    "n_kept": 4
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        165,
+        115,
+        244,
+        190
+      ],
+      "label": "FPV CAMERA MOUNT LEFT",
+      "part_id": 5,
+      "note": "camera mount on the left side",
+      "crop_path": "output0428/sbir/task_a/v2/step_04/crops/det_000.png"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        251,
+        175,
+        302,
+        215
+      ],
+      "label": "FPV CAMERA MOUNT RIGHT",
+      "part_id": 6,
+      "note": "camera mount on the right side",
+      "crop_path": "output0428/sbir/task_a/v2/step_04/crops/det_001.png"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        177,
+        123,
+        416,
+        317
+      ],
+      "label": "M3x16MM SCREWS",
+      "part_id": 13,
+      "note": "multiple screws scattered across the diagram",
+      "crop_path": "output0428/sbir/task_a/v2/step_04/crops/det_002.png"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        86,
+        219,
+        416,
+        317
+      ],
+      "label": "unknown",
+      "part_id": null,
+      "note": "split plates with holes and mounting points",
+      "crop_path": "output0428/sbir/task_a/v2/step_04/crops/det_003.png"
+    }
+  ]
+}

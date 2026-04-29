@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "step": "step_06.png",
+    "step_idx": 6,
+    "method": "v2_qwen_label",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "n_returned": 10,
+    "n_kept": 10
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        49,
+        123,
+        106,
+        212
+      ],
+      "label": "GOPRO MOUNT",
+      "part_id": 20,
+      "note": "mount with screw holes",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_000.png"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        116,
+        135,
+        280,
+        174
+      ],
+      "label": "SPACER PLATE",
+      "part_id": 7,
+      "note": "plate with circular cutouts",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_001.png"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        92,
+        112,
+        102,
+        126
+      ],
+      "label": "M3x8MM SCREWS",
+      "part_id": 12,
+      "note": "screw on top-left",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_002.png"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        195,
+        170,
+        205,
+        185
+      ],
+      "label": "M3x8MM SCREWS",
+      "part_id": 12,
+      "note": "screw on top-right",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_003.png"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        291,
+        127,
+        367,
+        162
+      ],
+      "label": "BATTERY PAD",
+      "part_id": 4,
+      "note": "rubber pad for battery",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_004.png"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        0,
+        190,
+        332,
+        330
+      ],
+      "label": "TOP PLATE",
+      "part_id": 0,
+      "note": "main frame with arms",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_005.png"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        120,
+        229,
+        130,
+        244
+      ],
+      "label": "M3x6MM SCREWS",
+      "part_id": 15,
+      "note": "screw on left arm",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_006.png"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        182,
+        222,
+        192,
+        237
+      ],
+      "label": "M3x6MM SCREWS",
+      "part_id": 15,
+      "note": "screw on right arm",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_007.png"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        208,
+        222,
+        218,
+        237
+      ],
+      "label": "M3x6MM SCREWS",
+      "part_id": 15,
+      "note": "screw on right arm",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_008.png"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        144,
+        231,
+        154,
+        246
+      ],
+      "label": "M3x6MM SCREWS",
+      "part_id": 15,
+      "note": "screw on left arm",
+      "crop_path": "output0428/sbir/task_a/v2/step_06/crops/det_009.png"
+    }
+  ]
+}

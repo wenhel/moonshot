@@ -1,0 +1,66 @@
+{
+  "clip": "clip_000.mp4",
+  "n_video_frames": 3,
+  "render_stride": 30,
+  "frames_with_detections": 0,
+  "refs": [
+    {
+      "obj_id": 1,
+      "name": "split_plate_front",
+      "part_id": 1,
+      "bbox_xyxy_overlay": [
+        216,
+        225,
+        326,
+        481
+      ]
+    },
+    {
+      "obj_id": 2,
+      "name": "split_plate_rear",
+      "part_id": 2,
+      "bbox_xyxy_overlay": [
+        390,
+        223,
+        500,
+        483
+      ]
+    },
+    {
+      "obj_id": 3,
+      "name": "five_inch_arm",
+      "part_id": 3,
+      "bbox_xyxy_overlay": [
+        558,
+        214,
+        622,
+        480
+      ]
+    }
+  ],
+  "target_resolution": [
+    832,
+    1248
+  ],
+  "propagate_time_s": 15.97,
+  "per_frame": [
+    {
+      "video_frame": 1,
+      "n_obj": 0,
+      "obj_ids": [],
+      "scores": []
+    },
+    {
+      "video_frame": 2,
+      "n_obj": 0,
+      "obj_ids": [],
+      "scores": []
+    },
+    {
+      "video_frame": 3,
+      "n_obj": 0,
+      "obj_ids": [],
+      "scores": []
+    }
+  ]
+}

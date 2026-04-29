@@ -1,0 +1,27 @@
+{
+  "method": "F",
+  "method_description": "VLM gives drawing+caption sub-bboxes per part on parts page; SAM3 refines an object mask within each VLM cell via local-crop box-prompt.",
+  "vlm": {
+    "model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "provider": "openrouter",
+    "labeler_yaml": "config/labeler/parts_page_bbox.yaml",
+    "role": "coarse drawing_bbox + caption_bbox per part (absolute px)",
+    "bbox_format": "absolute pixels in input image (Qwen2.5-VL native)"
+  },
+  "sam3": {
+    "tool": "agentbuild0427/sam3_tool.py::Sam3DetectorTracker.detect_with_box_prompt",
+    "role": "object mask refinement inside VLM drawing_bbox via crop-then-box-prompt",
+    "confidence_threshold": 0.05
+  },
+  "params": {
+    "crop_pad_frac": 0.05,
+    "device": "cuda:0"
+  },
+  "input_page": "output/manual_parsed_v2/steps-from-page-countfirst-gemini25-flash-image/parts/parts_page2.png",
+  "input_page_size_px": {
+    "width": 1248,
+    "height": 832
+  },
+  "n_parts_returned_by_vlm": 21,
+  "timestamp": "2026-04-28T10:47:21"
+}

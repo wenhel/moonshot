@@ -1,0 +1,11 @@
+{
+  "method": "v2_qwen_label",
+  "method_description": "Qwen2.5-VL receives step page + parts_library vocabulary, returns labeled bboxes directly. SAM3/SigLIP not used.",
+  "vlm": {
+    "model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "provider": "openrouter",
+    "labeler_yaml": "config/labeler/step_page_label.yaml"
+  },
+  "library_dir": "output0428/sbir/seg_ablation/F",
+  "n_steps": 6
+}

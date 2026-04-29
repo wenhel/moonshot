@@ -1,0 +1,104 @@
+{
+  "_meta": {
+    "step": "step_02.png",
+    "step_idx": 2,
+    "method": "v2_qwen_label",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "n_returned": 7,
+    "n_kept": 7
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        0,
+        270,
+        17,
+        293
+      ],
+      "label": "SPLIT PLATE REAR",
+      "part_id": 2,
+      "note": "small rectangular plate labeled 'SPLIT PLATE REAR'",
+      "crop_path": "output0428/sbir/task_a/v2/step_02/crops/det_000.png"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        359,
+        262,
+        389,
+        285
+      ],
+      "label": "SPLIT PLATE FRONT",
+      "part_id": 1,
+      "note": "small rectangular plate labeled 'SPLIT PLATE FRONT'",
+      "crop_path": "output0428/sbir/task_a/v2/step_02/crops/det_001.png"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        199,
+        379,
+        277,
+        530
+      ],
+      "label": "5 INCH ARM",
+      "part_id": 3,
+      "note": "arm labeled '5 INCH ARM'",
+      "crop_path": "output0428/sbir/task_a/v2/step_02/crops/det_002.png"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        0,
+        459,
+        167,
+        594
+      ],
+      "label": "5 INCH ARM",
+      "part_id": 3,
+      "note": "arm labeled '5 INCH ARM'",
+      "crop_path": "output0428/sbir/task_a/v2/step_02/crops/det_003.png"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        137,
+        431,
+        172,
+        464
+      ],
+      "label": "X-LOCK ARM WEDGE",
+      "part_id": 8,
+      "note": "small wedge labeled 'ARM WEDGE'",
+      "crop_path": "output0428/sbir/task_a/v2/step_02/crops/det_004.png"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        159,
+        484,
+        181,
+        520
+      ],
+      "label": "M3x16MM SCREWS",
+      "part_id": 13,
+      "note": "screw labeled 'M3x16MM SCREWS'",
+      "crop_path": "output0428/sbir/task_a/v2/step_02/crops/det_005.png"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        255,
+        656,
+        272,
+        682
+      ],
+      "label": "M3x16MM SCREWS",
+      "part_id": 13,
+      "note": "screw labeled 'M3x16MM SCREWS'",
+      "crop_path": "output0428/sbir/task_a/v2/step_02/crops/det_006.png"
+    }
+  ]
+}

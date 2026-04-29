@@ -1,0 +1,14 @@
+{
+  "method": "v2_qwen_dinov2",
+  "method_description": "Qwen2.5-VL gives candidate object bboxes per keyframe (no naming, just is_part_candidate filter). DINOv2 embeds each crop and retrieves top-1 from parts_library by cosine.",
+  "vlm": {
+    "model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "provider": "openrouter",
+    "labeler_yaml": "config/labeler/frame_object_bbox.yaml"
+  },
+  "retrieval_encoder": "facebookresearch/dinov2_vits14",
+  "reference_mask_bg": true,
+  "library_dir": "output0428/sbir/seg_ablation/F",
+  "n_frames": 5,
+  "sim_threshold": 0.35
+}

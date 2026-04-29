@@ -1,0 +1,262 @@
+{
+  "_meta": {
+    "frame": "frame_t10.0s.png",
+    "t_sec": 10.0,
+    "n_returned": 5,
+    "n_candidates": 5,
+    "n_kept": 5,
+    "sim_threshold": 0.35,
+    "method": "v2_qwen_dinov2",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "d6_method": "siglip_text_image_rerank",
+    "d6_text_threshold": 0.1
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        14,
+        119,
+        82,
+        155
+      ],
+      "qwen_description": "metal plate with holes",
+      "top1_part_id": 2,
+      "top1_label": "SPLIT PLATE REAR",
+      "top1_sim": 0.5669488906860352,
+      "top3": [
+        {
+          "part_id": 2,
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.5669488906860352
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.5591384172439575
+        },
+        {
+          "part_id": 0,
+          "label": "TOP PLATE",
+          "sim": 0.3244342803955078
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t10.0s/crops/det_000.png",
+      "siglip_text_top1_part_id": 5,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.01734410971403122,
+      "siglip_text_top3": [
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.01734410971403122
+        },
+        {
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.014138475060462952
+        },
+        {
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.014080888591706753
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        14,
+        140,
+        82,
+        177
+      ],
+      "qwen_description": "metal plate with holes",
+      "top1_part_id": 2,
+      "top1_label": "SPLIT PLATE REAR",
+      "top1_sim": 0.5213791728019714,
+      "top3": [
+        {
+          "part_id": 2,
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.5213791728019714
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.4996804893016815
+        },
+        {
+          "part_id": 0,
+          "label": "TOP PLATE",
+          "sim": 0.27150097489356995
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t10.0s/crops/det_001.png",
+      "siglip_text_top1_part_id": 5,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.005985334515571594,
+      "siglip_text_top3": [
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.005985334515571594
+        },
+        {
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": -0.0007723625749349594
+        },
+        {
+          "label": "SPLIT PLATE FRONT",
+          "sim": -0.010597256943583488
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        98,
+        70,
+        124,
+        126
+      ],
+      "qwen_description": "metal arm with holes",
+      "top1_part_id": 1,
+      "top1_label": "SPLIT PLATE FRONT",
+      "top1_sim": 0.3876970410346985,
+      "top3": [
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.3876970410346985
+        },
+        {
+          "part_id": 2,
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.2905898690223694
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.25215330719947815
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t10.0s/crops/det_002.png",
+      "siglip_text_top1_part_id": 4,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.023487363010644913,
+      "siglip_text_top3": [
+        {
+          "label": "BATTERY PAD",
+          "sim": 0.023487363010644913
+        },
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.020311033353209496
+        },
+        {
+          "label": "GOPRO MOUNT",
+          "sim": 0.016824733465909958
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        140,
+        75,
+        166,
+        129
+      ],
+      "qwen_description": "metal arm with holes",
+      "top1_part_id": 1,
+      "top1_label": "SPLIT PLATE FRONT",
+      "top1_sim": 0.41639620065689087,
+      "top3": [
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.41639620065689087
+        },
+        {
+          "part_id": 2,
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.3422674536705017
+        },
+        {
+          "part_id": 0,
+          "label": "TOP PLATE",
+          "sim": 0.24366022646427155
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t10.0s/crops/det_003.png",
+      "siglip_text_top1_part_id": 1,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.04158441722393036,
+      "siglip_text_top3": [
+        {
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.04158441722393036
+        },
+        {
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.036543700844049454
+        },
+        {
+          "label": "BATTERY STRAP",
+          "sim": 0.03578963130712509
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        80,
+        118,
+        97,
+        135
+      ],
+      "qwen_description": "small purple isolator",
+      "top1_part_id": 3,
+      "top1_label": "unknown",
+      "top1_sim": 0.3404250144958496,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.3404250144958496
+        },
+        {
+          "part_id": 6,
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.339982271194458
+        },
+        {
+          "part_id": 5,
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.32226258516311646
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t10.0s/crops/det_004.png",
+      "siglip_text_top1_part_id": 10,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.04644589126110077,
+      "siglip_text_top3": [
+        {
+          "label": "X-LOCK FC ISOLATOR",
+          "sim": 0.04644589126110077
+        },
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.044493891298770905
+        },
+        {
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.040538251399993896
+        }
+      ],
+      "text_image_agreement": false
+    }
+  ]
+}

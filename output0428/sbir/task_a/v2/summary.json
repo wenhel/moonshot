@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "method": "v2_qwen_label",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "n_steps": 6
+  },
+  "per_step": [
+    {
+      "step": "step_01.png",
+      "n_returned": 11,
+      "n_kept": 11,
+      "n_known": 11
+    },
+    {
+      "step": "step_02.png",
+      "n_returned": 7,
+      "n_kept": 7,
+      "n_known": 7
+    },
+    {
+      "step": "step_03.png",
+      "n_returned": 3,
+      "n_kept": 3,
+      "n_known": 3
+    },
+    {
+      "step": "step_04.png",
+      "n_returned": 4,
+      "n_kept": 4,
+      "n_known": 3
+    },
+    {
+      "step": "step_05.png",
+      "n_returned": 18,
+      "n_kept": 18,
+      "n_known": 16
+    },
+    {
+      "step": "step_06.png",
+      "n_returned": 10,
+      "n_kept": 10,
+      "n_known": 10
+    }
+  ]
+}

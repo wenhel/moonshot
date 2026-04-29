@@ -1,0 +1,556 @@
+{
+  "_meta": {
+    "step": "step_02.png",
+    "n_raw": 17,
+    "n_kept": 17,
+    "sim_threshold": 0.7,
+    "method": "v1_sam3_siglip",
+    "library_dir": "output0428/sbir/seg_ablation/F"
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        0,
+        267,
+        16,
+        296
+      ],
+      "sam3_score": 0.302734375,
+      "sam3_prompt": "FPV CAMERA MOUNT LEFT",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6507182121276855,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6507182121276855
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.639576256275177
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6266379356384277
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_000.png"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        153,
+        594,
+        389,
+        779
+      ],
+      "sam3_score": 0.251953125,
+      "sam3_prompt": "X-LOCK ARM WEDGE",
+      "top1_part_id": 3,
+      "top1_label": "5 INCH ARM",
+      "top1_sim": 0.7527968883514404,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.7527968883514404
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7307871580123901
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.719589114189148
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_001.png"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        2,
+        380,
+        270,
+        558
+      ],
+      "sam3_score": 0.49609375,
+      "sam3_prompt": "X-LOCK ARM WEDGE",
+      "top1_part_id": 3,
+      "top1_label": "5 INCH ARM",
+      "top1_sim": 0.7497540712356567,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.7497540712356567
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.7258590459823608
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.6797628402709961
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_002.png"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        3,
+        379,
+        388,
+        780
+      ],
+      "sam3_score": 0.828125,
+      "sam3_prompt": "X-LOCK ARM WEDGE",
+      "top1_part_id": 3,
+      "top1_label": "unknown",
+      "top1_sim": 0.6790232062339783,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6790232062339783
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.6348710060119629
+        },
+        {
+          "part_id": 0,
+          "label": "TOP PLATE",
+          "sim": 0.6295164823532104
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_003.png"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        153,
+        530,
+        389,
+        778
+      ],
+      "sam3_score": 0.34375,
+      "sam3_prompt": "X-LOCK ARM WEDGE",
+      "top1_part_id": 3,
+      "top1_label": "5 INCH ARM",
+      "top1_sim": 0.7564365863800049,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.7564365863800049
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7313603162765503
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7244477868080139
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_004.png"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        0,
+        267,
+        16,
+        296
+      ],
+      "sam3_score": 0.38671875,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6507182121276855,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6507182121276855
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.639576256275177
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6266379356384277
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_005.png"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        246,
+        648,
+        268,
+        679
+      ],
+      "sam3_score": 0.2099609375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.744671106338501,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.744671106338501
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7358887791633606
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.7307118773460388
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_006.png"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        156,
+        482,
+        178,
+        514
+      ],
+      "sam3_score": 0.20703125,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7464261054992676,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7464261054992676
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7449367046356201
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7185633778572083
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_007.png"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        3,
+        379,
+        389,
+        781
+      ],
+      "sam3_score": 0.216796875,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 3,
+      "top1_label": "unknown",
+      "top1_sim": 0.6841208338737488,
+      "top3": [
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6841208338737488
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.6321133971214294
+        },
+        {
+          "part_id": 0,
+          "label": "TOP PLATE",
+          "sim": 0.6261630654335022
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_008.png"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        357,
+        261,
+        391,
+        280
+      ],
+      "sam3_score": 0.2265625,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6942170858383179,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6942170858383179
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6694906949996948
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.649873673915863
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_009.png"
+    },
+    {
+      "id": 10,
+      "bbox_xyxy": [
+        0,
+        268,
+        16,
+        296
+      ],
+      "sam3_score": 0.474609375,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6426917910575867,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6426917910575867
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6316431760787964
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6167476773262024
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_010.png"
+    },
+    {
+      "id": 11,
+      "bbox_xyxy": [
+        385,
+        146,
+        389,
+        158
+      ],
+      "sam3_score": 0.201171875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 19,
+      "top1_label": "unknown",
+      "top1_sim": 0.5654417872428894,
+      "top3": [
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.5654417872428894
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.5611827373504639
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.5472221374511719
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_011.png"
+    },
+    {
+      "id": 12,
+      "bbox_xyxy": [
+        257,
+        699,
+        336,
+        714
+      ],
+      "sam3_score": 0.216796875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 13,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7494492530822754,
+      "top3": [
+        {
+          "part_id": 13,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7494492530822754
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7440874576568604
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7396426200866699
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_012.png"
+    },
+    {
+      "id": 13,
+      "bbox_xyxy": [
+        156,
+        482,
+        178,
+        514
+      ],
+      "sam3_score": 0.40625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7464261054992676,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7464261054992676
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7449367046356201
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7185633778572083
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_013.png"
+    },
+    {
+      "id": 14,
+      "bbox_xyxy": [
+        357,
+        261,
+        390,
+        280
+      ],
+      "sam3_score": 0.265625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6942171454429626,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6942171454429626
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6694906949996948
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6498736143112183
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_014.png"
+    },
+    {
+      "id": 15,
+      "bbox_xyxy": [
+        246,
+        648,
+        268,
+        680
+      ],
+      "sam3_score": 0.400390625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.738370954990387,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.738370954990387
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7309296131134033
+        },
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.7181382179260254
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_015.png"
+    },
+    {
+      "id": 16,
+      "bbox_xyxy": [
+        0,
+        268,
+        16,
+        296
+      ],
+      "sam3_score": 0.369140625,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 9,
+      "top1_label": "unknown",
+      "top1_sim": 0.6426917910575867,
+      "top3": [
+        {
+          "part_id": 9,
+          "label": "BATTERY STRAP",
+          "sim": 0.6426917910575867
+        },
+        {
+          "part_id": 8,
+          "label": "X-LOCK ARM WEDGE",
+          "sim": 0.6316431760787964
+        },
+        {
+          "part_id": 19,
+          "label": "20MM STANDOFF",
+          "sim": 0.6167476773262024
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_02/crops/det_016.png"
+    }
+  ]
+}

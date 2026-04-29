@@ -1,0 +1,359 @@
+[
+  {
+    "name": "top_plate",
+    "display_name": "TOP PLATE",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      64,
+      154,
+      140,
+      390
+    ],
+    "caption_bbox_2d": [
+      56,
+      437,
+      156,
+      456
+    ]
+  },
+  {
+    "name": "split_plate_front",
+    "display_name": "SPLIT PLATE FRONT",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      228,
+      225,
+      314,
+      394
+    ],
+    "caption_bbox_2d": [
+      216,
+      439,
+      326,
+      481
+    ]
+  },
+  {
+    "name": "split_plate_rear",
+    "display_name": "SPLIT PLATE REAR",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      399,
+      223,
+      489,
+      400
+    ],
+    "caption_bbox_2d": [
+      390,
+      439,
+      500,
+      483
+    ]
+  },
+  {
+    "name": "5_inch_arm",
+    "display_name": "5 INCH ARM",
+    "spec": "X4",
+    "drawing_bbox_2d": [
+      570,
+      214,
+      613,
+      397
+    ],
+    "caption_bbox_2d": [
+      558,
+      437,
+      622,
+      480
+    ]
+  },
+  {
+    "name": "battery_pad",
+    "display_name": "BATTERY PAD",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      689,
+      251,
+      744,
+      389
+    ],
+    "caption_bbox_2d": [
+      678,
+      437,
+      758,
+      480
+    ]
+  },
+  {
+    "name": "fpv_camera_mount_left",
+    "display_name": "FPV CAMERA MOUNT LEFT",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      838,
+      146,
+      903,
+      204
+    ],
+    "caption_bbox_2d": [
+      810,
+      241,
+      928,
+      283
+    ]
+  },
+  {
+    "name": "fpv_camera_mount_right",
+    "display_name": "FPV CAMERA MOUNT RIGHT",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      838,
+      338,
+      903,
+      398
+    ],
+    "caption_bbox_2d": [
+      810,
+      437,
+      930,
+      477
+    ]
+  },
+  {
+    "name": "spacer_plate",
+    "display_name": "SPACER PLATE",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      1005,
+      154,
+      1038,
+      200
+    ],
+    "caption_bbox_2d": [
+      978,
+      241,
+      1052,
+      280
+    ]
+  },
+  {
+    "name": "x_lock_arm_wedge",
+    "display_name": "X-LOCK ARM WEDGE",
+    "spec": "X2",
+    "drawing_bbox_2d": [
+      1005,
+      361,
+      1038,
+      382
+    ],
+    "caption_bbox_2d": [
+      965,
+      437,
+      1078,
+      477
+    ]
+  },
+  {
+    "name": "battery_strap",
+    "display_name": "BATTERY STRAP",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      1093,
+      170,
+      1206,
+      190
+    ],
+    "caption_bbox_2d": [
+      1108,
+      240,
+      1189,
+      275
+    ]
+  },
+  {
+    "name": "x_lock_fc_isolator",
+    "display_name": "X-LOCK FC ISOLATOR",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      1108,
+      338,
+      1190,
+      380
+    ],
+    "caption_bbox_2d": [
+      1099,
+      437,
+      1194,
+      474
+    ]
+  },
+  {
+    "name": "m2x4mm_screws",
+    "display_name": "M2x4MM SCREWS",
+    "spec": "X4",
+    "drawing_bbox_2d": [
+      84,
+      644,
+      105,
+      674
+    ],
+    "caption_bbox_2d": [
+      48,
+      700,
+      138,
+      742
+    ]
+  },
+  {
+    "name": "m3x8mm_screws",
+    "display_name": "M3x8MM SCREWS",
+    "spec": "X16",
+    "drawing_bbox_2d": [
+      205,
+      627,
+      232,
+      674
+    ],
+    "caption_bbox_2d": [
+      172,
+      699,
+      260,
+      740
+    ]
+  },
+  {
+    "name": "m3x16mm_screws",
+    "display_name": "M3x16MM SCREWS",
+    "spec": "X2",
+    "drawing_bbox_2d": [
+      328,
+      603,
+      355,
+      674
+    ],
+    "caption_bbox_2d": [
+      294,
+      699,
+      386,
+      740
+    ]
+  },
+  {
+    "name": "m3x8mm_screws_2",
+    "display_name": "M3x8MM SCREWS",
+    "spec": "X4",
+    "drawing_bbox_2d": [
+      443,
+      637,
+      469,
+      667
+    ],
+    "caption_bbox_2d": [
+      413,
+      699,
+      502,
+      740
+    ]
+  },
+  {
+    "name": "m3x6mm_screws",
+    "display_name": "M3x6MM SCREWS",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      562,
+      632,
+      588,
+      674
+    ],
+    "caption_bbox_2d": [
+      529,
+      699,
+      618,
+      740
+    ]
+  },
+  {
+    "name": "m3x6mm_screws_2",
+    "display_name": "M3x6MM SCREWS",
+    "spec": "X13",
+    "drawing_bbox_2d": [
+      690,
+      638,
+      716,
+      667
+    ],
+    "caption_bbox_2d": [
+      650,
+      699,
+      738,
+      740
+    ]
+  },
+  {
+    "name": "m3x16mm_screws_2",
+    "display_name": "M3x16MM SCREWS",
+    "spec": "X4",
+    "drawing_bbox_2d": [
+      817,
+      606,
+      838,
+      671
+    ],
+    "caption_bbox_2d": [
+      777,
+      696,
+      872,
+      740
+    ]
+  },
+  {
+    "name": "m3x22mm_screws",
+    "display_name": "M3x22MM SCREWS",
+    "spec": "X4",
+    "drawing_bbox_2d": [
+      936,
+      585,
+      957,
+      671
+    ],
+    "caption_bbox_2d": [
+      897,
+      696,
+      990,
+      738
+    ]
+  },
+  {
+    "name": "20mm_standoff",
+    "display_name": "20MM STANDOFF",
+    "spec": "X6",
+    "drawing_bbox_2d": [
+      1062,
+      579,
+      1089,
+      671
+    ],
+    "caption_bbox_2d": [
+      1044,
+      693,
+      1120,
+      732
+    ]
+  },
+  {
+    "name": "gopro_mount",
+    "display_name": "GOPRO MOUNT",
+    "spec": "X1",
+    "drawing_bbox_2d": [
+      1153,
+      630,
+      1199,
+      674
+    ],
+    "caption_bbox_2d": [
+      1145,
+      690,
+      1213,
+      728
+    ]
+  }
+]

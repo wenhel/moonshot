@@ -1,0 +1,311 @@
+{
+  "_meta": {
+    "frame": "frame_t04.0s.png",
+    "t_sec": 4.0,
+    "n_returned": 6,
+    "n_candidates": 6,
+    "n_kept": 6,
+    "sim_threshold": 0.35,
+    "method": "v2_qwen_dinov2",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "library_dir": "output0428/sbir/seg_ablation/F",
+    "d6_method": "siglip_text_image_rerank",
+    "d6_text_threshold": 0.1
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        105,
+        71,
+        134,
+        126
+      ],
+      "qwen_description": "metal drone arm",
+      "top1_part_id": 1,
+      "top1_label": "SPLIT PLATE FRONT",
+      "top1_sim": 0.4234336018562317,
+      "top3": [
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.4234336018562317
+        },
+        {
+          "part_id": 2,
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.3198190927505493
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.2211688905954361
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t04.0s/crops/det_000.png",
+      "siglip_text_top1_part_id": 5,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.036714307963848114,
+      "siglip_text_top3": [
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.036714307963848114
+        },
+        {
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.03240381181240082
+        },
+        {
+          "label": "GOPRO MOUNT",
+          "sim": 0.030695881694555283
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        141,
+        75,
+        169,
+        131
+      ],
+      "qwen_description": "metal drone arm",
+      "top1_part_id": 1,
+      "top1_label": "SPLIT PLATE FRONT",
+      "top1_sim": 0.4371251165866852,
+      "top3": [
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.4371251165866852
+        },
+        {
+          "part_id": 2,
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.3371943235397339
+        },
+        {
+          "part_id": 6,
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.24612146615982056
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t04.0s/crops/det_001.png",
+      "siglip_text_top1_part_id": 5,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.040132127702236176,
+      "siglip_text_top3": [
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.040132127702236176
+        },
+        {
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.03969348967075348
+        },
+        {
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.03859027847647667
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        17,
+        119,
+        46,
+        175
+      ],
+      "qwen_description": "metal drone arm",
+      "top1_part_id": 2,
+      "top1_label": "SPLIT PLATE REAR",
+      "top1_sim": 0.651552677154541,
+      "top3": [
+        {
+          "part_id": 2,
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.651552677154541
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.607721209526062
+        },
+        {
+          "part_id": 0,
+          "label": "TOP PLATE",
+          "sim": 0.33563104271888733
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t04.0s/crops/det_002.png",
+      "siglip_text_top1_part_id": 5,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.02159615233540535,
+      "siglip_text_top3": [
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.02159615233540535
+        },
+        {
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.013271997682750225
+        },
+        {
+          "label": "SPLIT PLATE REAR",
+          "sim": -0.0002900718245655298
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        49,
+        129,
+        77,
+        183
+      ],
+      "qwen_description": "metal drone arm",
+      "top1_part_id": 2,
+      "top1_label": "SPLIT PLATE REAR",
+      "top1_sim": 0.5576639175415039,
+      "top3": [
+        {
+          "part_id": 2,
+          "label": "SPLIT PLATE REAR",
+          "sim": 0.5576639175415039
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.5518672466278076
+        },
+        {
+          "part_id": 0,
+          "label": "TOP PLATE",
+          "sim": 0.34090209007263184
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t04.0s/crops/det_003.png",
+      "siglip_text_top1_part_id": 5,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.004386337473988533,
+      "siglip_text_top3": [
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.004386337473988533
+        },
+        {
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": -0.0016551390290260315
+        },
+        {
+          "label": "SPLIT PLATE FRONT",
+          "sim": -0.0023528151214122772
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        80,
+        116,
+        97,
+        132
+      ],
+      "qwen_description": "purple isolator",
+      "top1_part_id": 5,
+      "top1_label": "unknown",
+      "top1_sim": 0.24489529430866241,
+      "top3": [
+        {
+          "part_id": 5,
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.24489529430866241
+        },
+        {
+          "part_id": 6,
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.2427346408367157
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.24139514565467834
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t04.0s/crops/det_004.png",
+      "siglip_text_top1_part_id": 5,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.04665057361125946,
+      "siglip_text_top3": [
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.04665057361125946
+        },
+        {
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.04229646548628807
+        },
+        {
+          "label": "SPACER PLATE",
+          "sim": 0.04085344076156616
+        }
+      ],
+      "text_image_agreement": false
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        189,
+        84,
+        199,
+        93
+      ],
+      "qwen_description": "purple isolator",
+      "top1_part_id": 6,
+      "top1_label": "FPV CAMERA MOUNT RIGHT",
+      "top1_sim": 0.4500683546066284,
+      "top3": [
+        {
+          "part_id": 6,
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.4500683546066284
+        },
+        {
+          "part_id": 11,
+          "label": "M2x4MM SCREWS",
+          "sim": 0.44113045930862427
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.4345782399177551
+        }
+      ],
+      "crop_path": "output0428/sbir/task_b/v2/frame_t04.0s/crops/det_005.png",
+      "siglip_text_top1_part_id": 5,
+      "siglip_text_top1_label": "unknown",
+      "siglip_text_top1_sim": 0.04490455985069275,
+      "siglip_text_top3": [
+        {
+          "label": "FPV CAMERA MOUNT LEFT",
+          "sim": 0.04490455985069275
+        },
+        {
+          "label": "FPV CAMERA MOUNT RIGHT",
+          "sim": 0.044349152594804764
+        },
+        {
+          "label": "SPACER PLATE",
+          "sim": 0.025281768292188644
+        }
+      ],
+      "text_image_agreement": false
+    }
+  ]
+}

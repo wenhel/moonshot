@@ -1,0 +1,850 @@
+{
+  "_meta": {
+    "method": "F",
+    "vlm_model_id": "qwen/qwen2.5-vl-72b-instruct",
+    "parts_page": "output/manual_parsed_v2/steps-from-page-countfirst-gemini25-flash-image/parts/parts_page2.png",
+    "n_parts": 21
+  },
+  "parts": [
+    {
+      "id": 0,
+      "label": "TOP PLATE",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        56,
+        154,
+        156,
+        456
+      ],
+      "vlm_bbox_xyxy": [
+        56,
+        154,
+        156,
+        456
+      ],
+      "drawing_bbox_xyxy": [
+        64,
+        154,
+        140,
+        390
+      ],
+      "caption_bbox_xyxy": [
+        56,
+        437,
+        156,
+        456
+      ],
+      "sam3_bbox_xyxy": [
+        65,
+        153,
+        139,
+        390
+      ],
+      "score": 0.94921875,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_000.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_000.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 1,
+      "label": "SPLIT PLATE FRONT",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        216,
+        225,
+        326,
+        481
+      ],
+      "vlm_bbox_xyxy": [
+        216,
+        225,
+        326,
+        481
+      ],
+      "drawing_bbox_xyxy": [
+        228,
+        225,
+        314,
+        394
+      ],
+      "caption_bbox_xyxy": [
+        216,
+        439,
+        326,
+        481
+      ],
+      "sam3_bbox_xyxy": [
+        227,
+        224,
+        312,
+        394
+      ],
+      "score": 0.96484375,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_001.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_001.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 2,
+      "label": "SPLIT PLATE REAR",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        390,
+        223,
+        500,
+        483
+      ],
+      "vlm_bbox_xyxy": [
+        390,
+        223,
+        500,
+        483
+      ],
+      "drawing_bbox_xyxy": [
+        399,
+        223,
+        489,
+        400
+      ],
+      "caption_bbox_xyxy": [
+        390,
+        439,
+        500,
+        483
+      ],
+      "sam3_bbox_xyxy": [
+        399,
+        222,
+        490,
+        399
+      ],
+      "score": 0.9609375,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_002.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_002.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 3,
+      "label": "5 INCH ARM",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        558,
+        214,
+        622,
+        480
+      ],
+      "vlm_bbox_xyxy": [
+        558,
+        214,
+        622,
+        480
+      ],
+      "drawing_bbox_xyxy": [
+        570,
+        214,
+        613,
+        397
+      ],
+      "caption_bbox_xyxy": [
+        558,
+        437,
+        622,
+        480
+      ],
+      "sam3_bbox_xyxy": [
+        570,
+        213,
+        612,
+        393
+      ],
+      "score": 0.88671875,
+      "spec": "X4",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_003.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_003.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 4,
+      "label": "BATTERY PAD",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        678,
+        251,
+        758,
+        480
+      ],
+      "vlm_bbox_xyxy": [
+        678,
+        251,
+        758,
+        480
+      ],
+      "drawing_bbox_xyxy": [
+        689,
+        251,
+        744,
+        389
+      ],
+      "caption_bbox_xyxy": [
+        678,
+        437,
+        758,
+        480
+      ],
+      "sam3_bbox_xyxy": [
+        688,
+        250,
+        744,
+        387
+      ],
+      "score": 0.9375,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_004.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_004.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 5,
+      "label": "FPV CAMERA MOUNT LEFT",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        810,
+        146,
+        928,
+        283
+      ],
+      "vlm_bbox_xyxy": [
+        810,
+        146,
+        928,
+        283
+      ],
+      "drawing_bbox_xyxy": [
+        838,
+        146,
+        903,
+        204
+      ],
+      "caption_bbox_xyxy": [
+        810,
+        241,
+        928,
+        283
+      ],
+      "sam3_bbox_xyxy": [
+        836,
+        146,
+        902,
+        205
+      ],
+      "score": 0.9296875,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_005.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_005.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 6,
+      "label": "FPV CAMERA MOUNT RIGHT",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        810,
+        338,
+        930,
+        477
+      ],
+      "vlm_bbox_xyxy": [
+        810,
+        338,
+        930,
+        477
+      ],
+      "drawing_bbox_xyxy": [
+        838,
+        338,
+        903,
+        398
+      ],
+      "caption_bbox_xyxy": [
+        810,
+        437,
+        930,
+        477
+      ],
+      "sam3_bbox_xyxy": [
+        836,
+        338,
+        902,
+        400
+      ],
+      "score": 0.94140625,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_006.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_006.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 7,
+      "label": "SPACER PLATE",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        978,
+        154,
+        1052,
+        280
+      ],
+      "vlm_bbox_xyxy": [
+        978,
+        154,
+        1052,
+        280
+      ],
+      "drawing_bbox_xyxy": [
+        1005,
+        154,
+        1038,
+        200
+      ],
+      "caption_bbox_xyxy": [
+        978,
+        241,
+        1052,
+        280
+      ],
+      "sam3_bbox_xyxy": [
+        1004,
+        154,
+        1037,
+        199
+      ],
+      "score": 0.96484375,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_007.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_007.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 8,
+      "label": "X-LOCK ARM WEDGE",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        965,
+        361,
+        1078,
+        477
+      ],
+      "vlm_bbox_xyxy": [
+        965,
+        361,
+        1078,
+        477
+      ],
+      "drawing_bbox_xyxy": [
+        1005,
+        361,
+        1038,
+        382
+      ],
+      "caption_bbox_xyxy": [
+        965,
+        437,
+        1078,
+        477
+      ],
+      "sam3_bbox_xyxy": [
+        1006,
+        361,
+        1035,
+        381
+      ],
+      "score": 0.7734375,
+      "spec": "X2",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_008.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_008.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 9,
+      "label": "BATTERY STRAP",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        1093,
+        170,
+        1206,
+        275
+      ],
+      "vlm_bbox_xyxy": [
+        1093,
+        170,
+        1206,
+        275
+      ],
+      "drawing_bbox_xyxy": [
+        1093,
+        170,
+        1206,
+        190
+      ],
+      "caption_bbox_xyxy": [
+        1108,
+        240,
+        1189,
+        275
+      ],
+      "sam3_bbox_xyxy": [
+        1091,
+        170,
+        1207,
+        189
+      ],
+      "score": 0.9296875,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_009.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_009.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 10,
+      "label": "X-LOCK FC ISOLATOR",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        1099,
+        338,
+        1194,
+        474
+      ],
+      "vlm_bbox_xyxy": [
+        1099,
+        338,
+        1194,
+        474
+      ],
+      "drawing_bbox_xyxy": [
+        1108,
+        338,
+        1190,
+        380
+      ],
+      "caption_bbox_xyxy": [
+        1099,
+        437,
+        1194,
+        474
+      ],
+      "sam3_bbox_xyxy": [
+        1110,
+        338,
+        1187,
+        379
+      ],
+      "score": 0.90234375,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_010.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_010.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 11,
+      "label": "M2x4MM SCREWS",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        48,
+        644,
+        138,
+        742
+      ],
+      "vlm_bbox_xyxy": [
+        48,
+        644,
+        138,
+        742
+      ],
+      "drawing_bbox_xyxy": [
+        84,
+        644,
+        105,
+        674
+      ],
+      "caption_bbox_xyxy": [
+        48,
+        700,
+        138,
+        742
+      ],
+      "sam3_bbox_xyxy": [
+        84,
+        644,
+        103,
+        672
+      ],
+      "score": 0.94140625,
+      "spec": "X4",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_011.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_011.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 12,
+      "label": "M3x8MM SCREWS",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        172,
+        627,
+        260,
+        740
+      ],
+      "vlm_bbox_xyxy": [
+        172,
+        627,
+        260,
+        740
+      ],
+      "drawing_bbox_xyxy": [
+        205,
+        627,
+        232,
+        674
+      ],
+      "caption_bbox_xyxy": [
+        172,
+        699,
+        260,
+        740
+      ],
+      "sam3_bbox_xyxy": [
+        204,
+        627,
+        231,
+        673
+      ],
+      "score": 0.9140625,
+      "spec": "X16",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_012.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_012.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 13,
+      "label": "M3x16MM SCREWS",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        294,
+        603,
+        386,
+        740
+      ],
+      "vlm_bbox_xyxy": [
+        294,
+        603,
+        386,
+        740
+      ],
+      "drawing_bbox_xyxy": [
+        328,
+        603,
+        355,
+        674
+      ],
+      "caption_bbox_xyxy": [
+        294,
+        699,
+        386,
+        740
+      ],
+      "sam3_bbox_xyxy": [
+        327,
+        602,
+        354,
+        671
+      ],
+      "score": 0.8984375,
+      "spec": "X2",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_013.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_013.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 14,
+      "label": "M3x8MM SCREWS",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        413,
+        637,
+        502,
+        740
+      ],
+      "vlm_bbox_xyxy": [
+        413,
+        637,
+        502,
+        740
+      ],
+      "drawing_bbox_xyxy": [
+        443,
+        637,
+        469,
+        667
+      ],
+      "caption_bbox_xyxy": [
+        413,
+        699,
+        502,
+        740
+      ],
+      "sam3_bbox_xyxy": [
+        442,
+        637,
+        468,
+        665
+      ],
+      "score": 0.90625,
+      "spec": "X4",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_014.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_014.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 15,
+      "label": "M3x6MM SCREWS",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        529,
+        632,
+        618,
+        740
+      ],
+      "vlm_bbox_xyxy": [
+        529,
+        632,
+        618,
+        740
+      ],
+      "drawing_bbox_xyxy": [
+        562,
+        632,
+        588,
+        674
+      ],
+      "caption_bbox_xyxy": [
+        529,
+        699,
+        618,
+        740
+      ],
+      "sam3_bbox_xyxy": [
+        562,
+        632,
+        586,
+        671
+      ],
+      "score": 0.91796875,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_015.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_015.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 16,
+      "label": "M3x6MM SCREWS",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        650,
+        638,
+        738,
+        740
+      ],
+      "vlm_bbox_xyxy": [
+        650,
+        638,
+        738,
+        740
+      ],
+      "drawing_bbox_xyxy": [
+        690,
+        638,
+        716,
+        667
+      ],
+      "caption_bbox_xyxy": [
+        650,
+        699,
+        738,
+        740
+      ],
+      "sam3_bbox_xyxy": [
+        689,
+        637,
+        714,
+        666
+      ],
+      "score": 0.9296875,
+      "spec": "X13",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_016.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_016.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 17,
+      "label": "M3x16MM SCREWS",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        777,
+        606,
+        872,
+        740
+      ],
+      "vlm_bbox_xyxy": [
+        777,
+        606,
+        872,
+        740
+      ],
+      "drawing_bbox_xyxy": [
+        817,
+        606,
+        838,
+        671
+      ],
+      "caption_bbox_xyxy": [
+        777,
+        696,
+        872,
+        740
+      ],
+      "sam3_bbox_xyxy": [
+        817,
+        606,
+        837,
+        669
+      ],
+      "score": 0.8515625,
+      "spec": "X4",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_017.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_017.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 18,
+      "label": "M3x22MM SCREWS",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        897,
+        585,
+        990,
+        738
+      ],
+      "vlm_bbox_xyxy": [
+        897,
+        585,
+        990,
+        738
+      ],
+      "drawing_bbox_xyxy": [
+        936,
+        585,
+        957,
+        671
+      ],
+      "caption_bbox_xyxy": [
+        897,
+        696,
+        990,
+        738
+      ],
+      "sam3_bbox_xyxy": [
+        935,
+        584,
+        956,
+        669
+      ],
+      "score": 0.921875,
+      "spec": "X4",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_018.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_018.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 19,
+      "label": "20MM STANDOFF",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        1044,
+        579,
+        1120,
+        732
+      ],
+      "vlm_bbox_xyxy": [
+        1044,
+        579,
+        1120,
+        732
+      ],
+      "drawing_bbox_xyxy": [
+        1062,
+        579,
+        1089,
+        671
+      ],
+      "caption_bbox_xyxy": [
+        1044,
+        693,
+        1120,
+        732
+      ],
+      "sam3_bbox_xyxy": [
+        1062,
+        579,
+        1087,
+        668
+      ],
+      "score": 0.765625,
+      "spec": "X6",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_019.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_019.png",
+      "source": "vlm_cell+sam3_object_mask"
+    },
+    {
+      "id": 20,
+      "label": "GOPRO MOUNT",
+      "sam3_prompt": "(crop+box-prompt)",
+      "bbox_xyxy": [
+        1145,
+        630,
+        1213,
+        728
+      ],
+      "vlm_bbox_xyxy": [
+        1145,
+        630,
+        1213,
+        728
+      ],
+      "drawing_bbox_xyxy": [
+        1153,
+        630,
+        1199,
+        674
+      ],
+      "caption_bbox_xyxy": [
+        1145,
+        690,
+        1213,
+        728
+      ],
+      "sam3_bbox_xyxy": [
+        1152,
+        629,
+        1196,
+        673
+      ],
+      "score": 0.90234375,
+      "spec": "X1",
+      "crop_path": "output0428/sbir/seg_ablation/F/crops/part_020.png",
+      "mask_path": "output0428/sbir/seg_ablation/F/masks/part_020.png",
+      "source": "vlm_cell+sam3_object_mask"
+    }
+  ]
+}

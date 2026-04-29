@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "frame": "frame_t12.5s.png",
+    "t_sec": 12.5,
+    "n_raw": 0,
+    "n_kept": 0,
+    "method": "v1_sam3_siglip"
+  },
+  "detections": []
+}

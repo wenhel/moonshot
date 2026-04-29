@@ -1,0 +1,780 @@
+{
+  "_meta": {
+    "step": "step_01.png",
+    "n_raw": 24,
+    "n_kept": 24,
+    "sim_threshold": 0.7,
+    "method": "v1_sam3_siglip",
+    "library_dir": "output0428/sbir/seg_ablation/F"
+  },
+  "detections": [
+    {
+      "id": 0,
+      "bbox_xyxy": [
+        63,
+        93,
+        422,
+        344
+      ],
+      "sam3_score": 0.330078125,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 10,
+      "top1_label": "X-LOCK FC ISOLATOR",
+      "top1_sim": 0.72687166929245,
+      "top3": [
+        {
+          "part_id": 10,
+          "label": "X-LOCK FC ISOLATOR",
+          "sim": 0.72687166929245
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.6695445775985718
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6636741161346436
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_000.png"
+    },
+    {
+      "id": 1,
+      "bbox_xyxy": [
+        54,
+        125,
+        67,
+        144
+      ],
+      "sam3_score": 0.65234375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7809363603591919,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7809363603591919
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.772452175617218
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.7652318477630615
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_001.png"
+    },
+    {
+      "id": 2,
+      "bbox_xyxy": [
+        11,
+        102,
+        24,
+        120
+      ],
+      "sam3_score": 0.7265625,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7777702212333679,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7777702212333679
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7777157425880432
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7572835087776184
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_002.png"
+    },
+    {
+      "id": 3,
+      "bbox_xyxy": [
+        12,
+        107,
+        89,
+        158
+      ],
+      "sam3_score": 0.31640625,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7879956960678101,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7879956960678101
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7850136756896973
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7644686102867126
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_003.png"
+    },
+    {
+      "id": 4,
+      "bbox_xyxy": [
+        33,
+        114,
+        45,
+        132
+      ],
+      "sam3_score": 0.703125,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7669903635978699,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7669903635978699
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.764288067817688
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7494348287582397
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_004.png"
+    },
+    {
+      "id": 5,
+      "bbox_xyxy": [
+        120,
+        56,
+        205,
+        72
+      ],
+      "sam3_score": 0.255859375,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 11,
+      "top1_label": "M2x4MM SCREWS",
+      "top1_sim": 0.7569162845611572,
+      "top3": [
+        {
+          "part_id": 11,
+          "label": "M2x4MM SCREWS",
+          "sim": 0.7569162845611572
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7225303053855896
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.688767671585083
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_005.png"
+    },
+    {
+      "id": 6,
+      "bbox_xyxy": [
+        76,
+        136,
+        88,
+        155
+      ],
+      "sam3_score": 0.69921875,
+      "sam3_prompt": "M3x8MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7734525203704834,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7734525203704834
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7676389813423157
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.7602746486663818
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_006.png"
+    },
+    {
+      "id": 7,
+      "bbox_xyxy": [
+        54,
+        126,
+        67,
+        144
+      ],
+      "sam3_score": 0.71875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7813459634780884,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7813459634780884
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.774437665939331
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7621305584907532
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_007.png"
+    },
+    {
+      "id": 8,
+      "bbox_xyxy": [
+        11,
+        101,
+        24,
+        120
+      ],
+      "sam3_score": 0.79296875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7896947860717773,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7896947860717773
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7834974527359009
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7643352150917053
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_008.png"
+    },
+    {
+      "id": 9,
+      "bbox_xyxy": [
+        13,
+        106,
+        87,
+        156
+      ],
+      "sam3_score": 0.25,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7792619466781616,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7792619466781616
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7789433598518372
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7634896039962769
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_009.png"
+    },
+    {
+      "id": 10,
+      "bbox_xyxy": [
+        33,
+        114,
+        45,
+        132
+      ],
+      "sam3_score": 0.765625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7669903635978699,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7669903635978699
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.764288067817688
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7494347095489502
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_010.png"
+    },
+    {
+      "id": 11,
+      "bbox_xyxy": [
+        75,
+        136,
+        88,
+        155
+      ],
+      "sam3_score": 0.79296875,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7860456705093384,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7860456705093384
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.777618408203125
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7598751187324524
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_011.png"
+    },
+    {
+      "id": 12,
+      "bbox_xyxy": [
+        63,
+        92,
+        422,
+        345
+      ],
+      "sam3_score": 0.2197265625,
+      "sam3_prompt": "M3x16MM SCREWS",
+      "top1_part_id": 10,
+      "top1_label": "X-LOCK FC ISOLATOR",
+      "top1_sim": 0.7223690748214722,
+      "top3": [
+        {
+          "part_id": 10,
+          "label": "X-LOCK FC ISOLATOR",
+          "sim": 0.7223690748214722
+        },
+        {
+          "part_id": 1,
+          "label": "SPLIT PLATE FRONT",
+          "sim": 0.6687386631965637
+        },
+        {
+          "part_id": 3,
+          "label": "5 INCH ARM",
+          "sim": 0.6605685949325562
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_012.png"
+    },
+    {
+      "id": 13,
+      "bbox_xyxy": [
+        54,
+        125,
+        67,
+        144
+      ],
+      "sam3_score": 0.49609375,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7809363603591919,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7809363603591919
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.772452175617218
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.7652318477630615
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_013.png"
+    },
+    {
+      "id": 14,
+      "bbox_xyxy": [
+        12,
+        101,
+        24,
+        120
+      ],
+      "sam3_score": 0.55078125,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7710554599761963,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7710554599761963
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7656021118164062
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.7482099533081055
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_014.png"
+    },
+    {
+      "id": 15,
+      "bbox_xyxy": [
+        12,
+        106,
+        87,
+        157
+      ],
+      "sam3_score": 0.26953125,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7829731106758118,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7829731106758118
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.780568540096283
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7605334520339966
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_015.png"
+    },
+    {
+      "id": 16,
+      "bbox_xyxy": [
+        33,
+        114,
+        45,
+        132
+      ],
+      "sam3_score": 0.5234375,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7669903635978699,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7669903635978699
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.764288067817688
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7494348287582397
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_016.png"
+    },
+    {
+      "id": 17,
+      "bbox_xyxy": [
+        75,
+        136,
+        88,
+        155
+      ],
+      "sam3_score": 0.53515625,
+      "sam3_prompt": "M3x6MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7860456705093384,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7860456705093384
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.777618408203125
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7598752975463867
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_017.png"
+    },
+    {
+      "id": 18,
+      "bbox_xyxy": [
+        53,
+        128,
+        88,
+        152
+      ],
+      "sam3_score": 0.203125,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7946268916130066,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7946268916130066
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7867797613143921
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7719362378120422
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_018.png"
+    },
+    {
+      "id": 19,
+      "bbox_xyxy": [
+        54,
+        125,
+        67,
+        144
+      ],
+      "sam3_score": 0.3828125,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7809363603591919,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7809363603591919
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.772452175617218
+        },
+        {
+          "part_id": 14,
+          "label": "M3x8MM SCREWS",
+          "sim": 0.7652319669723511
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_019.png"
+    },
+    {
+      "id": 20,
+      "bbox_xyxy": [
+        11,
+        101,
+        24,
+        120
+      ],
+      "sam3_score": 0.466796875,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7896947860717773,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7896947860717773
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7834974527359009
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7643352150917053
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_020.png"
+    },
+    {
+      "id": 21,
+      "bbox_xyxy": [
+        33,
+        114,
+        45,
+        132
+      ],
+      "sam3_score": 0.42578125,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7669903635978699,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7669903635978699
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.764288067817688
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7494347095489502
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_021.png"
+    },
+    {
+      "id": 22,
+      "bbox_xyxy": [
+        12,
+        102,
+        88,
+        156
+      ],
+      "sam3_score": 0.412109375,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 18,
+      "top1_label": "M3x22MM SCREWS",
+      "top1_sim": 0.7939079999923706,
+      "top3": [
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.7939079999923706
+        },
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.783920168876648
+        },
+        {
+          "part_id": 16,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7665544748306274
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_022.png"
+    },
+    {
+      "id": 23,
+      "bbox_xyxy": [
+        75,
+        136,
+        88,
+        155
+      ],
+      "sam3_score": 0.439453125,
+      "sam3_prompt": "M3x22MM SCREWS",
+      "top1_part_id": 17,
+      "top1_label": "M3x16MM SCREWS",
+      "top1_sim": 0.7860456705093384,
+      "top3": [
+        {
+          "part_id": 17,
+          "label": "M3x16MM SCREWS",
+          "sim": 0.7860456705093384
+        },
+        {
+          "part_id": 18,
+          "label": "M3x22MM SCREWS",
+          "sim": 0.777618408203125
+        },
+        {
+          "part_id": 15,
+          "label": "M3x6MM SCREWS",
+          "sim": 0.7598751187324524
+        }
+      ],
+      "crop_path": "output0428/sbir/task_a/v1/step_01/crops/det_023.png"
+    }
+  ]
+}
